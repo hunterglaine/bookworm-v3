@@ -1,0 +1,8 @@
+{
+  // Solution file. Holds no options of its own -- it exists so `tsc -b` builds
+  // both projects: app code (browser, DOM types) and config files (Node types).
+  // Keeping them apart is what stops `process` and `Buffer` from autocompleting
+  // inside src/, where they would compile fine and then break in the browser.
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
+}
