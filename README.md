@@ -17,12 +17,21 @@ Why these, and why Hardcover over Goodreads/StoryGraph/Open Library:
 ## Prerequisites
 
 ```sh
-brew install fnm uv
+brew install fnm uv colima docker docker-compose
 fnm install            # reads .node-version
 uv python install 3.14
+colima start           # the container runtime; Docker Desktop is not needed
 ```
 
-Postgres runs in Docker. Docker Desktop must be installed and running.
+Postgres runs in a container. Colima provides the Docker daemon — lighter than
+Docker Desktop and no account required. If `docker compose` reports an unknown
+command, point the CLI at Homebrew's plugin directory:
+
+```sh
+mkdir -p ~/.docker && cat >> ~/.docker/config.json <<'JSON'
+{ "cliPluginsExtraDirs": ["/opt/homebrew/lib/docker/cli-plugins"] }
+JSON
+```
 
 ## Getting started
 
@@ -55,9 +64,19 @@ frontend/
 docs/             design decisions
 ```
 
-Everything under `models/`, `schemas/`, `services/`, and `providers/` is an empty
-package today — the directories exist so the first real module has an obvious
-home.
+`schemas/`, `services/`, and `providers/` are still empty packages — the
+directories exist so the first real module has an obvious home.
+
+## Database
+
+```sh
+make db-up        # Postgres 18 in a container
+make migrate      # alembic upgrade head
+make test         # creates bookworm_test on first run
+```
+
+Tests run against a real Postgres, each in a transaction that is rolled back
+afterwards. The test database is created automatically.
 
 ## Documentation
 
@@ -71,7 +90,7 @@ home.
 | Phase | | |
 |---|---|---|
 | 1 | Scaffold | ✅ |
-| 2 | Schema + migrations | |
+| 2 | Schema + migrations | ✅ |
 | 3 | Auth (email/password, JWT in httpOnly cookie) | |
 | 4 | Book search end-to-end | |
 | 5 | Book detail + ratings | |

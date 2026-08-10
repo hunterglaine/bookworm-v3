@@ -93,8 +93,16 @@ over, not before.
   responses need a server-side TTL cache — start in-process or in Postgres, add
   Redis only if measurement demands it.
 - **Search ranking is not usable raw.** See [phase-4-search-ranking.md](phase-4-search-ranking.md).
-- **Docker Desktop is v20.10.6 (April 2021)** — five years stale on macOS Tahoe.
-  An upgrade was started but needs verification before compose is usable.
+- **Container runtime is Colima**, not Docker Desktop. Lighter, no account
+  required, and `docker-compose.yml` works unchanged. Docker Desktop was removed.
+- **Postgres 18 changed its volume convention.** The mount goes at
+  `/var/lib/postgresql`, not `/var/lib/postgresql/data` — the image stores data
+  in a major-version subdirectory so `pg_upgrade --link` does not cross a mount
+  boundary. Using the old path makes the container refuse to start.
+- **Enums persist values, not names.** `sqlalchemy.Enum` defaults to storing the
+  member *name*, so every enum column passes `values_callable`. Without it the
+  CHECK constraint accepts only `SHOUTING_CASE`, and a lowercase
+  `server_default` violates its own constraint.
 
 ## 6. Deployment (open)
 
