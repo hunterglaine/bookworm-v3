@@ -29,8 +29,8 @@ dev: db-up ## Start Postgres, then run backend and frontend together
 test: ## Run backend tests
 	cd backend && uv run pytest
 
-lint: ## Lint both sides
-	cd backend && uv run ruff check . && uv run ruff format --check .
+lint: ## Lint and typecheck both sides
+	cd backend && uv run ruff check . && uv run ruff format --check . && uv run mypy app tests
 	cd frontend && npm run lint && npm run typecheck
 
 fmt: ## Auto-format both sides

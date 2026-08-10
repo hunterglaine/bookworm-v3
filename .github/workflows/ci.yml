@@ -11,6 +11,20 @@ jobs:
     defaults:
       run:
         working-directory: backend
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: bookworm
+          POSTGRES_PASSWORD: bookworm
+          POSTGRES_DB: bookworm
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U bookworm -d bookworm"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
@@ -19,6 +33,11 @@ jobs:
       - run: uv sync --all-groups
       - run: uv run ruff check .
       - run: uv run ruff format --check .
+      - run: uv run mypy app tests
+      # Tests build their schema from Base.metadata, so migrations need their
+      # own check -- otherwise a broken migration ships with a green suite.
+      - run: uv run alembic upgrade head
+      - run: uv run alembic downgrade base
       - run: uv run pytest
 
   frontend:
