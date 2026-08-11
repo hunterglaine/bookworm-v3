@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
 import AuthForm from '@/components/AuthForm'
+import BookSearch from '@/components/BookSearch'
 import { api } from '@/lib/api'
 import { fetchCurrentUser, logout } from '@/lib/auth'
 
@@ -39,7 +40,7 @@ export default function App() {
   }
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col justify-center gap-6 px-6">
+    <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 px-6 py-12">
       <div className="flex items-start justify-between gap-4">
         <div>
           <h1 className="text-4xl font-semibold tracking-tight">Bookworm</h1>
@@ -55,20 +56,13 @@ export default function App() {
         </button>
       </div>
 
-      <dl className="rounded-lg border border-neutral-200 p-4 text-sm dark:border-neutral-800">
-        <div className="flex justify-between">
-          <dt className="text-neutral-500">API</dt>
-          <dd className={health.isError ? 'text-red-600' : 'font-medium'}>
-            {health.isPending
-              ? 'checking…'
-              : health.isError
-                ? 'unreachable — is the backend running?'
-                : health.data.status}
-          </dd>
-        </div>
-      </dl>
+      {health.isError && (
+        <p role="alert" className="text-sm text-red-600">
+          API unreachable — is the backend running?
+        </p>
+      )}
 
-      <p className="text-sm text-neutral-500">Book search lands in the next phase.</p>
+      <BookSearch />
     </main>
   )
 }
