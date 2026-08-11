@@ -15,3 +15,26 @@
     }
   }
 }
+
+/* Chart roles, kept as custom properties so light/dark swap in one place and
+ * chart markup is written against roles rather than raw hex.
+ * Values validated against both surfaces with the dataviz palette validator. */
+.viz-root {
+  color-scheme: light;
+  --series-1: #2a78d6;
+  --viz-track: #ececeb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) .viz-root {
+    color-scheme: dark;
+    --series-1: #3987e5;
+    --viz-track: #2a2a28;
+  }
+}
+
+:root[data-theme='dark'] .viz-root {
+  color-scheme: dark;
+  --series-1: #3987e5;
+  --viz-track: #2a2a28;
+}

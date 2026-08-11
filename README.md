@@ -93,7 +93,7 @@ afterwards. The test database is created automatically.
 | 2 | Schema + migrations | ✅ |
 | 3 | Auth (email/password, JWT in httpOnly cookie) | ✅ |
 | 4 | Book search end-to-end | ✅ |
-| 5 | Book detail + ratings | |
+| 5 | Book detail + ratings | ✅ |
 | 6 | Shelves CRUD + reading status | |
 | 7 | Visual bookshelf UI | |
 | 8 | Deploy | |

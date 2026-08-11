@@ -1,5 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router'
 
 import { type BookSearchResult, searchBooks } from '@/lib/books'
 
@@ -32,33 +33,38 @@ function Stars({ rating, count }: { rating: number | null; count: number }) {
 
 function BookCard({ book }: { book: BookSearchResult }) {
   return (
-    <li className="flex gap-3">
-      {book.cover_url ? (
-        <img
-          src={book.cover_url}
-          alt=""
-          loading="lazy"
-          className="h-24 w-16 flex-none rounded object-cover"
-        />
-      ) : (
-        <div className="h-24 w-16 flex-none rounded bg-neutral-200 dark:bg-neutral-800" />
-      )}
+    <li>
+      <Link
+        to={`/books/${book.hardcover_id}`}
+        className="flex gap-3 rounded-md p-2 -m-2 hover:bg-neutral-100 dark:hover:bg-neutral-900"
+      >
+        {book.cover_url ? (
+          <img
+            src={book.cover_url}
+            alt=""
+            loading="lazy"
+            className="h-24 w-16 flex-none rounded object-cover"
+          />
+        ) : (
+          <div className="h-24 w-16 flex-none rounded bg-neutral-200 dark:bg-neutral-800" />
+        )}
 
-      <div className="min-w-0">
-        <p className="truncate font-medium">{book.title}</p>
-        <p className="truncate text-sm text-neutral-500">
-          {book.authors.length > 0 ? book.authors.join(', ') : 'Unknown author'}
-        </p>
-        <p className="mt-1 text-sm">
-          <Stars rating={book.rating} count={book.ratings_count} />
-          {book.release_year !== null && (
-            <span className="text-neutral-400"> · {book.release_year}</span>
-          )}
-          {book.page_count !== null && (
-            <span className="text-neutral-400"> · {book.page_count}pp</span>
-          )}
-        </p>
-      </div>
+        <div className="min-w-0">
+          <p className="truncate font-medium">{book.title}</p>
+          <p className="truncate text-sm text-neutral-500">
+            {book.authors.length > 0 ? book.authors.join(', ') : 'Unknown author'}
+          </p>
+          <p className="mt-1 text-sm">
+            <Stars rating={book.rating} count={book.ratings_count} />
+            {book.release_year !== null && (
+              <span className="text-neutral-400"> · {book.release_year}</span>
+            )}
+            {book.page_count !== null && (
+              <span className="text-neutral-400"> · {book.page_count}pp</span>
+            )}
+          </p>
+        </div>
+      </Link>
     </li>
   )
 }

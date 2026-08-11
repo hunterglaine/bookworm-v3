@@ -1,9 +1,11 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { Link, Route, Routes } from 'react-router'
 
 import AuthForm from '@/components/AuthForm'
 import BookSearch from '@/components/BookSearch'
 import { api } from '@/lib/api'
 import { fetchCurrentUser, logout } from '@/lib/auth'
+import BookDetailPage from '@/routes/BookDetailPage'
 
 interface Health {
   status: string
@@ -43,7 +45,9 @@ export default function App() {
     <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 px-6 py-12">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <h1 className="text-4xl font-semibold tracking-tight">Bookworm</h1>
+          <Link to="/" className="text-4xl font-semibold tracking-tight">
+            Bookworm
+          </Link>
           <p className="mt-2 text-neutral-500">Signed in as {user.display_name ?? user.email}.</p>
         </div>
         <button
@@ -62,7 +66,21 @@ export default function App() {
         </p>
       )}
 
-      <BookSearch />
+      <Routes>
+        <Route path="/" element={<BookSearch />} />
+        <Route path="/books/:hardcoverId" element={<BookDetailPage />} />
+        <Route
+          path="*"
+          element={
+            <div className="flex flex-col gap-4">
+              <p className="text-neutral-500">Nothing here.</p>
+              <Link to="/" className="text-sm underline underline-offset-4">
+                Back to search
+              </Link>
+            </div>
+          }
+        />
+      </Routes>
     </main>
   )
 }
