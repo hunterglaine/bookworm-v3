@@ -10,7 +10,7 @@ from fastapi.testclient import TestClient
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.models import CachedSearch
+from app.models import CachedProviderResponse
 from app.providers.hardcover import HardcoverClient, parse_search_response
 from app.services.book_search import cache_key, normalize_query, rank, search_books
 
@@ -85,9 +85,10 @@ def test_second_search_is_served_from_cache(db: Session) -> None:
 def test_cache_row_is_written_under_the_normalized_key(db: Session) -> None:
     search_books(db, "  PIRANESI ", client=CountingClient(load("piranesi")))
 
-    entry = db.scalar(select(CachedSearch))
+    entry = db.scalar(select(CachedProviderResponse))
     assert entry is not None
-    assert entry.query_key == cache_key("piranesi")
+    assert entry.kind == "search"
+    assert entry.cache_key == cache_key("piranesi")
 
 
 def test_cache_stores_unranked_results(db: Session) -> None:
@@ -96,7 +97,7 @@ def test_cache_stores_unranked_results(db: Session) -> None:
     """
     search_books(db, "Piranesi", client=CountingClient(load("piranesi")))
 
-    entry = db.scalar(select(CachedSearch))
+    entry = db.scalar(select(CachedProviderResponse))
     assert entry is not None
     assert entry.payload[0]["authors"][0] == "Giovanni Battista Piranesi"
 

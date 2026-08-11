@@ -9,7 +9,7 @@ from app.models.author import Author
 from app.models.book import Book
 from app.models.book_author import BookAuthor
 from app.models.book_rating import BookRating
-from app.models.cached_search import CachedSearch
+from app.models.cached_provider_response import CachedProviderResponse
 from app.models.enums import RatingSource, ReadingStatus
 from app.models.refresh_token import RefreshToken
 from app.models.shelf import Shelf
@@ -23,7 +23,7 @@ __all__ = [
     "Book",
     "BookAuthor",
     "BookRating",
-    "CachedSearch",
+    "CachedProviderResponse",
     "RatingSource",
     "ReadingStatus",
     "RefreshToken",

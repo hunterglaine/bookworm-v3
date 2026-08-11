@@ -8,16 +8,12 @@ is nil.
 
 import re
 from dataclasses import asdict, fields
-from datetime import UTC, datetime, timedelta
 from typing import Any
 
-from sqlalchemy import select
-from sqlalchemy.dialects.postgresql import insert as pg_insert
 from sqlalchemy.orm import Session
 
-from app.config import get_settings
-from app.models import CachedSearch
 from app.providers.hardcover import DEFAULT_PER_PAGE, BookSearchHit, HardcoverClient
+from app.services import provider_cache
 from app.services.ranking import score_candidate
 
 MAX_QUERY_LENGTH = 200
@@ -49,44 +45,20 @@ def cache_key(normalized_query: str, depth: int = FETCH_DEPTH) -> str:
     return f"{depth}:{normalized_query}"
 
 
-def _read_cache(db: Session, key: str) -> list[BookSearchHit] | None:
-    settings = get_settings()
-    cutoff = datetime.now(UTC) - timedelta(hours=settings.search_cache_ttl_hours)
+def _decode(payload: Any) -> list[BookSearchHit] | None:
+    """Rebuild hits from a cached payload, or None if it is unusable.
 
-    entry = db.scalar(
-        select(CachedSearch).where(
-            CachedSearch.query_key == key,
-            CachedSearch.fetched_at >= cutoff,
-        )
-    )
-    if entry is None:
+    Tolerates a payload written by an older shape of BookSearchHit -- a deploy
+    should degrade to a cache miss, not a 500.
+    """
+    if not isinstance(payload, list):
         return None
 
-    # Tolerate a stored payload written by an older shape of BookSearchHit --
-    # a deploy should degrade to a cache miss, not a 500.
     known = {f.name for f in fields(BookSearchHit)}
     try:
-        return [
-            BookSearchHit(**{k: v for k, v in row.items() if k in known}) for row in entry.payload
-        ]
+        return [BookSearchHit(**{k: v for k, v in row.items() if k in known}) for row in payload]
     except TypeError:
         return None
-
-
-def _write_cache(db: Session, key: str, hits: list[BookSearchHit]) -> None:
-    payload: list[dict[str, Any]] = [asdict(hit) for hit in hits]
-    statement = pg_insert(CachedSearch).values(
-        query_key=key, payload=payload, fetched_at=datetime.now(UTC)
-    )
-    db.execute(
-        statement.on_conflict_do_update(
-            index_elements=[CachedSearch.query_key],
-            set_={
-                "payload": statement.excluded.payload,
-                "fetched_at": statement.excluded.fetched_at,
-            },
-        )
-    )
 
 
 def rank(query: str, hits: list[BookSearchHit]) -> list[BookSearchHit]:
@@ -113,7 +85,7 @@ def search_books(
         return []
 
     key = cache_key(normalized)
-    hits = _read_cache(db, key)
+    hits = _decode(provider_cache.read(db, provider_cache.SEARCH, key))
 
     if hits is None:
         provider = client or HardcoverClient()
@@ -122,10 +94,7 @@ def search_books(
         finally:
             if client is None:
                 provider.close()
-        _write_cache(db, key, hits)
-        # Must commit: get_db only closes the session, so an uncommitted write
-        # is rolled back and every request becomes a cache miss -- which is
-        # invisible in a test that reads back through the same session.
+        provider_cache.write(db, provider_cache.SEARCH, key, [asdict(hit) for hit in hits])
         db.commit()
 
     return rank(normalized, hits)[:limit]
