@@ -13,14 +13,21 @@ a broken migration still gets caught without paying for it in every test run.
 from collections.abc import Generator
 
 import pytest
+from argon2 import PasswordHasher
+from fastapi.testclient import TestClient
 from sqlalchemy import Engine, create_engine, make_url, text
 from sqlalchemy.orm import Session
 
 from app.config import get_settings
+from app.core import security
 from app.db.base import Base
+from app.db.session import get_db
+from app.main import app
 
-# Importing the package registers every model on Base.metadata.
-import app.models  # noqa: F401  isort:skip
+# Registers every model on Base.metadata. Bound to a private alias rather than
+# written as `import app.models`, which would rebind `app` to the package and
+# shadow the FastAPI instance imported above.
+from app import models as _models  # noqa: F401  isort:skip
 
 
 @pytest.fixture(scope="session")
@@ -64,3 +71,30 @@ def db(engine: Engine) -> Generator[Session]:
         session.close()
         transaction.rollback()
         connection.close()
+
+
+@pytest.fixture(scope="session", autouse=True)
+def _cheap_password_hashing() -> Generator[None]:
+    """Argon2 at OWASP strength costs ~50ms a call, which a suite that logs in
+    repeatedly pays over and over.
+
+    Weakened here rather than in app.core.security, so the production defaults
+    stay strong and no weak setting can ship by accident.
+    """
+    original = security._hasher
+    security._hasher = PasswordHasher(time_cost=1, memory_cost=8, parallelism=1)
+    yield
+    security._hasher = original
+
+
+@pytest.fixture
+def client(db: Session) -> Generator[TestClient]:
+    """A client sharing the test's transaction, so requests roll back too."""
+
+    def _override_get_db() -> Generator[Session]:
+        yield db
+
+    app.dependency_overrides[get_db] = _override_get_db
+    with TestClient(app) as test_client:
+        yield test_client
+    app.dependency_overrides.clear()

@@ -6,6 +6,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin
 
 if TYPE_CHECKING:
+    from app.models.refresh_token import RefreshToken
     from app.models.shelf import Shelf
     from app.models.user_book import UserBook
 
@@ -22,5 +23,8 @@ class User(TimestampMixin, Base):
 
     shelves: Mapped[list[Shelf]] = relationship(back_populates="user", cascade="all, delete-orphan")
     books: Mapped[list[UserBook]] = relationship(
+        back_populates="user", cascade="all, delete-orphan"
+    )
+    refresh_tokens: Mapped[list[RefreshToken]] = relationship(
         back_populates="user", cascade="all, delete-orphan"
     )

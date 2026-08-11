@@ -10,6 +10,7 @@ from app.models.book import Book
 from app.models.book_author import BookAuthor
 from app.models.book_rating import BookRating
 from app.models.enums import RatingSource, ReadingStatus
+from app.models.refresh_token import RefreshToken
 from app.models.shelf import Shelf
 from app.models.shelf_item import ShelfItem
 from app.models.user import User
@@ -23,6 +24,7 @@ __all__ = [
     "BookRating",
     "RatingSource",
     "ReadingStatus",
+    "RefreshToken",
     "Shelf",
     "ShelfItem",
     "User",
