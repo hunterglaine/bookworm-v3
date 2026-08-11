@@ -1,0 +1,3107 @@
+{
+  "data": {
+    "search": {
+      "results": {
+        "facet_counts": [],
+        "found": 54,
+        "hits": [
+          {
+            "document": {
+              "activities_count": 2,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi",
+                "John Wilton-Ely"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 298610,
+                    "image": {},
+                    "name": "John Wilton-Ely",
+                    "slug": "john-wilton-ely"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "White",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "512739",
+              "image": {
+                "color": "#fefefe",
+                "color_name": "White",
+                "height": 171,
+                "id": 756117,
+                "url": "https://assets.hardcover.app/edition/30465080/4764946-L.jpg",
+                "width": 128
+              },
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 1264,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1992-06-01",
+              "release_year": 1992,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-1992",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 3,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "John Wilton-Ely"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711915,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711915",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 5762,
+              "alternative_titles": [
+                "Piranesi",
+                "\u041f\u0438\u0440\u0430\u043d\u0435\u0437\u0438",
+                "Piran\u00e8se",
+                "\u041f\u0456\u0440\u0430\u043d\u0435\u0437\u0456",
+                "\u76ae\u62c9\u5185\u897f",
+                "Piranesi - B\u00ed \u1ea8n Ng\u00f4i Nh\u00e0 V\u00f4 T\u1eadn"
+              ],
+              "author_names": [
+                "Susanna Clarke"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "kidnapping",
+                "Mental illness",
+                "confinement",
+                "Violence",
+                "Fatphobia2",
+                "Homophobia",
+                "Death",
+                "Injury/Injury detail",
+                "gaslighting",
+                "Gun violence"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 86621,
+                    "image": {
+                      "color": "#4e271d",
+                      "color_name": "Brown",
+                      "height": 900,
+                      "id": 5141334,
+                      "url": "https://assets.hardcover.app/author/86621/5784520b-f3e5-4129-a210-bfee9e5ca84b.jpeg",
+                      "width": 1200
+                    },
+                    "name": "Susanna Clarke",
+                    "slug": "susanna-clarke"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "Piranesi\u2019s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.\n\nThere is one other person in the house\u2014a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.",
+              "featured_series": {},
+              "genres": [
+                "Fantasy",
+                "Fiction",
+                "Mystery",
+                "Magical Realism",
+                "Literary Fiction",
+                "General",
+                "Genre Fiction",
+                "Literary",
+                "Literature & Fiction",
+                "speculative fiction"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "175280",
+              "image": {
+                "color": "#908764",
+                "color_name": "Gray",
+                "height": 767,
+                "id": 5321476,
+                "url": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg",
+                "width": 500
+              },
+              "isbns": [
+                "3453321987",
+                "9783453321984",
+                "3641264863",
+                "9783641264864",
+                "5389179730",
+                "9785389179738",
+                "9781635600000",
+                "1432886576",
+                "9781432886578",
+                "6254493985",
+                "9786254493980",
+                "9041714731",
+                "9789041714732",
+                "9493081680",
+                "9789493081680",
+                "9798868701146",
+                "8025734501",
+                "9788025734506",
+                "1635576717",
+                "9781635576719",
+                "1526622424",
+                "9781526622426",
+                "9791259670021",
+                "8418363290",
+                "9788418363290",
+                "8893258676",
+                "9788893258678",
+                "9791259670038",
+                "163557563X",
+                "9781635575637",
+                "8366712796",
+                "9788366712799",
+                "1635577039",
+                "9781635577037",
+                "2221257588",
+                "9782221257586",
+                "6586015324",
+                "9786586015324",
+                "1635577802",
+                "9781635577808",
+                "6586015317",
+                "9786586015317",
+                "1635575648",
+                "9781635575644",
+                "1526622432",
+                "9781526622433",
+                "8418363282",
+                "9788418363283",
+                "9896611416",
+                "9789896611415",
+                "9510473634",
+                "9789510473634",
+                "9896611424",
+                "9789896611422",
+                "1526622416",
+                "9781526622419",
+                "1526634104",
+                "9781526634108",
+                "9532862560",
+                "9789532862560",
+                "2221250249",
+                "9782221250242",
+                "1635576849",
+                "9781635576849",
+                "3896676725",
+                "9783896676726",
+                "1526631008",
+                "9781526631008",
+                "9510455016",
+                "9789510455012",
+                "163557675X",
+                "9781635576757",
+                "6178280750",
+                "9786178280758",
+                "538918906X",
+                "9785389189065",
+                "7572600883",
+                "9787572600883",
+                "8417918485",
+                "9788417918484",
+                "8284321246",
+                "9788284321240",
+                "1526650789",
+                "9781526650788",
+                "9510473626",
+                "9789510473627",
+                "225310695X",
+                "9782253106951",
+                "6064309407",
+                "9786064309402",
+                "9634198007",
+                "9789634198000",
+                "8366409295",
+                "9788366409293",
+                "1432895087",
+                "9781432895082",
+                "1526622440",
+                "9781526622440",
+                "9612746656",
+                "9789612746650",
+                "9635984200",
+                "9789635984206",
+                "619705583X",
+                "9786197055832"
+              ],
+              "lists_count": 1965,
+              "moods": [
+                "mysterious",
+                "reflective",
+                "Adventurous",
+                "emotional",
+                "dark",
+                "hopeful",
+                "sad",
+                "challenging",
+                "inspiring",
+                "tense"
+              ],
+              "pages": 245,
+              "prompts_count": 14,
+              "rating": 4.227728321793604,
+              "ratings_count": 3033,
+              "release_date": "2019-04-08",
+              "release_year": 2019,
+              "reviews_count": 451,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi",
+              "tags": [
+                "Loveable Characters",
+                "Not Diverse Characters",
+                "Strong Character Development",
+                "Character driven",
+                "A mix driven",
+                "Weak Character Development",
+                "Unloveable Characters",
+                "Diverse Characters",
+                "Plot driven",
+                "female author"
+              ],
+              "title": "Piranesi",
+              "users_count": 7727,
+              "users_read_count": 3798
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u041f\u0438\u0440\u0430\u043d\u0435\u0437\u0438"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Piran\u00e8se"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u041f\u0456\u0440\u0430\u043d\u0435\u0437\u0456"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u76ae\u62c9\u5185\u897f"
+                },
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark> - B\u00ed \u1ea8n Ng\u00f4i Nh\u00e0 V\u00f4 T\u1eadn"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  5
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ],
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>",
+                  "<mark>Piranesi</mark> - B\u00ed \u1ea8n Ng\u00f4i Nh\u00e0 V\u00f4 T\u1eadn"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2703730",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 272,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-cd97c838-d1a2-4e58-ad46-d44ba3a1e499",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2054292",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "piranesi-d6f3e827-6c4f-4cb3-b761-3137851dc1d1",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2003041",
+              "image": {},
+              "isbns": [],
+              "lists_count": 1,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "piranesi-73fba61c-ea09-4542-9c5f-3bf0016b600d",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "875466",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1994-01-01",
+              "release_year": 1994,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "piranesi-1994",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [
+                "Miranda Harvey"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 342728,
+                    "image": {},
+                    "name": "Miranda Harvey",
+                    "slug": "miranda-harvey"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "White",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "583634",
+              "image": {
+                "color": "#fefefe",
+                "color_name": "White",
+                "height": 80,
+                "id": 662112,
+                "url": "https://assets.hardcover.app/edition/30548944/content.jpeg",
+                "width": 60
+              },
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 80,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1979-01-01",
+              "release_year": 1979,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-1979",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [
+                "Avery Library"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 342727,
+                    "image": {},
+                    "name": "Avery Library",
+                    "slug": "avery-library"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "White",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "583633",
+              "image": {
+                "color": "#fefefe",
+                "color_name": "White",
+                "height": 80,
+                "id": 662110,
+                "url": "https://assets.hardcover.app/edition/30548943/content.jpeg",
+                "width": 67
+              },
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 350,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1978-01-01",
+              "release_year": 1978,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-97aba594-3c6c-4d6f-b2e8-7f4b779c88a5",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi"
+              ],
+              "author_names": [
+                "Nicholas Penny"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 331337,
+                    "image": {},
+                    "name": "Nicholas Penny",
+                    "slug": "nicholas-penny"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "564447",
+              "image": {},
+              "isbns": [
+                "084670515X",
+                "9780846705154"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 96,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1978-01-01",
+              "release_year": 1978,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-1978",
+              "tags": [],
+              "title": "Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Piranesi: Rome Recorded"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi",
+                "Malcolm     Campbell"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Editor"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 969747,
+                    "image": {},
+                    "name": "Malcolm     Campbell",
+                    "slug": "malcolm-campbell"
+                  },
+                  "contribution": "Editor"
+                }
+              ],
+              "cover_color": "Gray",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1602165",
+              "image": {
+                "color": "#a88f7e",
+                "color_name": "Gray",
+                "height": 126,
+                "id": 4082923,
+                "url": "https://assets.hardcover.app/external_data/61698545/84ec2f218ab78b92994c4344e3db77f0d7c689f3.jpeg",
+                "width": 98
+              },
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 200,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1989-01-01",
+              "release_year": 1989,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-rome-recorded",
+              "subtitle": "Rome Recorded",
+              "tags": [],
+              "title": "Piranesi: Rome Recorded",
+              "users_count": 2,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>: Rome Recorded"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Malcolm     Campbell"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>: Rome Recorded"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>: Rome Recorded"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>: Rome Recorded"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi: The Complete Etchings"
+              ],
+              "author_names": [
+                "Luigi Ficacci",
+                "Giovanni Battista Piranesi"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 298608,
+                    "image": {},
+                    "name": "Luigi Ficacci",
+                    "slug": "luigi-ficacci"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Brown",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1407360",
+              "image": {
+                "color": "#59594f",
+                "color_name": "Brown",
+                "height": 500,
+                "id": 2745534,
+                "url": "https://assets.hardcover.app/edition/31438839/69fd7dd6e926c8d38ad6908ba2c516affe32ca96.jpeg",
+                "width": 388
+              },
+              "isbns": [
+                "3822866202",
+                "9783822866207"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 799,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1999-12-01",
+              "release_year": 1999,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-the-complete-etchings",
+              "subtitle": "The Complete Etchings",
+              "tags": [],
+              "title": "Piranesi: The Complete Etchings",
+              "users_count": 2,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark>: The Complete Etchings"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "Luigi Ficacci"
+                },
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>: The Complete Etchings"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark>: The Complete Etchings"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark>: The Complete Etchings"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Die Ansichten der Tempel von Paestum des Giovanni Battista Piranesi"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi",
+                "Gertrud Stolte-Adelt"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 634652,
+                    "image": {},
+                    "name": "Gertrud Stolte-Adelt",
+                    "slug": "gertrud-stolte-adelt"
+                  }
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1064402",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 96,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1973-01-01",
+              "release_year": 1973,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "die-ansichten-der-tempel-von-paestum-des-giovanni-battista-piranesi-1973",
+              "tags": [],
+              "title": "Die Ansichten der Tempel von Paestum des Giovanni Battista Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Gertrud Stolte-Adelt"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Die Ansichten der Tempel von Paestum des Giovanni Battista Piranesi"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi",
+                "Gertrud Stolte-Adelt"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 634652,
+                    "image": {},
+                    "name": "Gertrud Stolte-Adelt",
+                    "slug": "gertrud-stolte-adelt"
+                  }
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1064400",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 96,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1973-01-01",
+              "release_year": 1973,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "die-ansichten-der-tempel-von-paestum-des-giovanni-battista-piranesi",
+              "tags": [],
+              "title": "Die Ansichten der Tempel von Paestum des Giovanni Battista Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Gertrud Stolte-Adelt"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Die Ansichten der Tempel von Paestum des Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Giovanni Battista Piranesi"
+              ],
+              "author_names": [
+                "Corinna H\u00f6per",
+                "Giovanni Battista Piranesi"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 345442,
+                    "image": {},
+                    "name": "Corinna H\u00f6per",
+                    "slug": "corinna-hoper"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  }
+                }
+              ],
+              "cover_color": "Brown",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "588351",
+              "image": {
+                "color": "#4e5853",
+                "color_name": "Brown",
+                "height": 177,
+                "id": 665706,
+                "url": "https://assets.hardcover.app/edition/30555231/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "3775791302",
+                "9783775791304"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 40,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2003-01-01",
+              "release_year": 2003,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "giovanni-battista-piranesi-carceri-in-der-ersten-und-zweiten-edition",
+              "subtitle": "Carceri in der ersten und zweiten Edition",
+              "tags": [],
+              "title": "Giovanni Battista Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "Corinna H\u00f6per"
+                },
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Ausgew\u00e4hlte Werke von J.-B. Piranesi"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "875470",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1885-01-01",
+              "release_year": 1885,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "ausgewahlte-werke-von-j-b-piranesi",
+              "tags": [],
+              "title": "Ausgew\u00e4hlte Werke von J.-B. Piranesi",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Ausgew\u00e4hlte Werke von J.-B. Piranesi. 1"
+              ],
+              "author_names": [
+                "Giovanni Battista Piranesi"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 268613,
+                    "image": {},
+                    "name": "Giovanni Battista Piranesi",
+                    "slug": "giovanni-battista-piranesi"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "875468",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1885-01-01",
+              "release_year": 1885,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "ausgewahlte-werke-von-j-b-piranesi-1",
+              "tags": [],
+              "title": "Ausgew\u00e4hlte Werke von J.-B. Piranesi. 1",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>. 1"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>. 1"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>. 1"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Ausgew\u00e4hlte Werke von J.-B. <mark>Piranesi</mark>. 1"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 15,
+              "alternative_titles": [
+                "Piranesi by Susanna Clarke"
+              ],
+              "author_names": [
+                "William J. Collopy"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 443383,
+                    "image": {},
+                    "name": "William J. Collopy",
+                    "slug": "william-j-collopy"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "984550",
+              "image": {},
+              "isbns": [],
+              "lists_count": 3,
+              "moods": [],
+              "pages": 13,
+              "prompts_count": 0,
+              "rating": 5.0,
+              "ratings_count": 1,
+              "release_date": "2022-01-01",
+              "release_year": 2022,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-by-susanna-clarke",
+              "tags": [],
+              "title": "Piranesi by Susanna Clarke",
+              "users_count": 12,
+              "users_read_count": 4
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark> by Susanna Clarke"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> by Susanna Clarke"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> by Susanna Clarke"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark> by Susanna Clarke"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "The Sphere and the Labyrinth: Avant-Gardes and Architecture from Piranesi to the 1970s"
+              ],
+              "author_names": [
+                "Manfredo Tafuri",
+                "Pellegrino D'Acierno",
+                "Robert Connolly"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Translator",
+                "Translator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 1147713,
+                    "image": {},
+                    "name": "Manfredo Tafuri",
+                    "slug": "manfredo-tafuri"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 680582,
+                    "image": {},
+                    "name": "Pellegrino D'Acierno",
+                    "slug": "pellegrino-dacierno"
+                  },
+                  "contribution": "Translator"
+                },
+                {
+                  "author": {
+                    "id": 1196370,
+                    "image": {},
+                    "name": "Robert Connolly",
+                    "slug": "robert-connolly"
+                  },
+                  "contribution": "Translator"
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "\"Tafuri's work is probably the most innovative and exciting new form of European theory since French poststructuralism and this book is probably the best introduction to it for the newcomer. ...\"",
+              "featured_series": {},
+              "genres": [
+                "Architecture",
+                "Space",
+                "General",
+                "History"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2032358",
+              "image": {
+                "color": "#635755",
+                "color_name": "Gray",
+                "height": 500,
+                "id": 5545042,
+                "url": "https://assets.hardcover.app/edition/32209328/cadce50df436b85f925f8a26aa9e247bb7c83318.jpeg",
+                "width": 412
+              },
+              "isbns": [
+                "0262700395",
+                "9780262700399"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 383,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1987-05-09",
+              "release_year": 1987,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-sphere-and-the-labyrinth",
+              "subtitle": "Avant-Gardes and Architecture from Piranesi to the 1970s",
+              "tags": [],
+              "title": "The Sphere and the Labyrinth: Avant-Gardes and Architecture from Piranesi to the 1970s",
+              "users_count": 3,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "The Sphere and the Labyrinth: Avant-Gardes and Architecture from <mark>Piranesi</mark> to the 1970s"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Sphere and the Labyrinth: Avant-Gardes and Architecture from <mark>Piranesi</mark> to the 1970s"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Sphere and the Labyrinth: Avant-Gardes and Architecture from <mark>Piranesi</mark> to the 1970s"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "The Sphere and the Labyrinth: Avant-Gardes and Architecture from <mark>Piranesi</mark> to the 1970s"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Giovanni Battista Piranesi"
+              ],
+              "author_names": [
+                "Unknown"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 59550,
+                    "image": {},
+                    "name": "Unknown",
+                    "slug": "unknown"
+                  }
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "Das \u00e4sthetische Subjekt und die Phantasie in der Kunst stellen f\u00fcr Klaus Heinrich Einspruchsinstanzen gegen das trans\u00adzendentale Subjekt und den Rationalismus der Philosophie dar. Im Verbund mit der Kunst und der Psychoanalyse erinnert er dabei an das, was von der Philosophie verdr\u00e4ngt wird: das Triebsubjekt und die unerledigten Konflikte der Gattung. In der vorliegenden Vorlesung aus dem Wintersemester 1978/79 widmet sich Heinrich dem italienischen K\u00fcnstler und Architekten Giovanni Battista Piranesi (1720\u20131778); dabei kn\u00fcpft er nicht nur chronologisch, sondern auch thematisch an die vorangegangene Vorlesung zur Architektur von Karl Friedrich Schinkel und Albert Speer an. Heinrich begreift Piranesi als Antidot zum Rationalismus des Klassizismus, der seit Johann Joachim Winckelmann die \u00bbEntsinnlichung der Vergangenheit\u00ab betreibt. Wie selbstverst\u00e4ndlich verwandelt sich in seiner Auseinandersetzung neben dem Mythos und der Kunst auch die Architektur zu einem Stoff der Aufkl\u00e4rung. Sie ist nicht auf ihr Geh\u00e4use reduzierbar, vielmehr handelt es sich um eine leibhaftige Verk\u00f6rperung der Gattungsgeschichte. Als historische und kosmologische Repr\u00e4sentation stellen die R\u00e4ume der Architektur damit jeweils die Realit\u00e4t im Ganzen dar: \u00bbsie sind, wo sie zu Ensembles zusammentreten, nicht Teile der Architekturgeschichte, sondern St\u00fccke, Demonstrationsobjekte der Gattungs- und Zivilisationsgeschichte wie nur irgendeine Maschine, irgendein Kult, irgendeine Gedankenkonstruktion.\u00ab Der bedeutende Einfluss auf die franz\u00f6sische Revolutionsarchitektur und die Faszination, die bis heute von Piranesi ausgeht, erkl\u00e4rt sich deshalb weniger aus seinen modischen Neuerungen und technischen Innovationen als aus seinem Verm\u00f6gen, \u00bbin der Architektur Dimensionen miteinander zu verkn\u00fcpfen, die normalerweise nicht der Verkn\u00fcpfung durch Architektur \u00fcberlassen bleiben\u00ab. Piranesi pr\u00e4sentiert in seinen Entw\u00fcrfen nicht nur, was im Raum einander verdr\u00e4ngt, sondern auch das, was in der Zeit einander abl\u00f6st. Bei dem Ger\u00fcmpel, das er auft\u00fcrmt, und den Elementen und Kulissen vergangener und gegenw\u00e4rtiger Epochen, die er versammelt, handelt es sich, ebenso wie bei den Substruktionen, die seine Entw\u00fcrfe tragen und den verschlungenen Labyrinthen, die sie durchziehen, um Erinnerungsstoffe, die allesamt f\u00fcr \u00bbFormen der Durcharbeitung\u00ab der Zivilisationsgeschichte stehen. Piranesi geht in seiner \u00bbZivilisationsarchitektur\u00ab nicht nur r\u00e4umlich, sondern auch zeitlich in die Tiefe, worin sich zeigt sich, dass eine solche Auseinandersetzung mit der Zivilisationsgeschichte ein dem psychoanalytischen Aufkl\u00e4rungsprozess durchaus vergleichbares Unternehmen darstellt, das in der Auseinandersetzung mit dem Verdr\u00e4ngten und der Darstellung von Verdr\u00e4ngungsprozessen besteht.",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2023903",
+              "image": {
+                "color": "#4e4e4e",
+                "color_name": "Gray",
+                "height": 500,
+                "id": 5512123,
+                "url": "https://assets.hardcover.app/edition/32198538/857193a3dea64119bb2cac059698adbdbaa89eaa.jpeg",
+                "width": 396
+              },
+              "isbns": [
+                "3862591875",
+                "9783862591879"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2024-02-27",
+              "release_year": 2024,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "giovanni-battista-piranesi-2024",
+              "tags": [],
+              "title": "Giovanni Battista Piranesi",
+              "users_count": 2,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Giovanni Battista Piranesi"
+              ],
+              "author_names": [
+                "Luigi Ficacci"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 298608,
+                    "image": {},
+                    "name": "Luigi Ficacci",
+                    "slug": "luigi-ficacci"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Black",
+              "description": "Edition trilingue anglais-allemand-fran\u00e7ais Une r\u00e9trospective de l'oeuvre de ce graveur et architecte italien, qui inspira les artistes n\u00e9oclassiques",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "512743",
+              "image": {
+                "color": "#232320",
+                "color_name": "Black",
+                "height": 164,
+                "id": 642395,
+                "url": "https://assets.hardcover.app/edition/30465084/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "3822850942",
+                "9783822850947"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 351,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2006-01-01",
+              "release_year": 2006,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "giovanni-battista-piranesi",
+              "subtitle": "The Etchings",
+              "tags": [],
+              "title": "Giovanni Battista Piranesi",
+              "users_count": 2,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "The Manara Library, Vol. 6: Escape from Piranesi & Other Stories"
+              ],
+              "author_names": [
+                "Milo Manara"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "illustrator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 247189,
+                    "image": {},
+                    "name": "Milo Manara",
+                    "slug": "milo-manara"
+                  },
+                  "contribution": "illustrator"
+                }
+              ],
+              "cover_color": "White",
+              "description": "Milo Minara is a well-known and much-loved Italian graphic novelist, and he has been collaborating with Dark House to bring a comprehensive catalogue of his work to the English-speaking world. Manara's artwork and satirical voice are both in top form in this latest edition, and these stories, spanning two decades, are among his funniest, sexiest and most beautiful. The latest in a series of nine volumes, this reprint allows classic Manara stories to be experienced by a whole new audience.",
+              "featured_series": {},
+              "genres": [
+                "Classics",
+                "Comics"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1565996",
+              "image": {
+                "color": "#f5f5f5",
+                "color_name": "White",
+                "height": 500,
+                "id": 3973289,
+                "url": "https://assets.hardcover.app/edition/31631163/0b5b68a4c4ea6f2e6f01d2ed89b4569fdab93848.jpeg",
+                "width": 387
+              },
+              "isbns": [
+                "1616555416",
+                "9781616555412"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 322,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2014-09-23",
+              "release_year": 2014,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-manara-library-vol-6",
+              "subtitle": "Escape from Piranesi and Other Stories",
+              "tags": [],
+              "title": "The Manara Library, Vol. 6: Escape from Piranesi & Other Stories",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "The Manara Library, Vol. 6: Escape from <mark>Piranesi</mark> & Other Stories"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Manara Library, Vol. 6: Escape from <mark>Piranesi</mark> & Other Stories"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Manara Library, Vol. 6: Escape from <mark>Piranesi</mark> & Other Stories"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "The Manara Library, Vol. 6: Escape from <mark>Piranesi</mark> & Other Stories"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi as Designer"
+              ],
+              "author_names": [
+                "John Wilton-Ely"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Contributor"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 298610,
+                    "image": {},
+                    "name": "John Wilton-Ely",
+                    "slug": "john-wilton-ely"
+                  },
+                  "contribution": "Contributor"
+                }
+              ],
+              "cover_color": "Brown",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "512744",
+              "image": {
+                "color": "#7c683d",
+                "color_name": "Brown",
+                "height": 500,
+                "id": 756126,
+                "url": "https://assets.hardcover.app/edition/30465085/2684687-L.jpg",
+                "width": 409
+              },
+              "isbns": [
+                "0910503958",
+                "9780910503952"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 360,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2007-01-30",
+              "release_year": 2007,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-as-designer",
+              "tags": [],
+              "title": "Piranesi as Designer",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark> as Designer"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> as Designer"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> as Designer"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark> as Designer"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Piranesi Unbound"
+              ],
+              "author_names": [
+                "Carolyn Yerkes",
+                "Heather Hyde Minor"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 298606,
+                    "image": {},
+                    "name": "Carolyn Yerkes",
+                    "slug": "carolyn-yerkes"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 298607,
+                    "image": {},
+                    "name": "Heather Hyde Minor",
+                    "slug": "heather-hyde-minor"
+                  }
+                }
+              ],
+              "cover_color": "Brown",
+              "description": "Layers / by Heather Hyde Minor -- Lost and found / by Carolyn Yerkes -- Pages / by Carolyn Yerkes -- Dedicated and sent / by Heather Hyde Minor -- Bound / by Heather Hyde Minor -- Sold / by Carolyn Yerkes.",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "512738",
+              "image": {
+                "color": "#706244",
+                "color_name": "Brown",
+                "height": 164,
+                "id": 634326,
+                "url": "https://assets.hardcover.app/edition/30465079/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0691206104",
+                "9780691206103"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 240,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2020-09-01",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "piranesi-unbound",
+              "tags": [],
+              "title": "Piranesi Unbound",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "<mark>Piranesi</mark> Unbound"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> Unbound"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "<mark>Piranesi</mark> Unbound"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Piranesi</mark> Unbound"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "The Dark Brain of Piranesi and Other Essays"
+              ],
+              "author_names": [
+                "Marguerite Yourcenar",
+                "Richard Howard"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Translator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 117914,
+                    "image": {
+                      "color": "#b1a697",
+                      "color_name": "Silver",
+                      "height": 205,
+                      "id": 32826,
+                      "url": "https://assets.hardcover.app/authors/117914/7239638-L.jpg",
+                      "width": 160
+                    },
+                    "name": "Marguerite Yourcenar",
+                    "slug": "marguerite-yourcenar"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 79125,
+                    "image": {},
+                    "name": "Richard Howard",
+                    "slug": "richard-howard"
+                  },
+                  "contribution": "Translator"
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "535283",
+              "image": {},
+              "isbns": [
+                "0374519196",
+                "9780374519193"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 240,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1962-01-01",
+              "release_year": 1962,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-dark-brain-of-piranesi-and-other-essays",
+              "tags": [],
+              "title": "The Dark Brain of Piranesi and Other Essays",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "The Dark Brain of <mark>Piranesi</mark> and Other Essays"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Dark Brain of <mark>Piranesi</mark> and Other Essays"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "The Dark Brain of <mark>Piranesi</mark> and Other Essays"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "The Dark Brain of <mark>Piranesi</mark> and Other Essays"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Giovanni Battista Piranesi: Selected Etchings"
+              ],
+              "author_names": [
+                "Luigi Ficacci"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Creator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 298608,
+                    "image": {},
+                    "name": "Luigi Ficacci",
+                    "slug": "luigi-ficacci"
+                  },
+                  "contribution": "Creator"
+                }
+              ],
+              "cover_color": "Gray",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "512740",
+              "image": {
+                "color": "#907b61",
+                "color_name": "Gray",
+                "height": 475,
+                "id": 756110,
+                "url": "https://assets.hardcover.app/edition/30465081/1030082-L.jpg",
+                "width": 340
+              },
+              "isbns": [
+                "3822855308",
+                "9783822855300"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 190,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2001-03-15",
+              "release_year": 2001,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "giovanni-battista-piranesi-selected-etchings",
+              "tags": [],
+              "title": "Giovanni Battista Piranesi: Selected Etchings",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Piranesi"
+                  ],
+                  "snippet": "Giovanni Battista <mark>Piranesi</mark>: Selected Etchings"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>: Selected Etchings"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Piranesi"
+                ],
+                "snippet": "Giovanni Battista <mark>Piranesi</mark>: Selected Etchings"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Piranesi"
+                  ]
+                ],
+                "snippets": [
+                  "Giovanni Battista <mark>Piranesi</mark>: Selected Etchings"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          }
+        ],
+        "out_of": 2503307,
+        "page": 1,
+        "request_params": {
+          "collection_name": "Book_production_1760914612",
+          "first_q": "Piranesi",
+          "per_page": 25,
+          "q": "Piranesi"
+        },
+        "search_cutoff": false,
+        "search_time_ms": 6
+      }
+    }
+  }
+}

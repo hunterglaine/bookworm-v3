@@ -1,0 +1,3898 @@
+{
+  "data": {
+    "search": {
+      "results": {
+        "facet_counts": [],
+        "found": 1481,
+        "hits": [
+          {
+            "document": {
+              "activities_count": 2,
+              "alternative_titles": [
+                "Superman for Tomorrow",
+                "Superman: For Tomorrow"
+              ],
+              "author_names": [
+                "Brian Azzarello",
+                "Jim Lee",
+                "Scott Williams"
+              ],
+              "book_category_id": 1,
+              "compilation": true,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Illustrations",
+                "Illustrations"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 227933,
+                    "image": {
+                      "color": "#625646",
+                      "color_name": "Brown",
+                      "height": 300,
+                      "id": 7711755,
+                      "url": "https://assets.hardcover.app/author/227933/d500b812-bdd1-4681-bda0-125010d8103d.jpg",
+                      "width": 300
+                    },
+                    "name": "Brian Azzarello",
+                    "slug": "brian-azzarello"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 256192,
+                    "image": {},
+                    "name": "Jim Lee",
+                    "slug": "jim-lee"
+                  },
+                  "contribution": "Illustrations"
+                },
+                {
+                  "author": {
+                    "id": 267709,
+                    "image": {},
+                    "name": "Scott Williams",
+                    "slug": "scott-williams"
+                  },
+                  "contribution": "Illustrations"
+                }
+              ],
+              "cover_color": "Orange",
+              "description": "Millions of people on Earth have vanished without a trace leaving everyone with questions and no answers, including the Man of Steel.",
+              "featured_series": {
+                "featured": false,
+                "id": 118670,
+                "series": {
+                  "books_count": 70,
+                  "id": 31538,
+                  "name": "Post-Crisis Superman",
+                  "primary_books_count": 52,
+                  "slug": "post-crisis-superman"
+                },
+                "unreleased": false
+              },
+              "genres": [
+                "Comics & Graphic Novels",
+                "Fantasy",
+                "Adventure",
+                " strips",
+                " etc",
+                "Comics",
+                "Aliens",
+                "Cartoons and comics"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "800610",
+              "image": {
+                "color": "#d8a461",
+                "color_name": "Orange",
+                "height": 500,
+                "id": 6536073,
+                "url": "https://assets.hardcover.app/edition/30807775/4baeaeaed8fee23e8aa4ac85393e3ca60350dfcb.jpeg",
+                "width": 325
+              },
+              "isbns": [
+                "1401244211",
+                "9781401244217",
+                "1401237800",
+                "9781401237806"
+              ],
+              "lists_count": 4,
+              "moods": [],
+              "pages": 325,
+              "prompts_count": 0,
+              "rating": 3.0,
+              "ratings_count": 5,
+              "release_date": "2007-01-01",
+              "release_year": 2007,
+              "reviews_count": 0,
+              "series_ids": [
+                48826,
+                31538,
+                31614
+              ],
+              "series_names": [
+                "Superman: For Tomorrow",
+                "Post-Crisis Superman",
+                "Superman (1987)"
+              ],
+              "slug": "superman-for-tomorrow",
+              "subtitle": "For Tomorrow",
+              "tags": [],
+              "title": "Superman for Tomorrow",
+              "users_count": 9,
+              "users_read_count": 6
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Superman for <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Superman: For <mark>Tomorrow</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Superman: For <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Post-Crisis Superman"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Superman (1987)"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Superman for <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Superman for <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Superman: For <mark>Tomorrow</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Superman for <mark>Tomorrow</mark>",
+                  "Superman: For <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364779,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364779",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Dance Till Tomorrow"
+              ],
+              "author_names": [
+                "Naoki Yamamoto"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 971147,
+                    "image": {},
+                    "name": "Naoki Yamamoto",
+                    "slug": "naoki-yamamoto"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "\"This volume contains the Dance Til Tomorrow installments from Pulp vol. 2, no. 7 through vol. 3, no. 4 (first chapter) in their entirety\"--Title page verso",
+              "featured_series": {
+                "details": "Vol. 3",
+                "featured": true,
+                "id": 727575,
+                "position": 3.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 144997,
+                  "name": "Dance Till Tomorrow",
+                  "primary_books_count": 4,
+                  "slug": "dance-till-tomorrow"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 3.0,
+              "genres": [
+                "Comics & Graphic Novels",
+                "Comics",
+                "Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2432876",
+              "image": {
+                "color": "#ebe2d6",
+                "color_name": "Beige",
+                "height": 475,
+                "id": 6746817,
+                "url": "https://assets.hardcover.app/external_data/2530332/bf559c122f4c1749a0dbe55ea028f5a96a95c2fb.jpeg",
+                "width": 328
+              },
+              "isbns": [
+                "1569314713",
+                "9781569314715"
+              ],
+              "lists_count": 1,
+              "moods": [],
+              "pages": 216,
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 1,
+              "release_date": "2000-02-01",
+              "release_year": 2000,
+              "reviews_count": 0,
+              "series_ids": [
+                144997
+              ],
+              "series_names": [
+                "Dance Till Tomorrow"
+              ],
+              "slug": "dance-till-tomorrow-2000",
+              "tags": [],
+              "title": "Dance Till Tomorrow",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Dance Till <mark>Tomorrow</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Dance Till <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Dance Till <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Dance Till <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Dance Till <mark>Tomorrow</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Dance Till <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364779,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364779",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Dance Till Tomorrow"
+              ],
+              "author_names": [
+                "Naoki Yamamoto"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 971147,
+                    "image": {},
+                    "name": "Naoki Yamamoto",
+                    "slug": "naoki-yamamoto"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "\"This volume contains the Dance Til Tomorrow installments from Pulp Vol.4, No.12 (second half) through Vol. 5, No.11 in their entirety\"--T.p. verso.",
+              "featured_series": {
+                "details": "Vol. 5",
+                "featured": true,
+                "id": 727508,
+                "position": 5.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 144997,
+                  "name": "Dance Till Tomorrow",
+                  "primary_books_count": 4,
+                  "slug": "dance-till-tomorrow"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 5.0,
+              "genres": [
+                "Comics & Graphic Novels",
+                "Comics",
+                "Adventure",
+                "Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2432765",
+              "image": {
+                "color": "#f1dab7",
+                "color_name": "Beige",
+                "height": 475,
+                "id": 6746381,
+                "url": "https://assets.hardcover.app/external_data/2529705/488612a38769eb118c234284aee6bfd500170f05.jpeg",
+                "width": 328
+              },
+              "isbns": [
+                "1591160049",
+                "9781591160045"
+              ],
+              "lists_count": 1,
+              "moods": [],
+              "pages": 208,
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 1,
+              "release_date": "2000-02-01",
+              "release_year": 2000,
+              "reviews_count": 0,
+              "series_ids": [
+                144997
+              ],
+              "series_names": [
+                "Dance Till Tomorrow"
+              ],
+              "slug": "dance-till-tomorrow",
+              "tags": [],
+              "title": "Dance Till Tomorrow",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Dance Till <mark>Tomorrow</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Dance Till <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Dance Till <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Dance Till <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Dance Till <mark>Tomorrow</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Dance Till <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364779,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364779",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Come Back Tomorrow"
+              ],
+              "author_names": [
+                "Amy Argent"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 941873,
+                    "image": {},
+                    "name": "Amy Argent",
+                    "slug": "amy-argent"
+                  }
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "Looking for an unforgettable novel like Me Before You or The Fault in Our Stars but with a silver lining? Then Come Back Tomorrow is your next angsty romance must-read. William Everson, Jr. is young, he's dying of terminal cancer, and he's all alone. I meet him through my mission to befriend terminal cancer patients with no visitors, but it takes me much longer to meet \"Will\" and to learn anything about his family, his friends, and why he has a DNR order in place. \"Can I come back tomorrow?\" That's always my question at the end of our visits. When it becomes his question\u2014\u201cWill you come back tomorrow?\u201d\u2014it changes both of us forever. Will\u2019s given up on life; I won\u2019t let him go without a fight. But is what we share enough to make Will rethink any of his choices . . . before it\u2019s too late? Come Back Tomorrow follows the heart-wrenching journey through illness to the very edge of life and to the critical decision that must be made: accept your fate or fight with everything you have. Come Back Tomorrow is the first book of the Embrace Tomorrow Duet.",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 374333,
+                "position": 1.0,
+                "series": {
+                  "books_count": 1,
+                  "id": 139462,
+                  "name": "Embrace Tomorrow Duet",
+                  "primary_books_count": 1,
+                  "slug": "embrace-tomorrow-duet"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "1546547",
+              "image": {
+                "color": "#7ca861",
+                "color_name": "Gray",
+                "height": 195,
+                "id": 3908631,
+                "url": "https://assets.hardcover.app/external_data/61539182/d165825f103705d3763e0e27cb8c0d6bac3d9db5.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "1736940511",
+                "9781736940518"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 437,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2021-06-13",
+              "release_year": 2021,
+              "reviews_count": 0,
+              "series_ids": [
+                139462
+              ],
+              "series_names": [
+                "Embrace Tomorrow Duet"
+              ],
+              "slug": "come-back-tomorrow",
+              "tags": [],
+              "title": "Come Back Tomorrow",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Come Back <mark>Tomorrow</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Embrace <mark>Tomorrow</mark> Duet"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Come Back <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Come Back <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Embrace <mark>Tomorrow</mark> Duet"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Come Back <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364779,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364779",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Tune In Tomorrow"
+              ],
+              "author_names": [
+                "Tom Tomorrow"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 108000,
+                    "image": {},
+                    "name": "Tom Tomorrow",
+                    "slug": "tom-tomorrow"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Green",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "609275",
+              "image": {
+                "color": "#0e6041",
+                "color_name": "Green",
+                "height": 128,
+                "id": 678519,
+                "url": "https://assets.hardcover.app/edition/30581027/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0312113447",
+                "9780312113445"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 128,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "1994-08-15",
+              "release_year": 1994,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "tune-in-tomorrow",
+              "tags": [],
+              "title": "Tune In Tomorrow",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Tune In <mark>Tomorrow</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Tom <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Tune In <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Tune In <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Tom <mark>Tomorrow</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Tune In <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364779,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364779",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 2541,
+              "alternative_titles": [
+                "\u03a4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf",
+                "I morgen og i morgen og i morgen",
+                "M\u00e2ine, m\u00e2ine, poate m\u00e2ine",
+                "Morgen, morgen und wieder morgen",
+                "Tomorrow, and Tomorrow, and Tomorrow",
+                "Morgen en morgen en morgen",
+                "Ma\u00f1ana, y ma\u00f1ana, y ma\u00f1ana",
+                "Amanh\u00e3, amanh\u00e3, e ainda outro amanh\u00e3",
+                "Tomorrow, and tomorrow, and tomorrow",
+                "Demain, et demain, et demain",
+                "Huomenna, huomenna ja huomenna",
+                "Dem\u00e0, i dem\u00e0, i dem\u00e0",
+                "Imorgon och imorgon och imorgon",
+                "\u05de\u05d7\u05e8 \u05d5\u05e2\u05d5\u05d3 \u05de\u05d7\u05e8 \u05d5\u05e2\u05d5\u05d3 \u05de\u05d7\u05e8",
+                "Tomorrow, and Tomorrow, and Tomorrow: A Novel",
+                "Yar\u0131n ve Yar\u0131n ve Yar\u0131n",
+                "\u0417\u0430\u0432\u0442\u0440\u0430, \u0437\u0430\u0432\u0442\u0440\u0430, \u0437\u0430\u0432\u0442\u0440\u0430",
+                "Jutro, jutro i zn\u00f3w jutro",
+                "Rytoj\u2026 ir v\u0117l rytoj\u2026 ir v\u0117l rytoj",
+                "De Amanh\u00e3 em Amanh\u00e3",
+                "R\u012btdien un r\u012btdien, un r\u012btdien"
+              ],
+              "author_names": [
+                "Gabrielle Zevin"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "Death of parent",
+                "Gun violence",
+                "suicide",
+                "Mass/school shootings",
+                "Death",
+                "Drug use",
+                "Grief",
+                "Sexual content",
+                "Cancer",
+                "Car accident"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 62843,
+                    "image": {
+                      "color": "#5d1712",
+                      "color_name": "Brown",
+                      "height": 1800,
+                      "id": 6776422,
+                      "url": "https://assets.hardcover.app/author/62843/09353659-2acc-4195-966a-6479d78b449b.png",
+                      "width": 1800
+                    },
+                    "name": "Gabrielle Zevin",
+                    "slug": "gabrielle-zevin"
+                  }
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "\"He calls her name. For a moment, she pretends she hasn\u2019t heard him, but then, she turns, and a game begins: a legendary collaboration that will launch them to stardom.\n\nThese friends, intimates since childhood, borrow money, beg favors, and, before even graduating college, they have created their first blockbuster, Ichigo. Overnight, the world is theirs. \n\nNot even twenty-five years old, Sam and Sadie are brilliant, successful, and rich, but these qualities won\u2019t protect them from their own creative ambitions or the betrayals of their hearts.\n\nSpanning thirty years, from Cambridge, Massachusetts, to Venice Beach, California, and lands in between and far beyond, Gabrielle Zevin\u2019s Tomorrow, and Tomorrow, and Tomorrow examines the multifarious nature of identity, disability, failure, the redemptive possibilities in play, and above all, our need to connect: to be loved and to love.\"-- Provided by Amazon",
+              "featured_series": {},
+              "genres": [
+                "Fiction",
+                "Literary Fiction",
+                "Romance",
+                "Contemporary",
+                "Friendship",
+                "Coming of Age",
+                "Literary",
+                "Science Fiction",
+                "adult",
+                "Young Adult"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "479910",
+              "image": {
+                "color": "#dfdcbc",
+                "color_name": "Beige",
+                "height": 500,
+                "id": 2814088,
+                "url": "https://assets.hardcover.app/edition/30535150/2efdfd508a803c89913fd6e987f69048a17c89c6.jpeg",
+                "width": 329
+              },
+              "isbns": [
+                "8203452272",
+                "9788203452277",
+                "6303050379",
+                "9786303050379",
+                "384790129X",
+                "9783847901297",
+                "9046829219",
+                "9789046829219",
+                "1529944791",
+                "9781529944792",
+                "152911553X",
+                "8411481484",
+                "9788411481489",
+                "8411481492",
+                "9788411481496",
+                "059360783X",
+                "9780593607831",
+                "8831020129",
+                "9788831020121",
+                "655532287X",
+                "9786555322873",
+                "3751742654",
+                "9783751742658",
+                "884293433X",
+                "9788842934332",
+                "8850268904",
+                "9788850268900",
+                "226515654X",
+                "9782265156548",
+                "0593321219",
+                "9780593321218",
+                "2265155608",
+                "9782265155602",
+                "3754007513",
+                "9783754007518",
+                "059368964X",
+                "9780593689646",
+                "951243699X",
+                "9789512436996",
+                "9512436175",
+                "9789512436170",
+                "8419332151",
+                "9788419332158",
+                "9100801119",
+                "9789100801113",
+                "9100801100",
+                "9789100801106",
+                "9100806439",
+                "9789100806439",
+                "6555951478",
+                "9786555951479",
+                "0593321200",
+                "9780593321201",
+                "059359164X",
+                "0593466497",
+                "9780593466490",
+                "6259864337",
+                "9786259864334",
+                "384790180X",
+                "9783847901808",
+                "0735243352",
+                "9780735243354",
+                "0593591631",
+                "9780593591635",
+                "9669829933",
+                "9789669829931",
+                "6075741186",
+                "9786075741185",
+                "0593686659",
+                "9780593686652",
+                "0735243360",
+                "9780735243361",
+                "1784744654",
+                "9781784744656",
+                "500195729X",
+                "9785001957294",
+                "1473597404",
+                "9781473597402",
+                "838202923X",
+                "9788382029239",
+                "8382028519",
+                "9788382028515",
+                "9046829200",
+                "9789046829202",
+                "6090155799",
+                "9786090155790",
+                "989235544X",
+                "9789892355443",
+                "9780593591642",
+                "0735243344",
+                "9780735243347",
+                "152911554X",
+                "9781529115543",
+                "1784744646",
+                "9781784744649",
+                "9791387739003",
+                "9934330555",
+                "9789934330551",
+                "9028454403",
+                "9789028454408"
+              ],
+              "lists_count": 1429,
+              "moods": [
+                "emotional",
+                "reflective",
+                "sad",
+                "hopeful",
+                "inspiring",
+                "funny",
+                "challenging",
+                "dark",
+                "Adventurous",
+                "tense"
+              ],
+              "pages": 496,
+              "prompts_count": 5,
+              "rating": 4.086753731343284,
+              "ratings_count": 2680,
+              "release_date": "2022-01-01",
+              "release_year": 2022,
+              "reviews_count": 420,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "tomorrow-and-tomorrow-and-tomorrow",
+              "tags": [
+                "Diverse Characters",
+                "Strong Character Development",
+                "Character driven",
+                "Loveable Characters",
+                "Unloveable Characters",
+                "A mix driven",
+                "Weak Character Development",
+                "Not Diverse Characters",
+                "Plot driven",
+                "fiction"
+              ],
+              "title": "Tomorrow, and Tomorrow, and Tomorrow",
+              "users_count": 6836,
+              "users_read_count": 3398
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u03a4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03b1\u03cd\u03c1\u03b9\u03bf"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "I morgen og i morgen og i morgen"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "M\u00e2ine, m\u00e2ine, poate m\u00e2ine"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Morgen, morgen und wieder morgen"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ],
+                  "snippet": "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Morgen en morgen en morgen"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Ma\u00f1ana, y ma\u00f1ana, y ma\u00f1ana"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Amanh\u00e3, amanh\u00e3, e ainda outro amanh\u00e3"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow",
+                    "and",
+                    "tomorrow",
+                    "and",
+                    "tomorrow"
+                  ],
+                  "snippet": "<mark>Tomorrow</mark>, <mark>and</mark> <mark>tomorrow</mark>, <mark>and</mark> <mark>tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Demain, et demain, et demain"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Huomenna, huomenna ja huomenna"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Dem\u00e0, i dem\u00e0, i dem\u00e0"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Imorgon och imorgon och imorgon"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u05de\u05d7\u05e8 \u05d5\u05e2\u05d5\u05d3 \u05de\u05d7\u05e8 \u05d5\u05e2\u05d5\u05d3 \u05de\u05d7\u05e8"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ],
+                  "snippet": "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>: A Novel"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Yar\u0131n ve Yar\u0131n ve Yar\u0131n"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0417\u0430\u0432\u0442\u0440\u0430, \u0437\u0430\u0432\u0442\u0440\u0430, \u0437\u0430\u0432\u0442\u0440\u0430"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Jutro, jutro i zn\u00f3w jutro"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Rytoj\u2026 ir v\u0117l rytoj\u2026 ir v\u0117l rytoj"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "De Amanh\u00e3 em Amanh\u00e3"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "R\u012btdien un r\u012btdien, un r\u012btdien"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  4,
+                  8,
+                  14
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ],
+                  [
+                    "Tomorrow",
+                    "and",
+                    "tomorrow",
+                    "and",
+                    "tomorrow"
+                  ],
+                  [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>",
+                  "<mark>Tomorrow</mark>, <mark>and</mark> <mark>tomorrow</mark>, <mark>and</mark> <mark>tomorrow</mark>",
+                  "<mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>, <mark>and</mark> <mark>Tomorrow</mark>: A Novel"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 40,
+              "alternative_titles": [
+                "This Time Tomorrow"
+              ],
+              "author_names": [
+                "Emma Straub"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 209981,
+                    "image": {
+                      "color": "#907a63",
+                      "color_name": "Gray",
+                      "height": 600,
+                      "id": 5439940,
+                      "url": "https://assets.hardcover.app/author/209981/25c6b6dd-9e90-4549-9229-2f55fb2b61ac.jpg",
+                      "width": 400
+                    },
+                    "name": "Emma Straub",
+                    "slug": "emma-straub"
+                  }
+                }
+              ],
+              "cover_color": "Silver",
+              "description": "   With her celebrated humor, insight, and heart, beloved New York Times bestseller Emma Straub offers her own twist on traditional time travel tropes and a different kind of love story.\n\nOn the eve of her fortieth birthday, Alice\u2019s life isn\u2019t terrible. She likes her job, even if it isn\u2019t exactly the one she expected. She\u2019s happy with her apartment, her romantic status, and her independence, and she adores her lifelong best friend. But her father is ailing, and it feels to her as if something is missing. When she wakes up the next morning, she finds herself back in 1996, reliving her sixteenth birthday. But it isn\u2019t just her adolescent body that shocks her, or seeing her high school crush\u2014it\u2019s her dad, the vital, charming, forty-something version of her father with whom she is reunited. Now armed with a new perspective on her own life and his, some past events take on new meaning. Is there anything that she would change if she could?",
+              "featured_series": {},
+              "genres": [
+                "Science Fiction",
+                "Fantasy",
+                "Fiction",
+                "Time Travel",
+                "Contemporary"
+              ],
+              "has_audiobook": true,
+              "has_ebook": false,
+              "id": "456440",
+              "image": {
+                "color": "#c0a77b",
+                "color_name": "Silver",
+                "height": 193,
+                "id": 642110,
+                "url": "https://assets.hardcover.app/edition/30410942/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "140594613X",
+                "9781405946131",
+                "0593542169",
+                "9780593542163",
+                "0241453461",
+                "9780241453469",
+                "024145347X",
+                "9780241453476",
+                "0525539026",
+                "9780525539025",
+                "9780525539001",
+                "052553900X",
+                "9780593584583",
+                "0525539018",
+                "9780525539018"
+              ],
+              "lists_count": 160,
+              "moods": [
+                "emotional",
+                "reflective",
+                "funny",
+                "lighthearted",
+                "sad"
+              ],
+              "pages": 320,
+              "prompts_count": 0,
+              "rating": 3.802702702702703,
+              "ratings_count": 185,
+              "release_date": "2022-01-01",
+              "release_year": 2022,
+              "reviews_count": 20,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "this-time-tomorrow",
+              "tags": [
+                "Not Diverse Characters",
+                "Unloveable Characters",
+                "Strong Character Development",
+                "Character driven",
+                "to-read"
+              ],
+              "title": "This Time Tomorrow",
+              "users_count": 609,
+              "users_read_count": 227
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "This Time <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "This Time <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "This Time <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "This Time <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 41,
+              "alternative_titles": [
+                "Hoje, Depois, Amanh\u00e3",
+                "Today Tonight Tomorrow",
+                "Today, tonight, tomorrow",
+                "Hoy. Esta Noche. Ma\u00f1ana"
+              ],
+              "author_names": [
+                "Rachel Lynn Solomon"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "Antisemitism"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 235110,
+                    "image": {
+                      "color": "#a99b8c",
+                      "color_name": "Gray",
+                      "height": 275,
+                      "id": 6094747,
+                      "url": "https://assets.hardcover.app/author/235110/325d95ad-4735-49e9-b06c-1cb19b1e468a.jpg",
+                      "width": 183
+                    },
+                    "name": "Rachel Lynn Solomon",
+                    "slug": "rachel-lynn-solomon"
+                  }
+                }
+              ],
+              "cover_color": "Blue",
+              "description": "Today, she hates him.\n\nIt\u2019s the last day of senior year. Rowan Roth and Neil McNair have been bitter rivals for all of high school, clashing on test scores, student council elections, and even gym class pull-up contests. While Rowan, who secretly wants to write romance novels, is anxious about the future, she\u2019d love to beat her infuriating nemesis one last time.\n\nTonight, she puts up with him.\n\nWhen Neil is named valedictorian, Rowan has only one chance at victory: Howl, a senior class game that takes them all over Seattle, a farewell tour of the city she loves. But after learning a group of seniors is out to get them, she and Neil reluctantly decide to team up until they\u2019re the last players left\u2014and then they\u2019ll destroy each other.\n\nAs Rowan spends more time with Neil, she realizes he\u2019s much more than the awkward linguistics nerd she\u2019s sparred with for the past four years. And, perhaps, this boy she claims to despise might actually be the boy of her dreams.\n\nTomorrow \u2026 maybe she\u2019s already fallen for him.",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 408987,
+                "position": 1.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 83630,
+                  "name": "Rowan & Neil",
+                  "primary_books_count": 2,
+                  "slug": "rowan-neil"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Romance",
+                "Juvenile Fiction"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "452359",
+              "image": {
+                "color": "#0e8bbe",
+                "color_name": "Blue",
+                "height": 500,
+                "id": 3399784,
+                "url": "https://assets.hardcover.app/edition/18999631/6a57fb421fe3960b08751d8ffe919a27fd237a6d.jpeg",
+                "width": 330
+              },
+              "isbns": [
+                "655981291X",
+                "9786559812912",
+                "1534478574",
+                "9781534478572",
+                "1534440267",
+                "9781534440265",
+                "1797111736",
+                "9781797111735",
+                "655981243X",
+                "9786559812431",
+                "1534440240",
+                "9781534440241",
+                "2408033691",
+                "9782408033699",
+                "1797111752",
+                "9781797111759",
+                "8419131261",
+                "9788419131263",
+                "1534440259",
+                "9781534440258"
+              ],
+              "lists_count": 129,
+              "moods": [
+                "lighthearted",
+                "funny",
+                "hopeful",
+                "relaxing",
+                "emotional",
+                "Adventurous",
+                "inspiring",
+                "reflective"
+              ],
+              "pages": 384,
+              "prompts_count": 0,
+              "rating": 4.040178571428571,
+              "ratings_count": 112,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 24,
+              "series_ids": [
+                83630
+              ],
+              "series_names": [
+                "Rowan & Neil"
+              ],
+              "slug": "today-tonight-tomorrow",
+              "tags": [
+                "Strong Character Development",
+                "Loveable Characters",
+                "Character driven",
+                "Diverse Characters",
+                "Not Diverse Characters",
+                "A mix driven",
+                "Weak Character Development"
+              ],
+              "title": "Today Tonight Tomorrow",
+              "users_count": 362,
+              "users_read_count": 133
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [],
+                  "snippet": "Hoje, Depois, Amanh\u00e3"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Today Tonight <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "tomorrow"
+                  ],
+                  "snippet": "Today, tonight, <mark>tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Hoy. Esta Noche. Ma\u00f1ana"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Today Tonight <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Today Tonight <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  1,
+                  2
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Today Tonight <mark>Tomorrow</mark>",
+                  "Today, tonight, <mark>tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 8,
+              "alternative_titles": [
+                "The Long Tomorrow"
+              ],
+              "author_names": [
+                "Leigh Brackett"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 108697,
+                    "image": {
+                      "color": "#4b2710",
+                      "color_name": "Brown",
+                      "height": 227,
+                      "id": 32584,
+                      "url": "https://assets.hardcover.app/authors/108697/5543457-L.jpg",
+                      "width": 225
+                    },
+                    "name": "Leigh Brackett",
+                    "slug": "leigh-brackett-34db2d27-2d04-420c-bdd0-dd8f9fe12f2b"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Gold",
+              "description": "\"No city, no town, no community of more than one thousand people or two hundred buildings to the square mile, shall be built or permitted to exist anywhere in the United States of America.\" --Constitution of the United States, Thirtieth Amendment\n\nTwo generations after destruction rained down upon America's cities, the population is scattered into small towns. Cities are forbidden by law, as is scientific research.\n\nRumors abound of a secret place known as \"Bartorstown\", where science is untrammelled by interference or hatred. A youth named Len Colter, developing an unhealthy thirst for knowledge exacerbated by the discovery of a forbidden radio, sets out on a long road. During this journey, he will change his mind many times before determining the correct direction for himself, and the benighted America in which he lives.",
+              "featured_series": {},
+              "genres": [
+                "Classics",
+                "Fantasy",
+                "Young Adult",
+                "Fiction",
+                "Science Fiction",
+                "Dystopian",
+                "Censorship",
+                "Sci-fi"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "461438",
+              "image": {
+                "color": "#e1c212",
+                "color_name": "Gold",
+                "height": 500,
+                "id": 3745640,
+                "url": "https://assets.hardcover.app/edition/30680854/abde2a8c783797bc329a1907ae33a2c750e62135.jpeg",
+                "width": 334
+              },
+              "isbns": [
+                "9781612420141",
+                "057513156X",
+                "9780575131569",
+                "0345288858",
+                "9780345288851",
+                "0345242890",
+                "9780345242891",
+                "1612420141",
+                "9781612420134"
+              ],
+              "lists_count": 27,
+              "moods": [],
+              "pages": 202,
+              "prompts_count": 0,
+              "rating": 3.4,
+              "ratings_count": 15,
+              "release_date": "1955-01-01",
+              "release_year": 1955,
+              "reviews_count": 4,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-long-tomorrow",
+              "tags": [],
+              "title": "The Long Tomorrow",
+              "users_count": 98,
+              "users_read_count": 22
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "The Long <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "The Long <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "The Long <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "The Long <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 12,
+              "alternative_titles": [
+                "Tomorrow and Tomorrow"
+              ],
+              "author_names": [
+                "Tom Sweterlitsch"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "Grief",
+                "gaslighting",
+                "Sexual assault",
+                "body horror"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 218228,
+                    "image": {
+                      "color": "#564e49",
+                      "color_name": "Gray",
+                      "height": 299,
+                      "id": 6557491,
+                      "url": "https://assets.hardcover.app/author/218228/1243044d-fe27-4169-8c84-179ac6842c74.jpeg",
+                      "width": 450
+                    },
+                    "name": "Tom Sweterlitsch",
+                    "slug": "tom-sweterlitsch"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "Ten years after the attack that reduced Pittsburgh to ashes, all that remains is the Archive: an interactive digital record of the city and its people. John Dominic Blaxton is a 'lucky one'. He survived the blast, but, crippled by the loss of his wife and unborn daughter, his days are spent immersed in the Archive with the ghosts of yesterday. It is there that he finds the record of a forgotten body. Who was this woman? And why is someone hacking the system to delete her seemingly unremarkable life? The hunt for the truth will drag Dominic from the darkest corners of the past into a deadly and very present nightmare.",
+              "featured_series": {},
+              "genres": [
+                "Science Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "572310",
+              "image": {
+                "color": "#d8e5e6",
+                "color_name": "Beige",
+                "height": 196,
+                "id": 1158886,
+                "url": "https://assets.hardcover.app/external_data/59604311/efa2e44a78dbe9dc4996b8c050f0225cf876a135.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0425275418",
+                "9780425275412",
+                "1472214862",
+                "9781472214867",
+                "0698142705",
+                "9780698142701",
+                "0399167498",
+                "9780399167492"
+              ],
+              "lists_count": 14,
+              "moods": [
+                "challenging",
+                "Adventurous",
+                "mysterious",
+                "reflective",
+                "dark",
+                "emotional"
+              ],
+              "pages": 304,
+              "prompts_count": 0,
+              "rating": 3.617647058823529,
+              "ratings_count": 17,
+              "release_date": "2014-07-10",
+              "release_year": 2014,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "tomorrow-and-tomorrow-2014",
+              "tags": [
+                "Diverse Characters",
+                "Unloveable Characters"
+              ],
+              "title": "Tomorrow and Tomorrow",
+              "users_count": 69,
+              "users_read_count": 27
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ],
+                  "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 4,
+              "alternative_titles": [
+                "Memories of Tomorrow"
+              ],
+              "author_names": [
+                "Dean Koontz"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 188146,
+                    "image": {
+                      "color": "#5d738e",
+                      "color_name": "Purple",
+                      "height": 300,
+                      "id": 5258581,
+                      "url": "https://assets.hardcover.app/author/188146/a1356120-0dbf-408c-8dc5-98f878d45584.jpg",
+                      "width": 300
+                    },
+                    "name": "Dean Koontz",
+                    "slug": "dean-koontz"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Pink",
+              "description": "What strange science made Nameless who he is? What catastrophes have been erased from his memories? In the stunning conclusion of this series, the dark past comes flooding back, and Nameless must decide how much he really wants to know.\n\nIn Indiana, a murderous psycho has kidnapped his own six-year-old stepson, Jamie, and secreted him away in a subterranean cave. It\u2019s become their bunker. For Nameless, the case is breaking down his defenses, and it may force him to face his memories.",
+              "featured_series": {
+                "details": "6",
+                "featured": true,
+                "id": 554038,
+                "position": 6.0,
+                "series": {
+                  "books_count": 7,
+                  "id": 1597,
+                  "name": "Nameless: Season One",
+                  "primary_books_count": 6,
+                  "slug": "nameless-season-one"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 6.0,
+              "genres": [
+                "Fantasy",
+                "Science Fiction"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "438585",
+              "image": {
+                "color": "#e9e9ea",
+                "color_name": "Pink",
+                "height": 1500,
+                "id": 5258533,
+                "url": "https://assets.hardcover.app/editions/30404131/8739f0b1-021c-4870-adcc-75f1a68e306b.jpg",
+                "width": 1000
+              },
+              "isbns": [
+                "1542016266",
+                "9781542016261"
+              ],
+              "lists_count": 24,
+              "moods": [],
+              "pages": 63,
+              "prompts_count": 0,
+              "rating": 4.116666666666667,
+              "ratings_count": 30,
+              "release_date": "2019-11-12",
+              "release_year": 2019,
+              "reviews_count": 3,
+              "series_ids": [
+                1597
+              ],
+              "series_names": [
+                "Nameless: Season One"
+              ],
+              "slug": "memories-of-tomorrow",
+              "tags": [
+                "from-audible"
+              ],
+              "title": "Memories of Tomorrow",
+              "users_count": 69,
+              "users_read_count": 48
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Memories of <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Memories of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Memories of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Memories of <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Odds Against Tomorrow"
+              ],
+              "author_names": [
+                "Nathaniel Rich"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 94089,
+                    "image": {},
+                    "name": "Nathaniel Rich",
+                    "slug": "nathaniel-rich-b785187b-e45a-40e9-bff7-c569dd052fe9"
+                  }
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "NEW YORK CITY, the near future: Mitchell Zukor, a gifted young mathematician, is hired by a mysterious new financial consulting firm, FutureWorld. The business operates out of a cavernous office in the Empire State Building; Mitchell is employee number two. He is asked to calculate worst-case scenarios in the most intricate detail, and his schemes are sold to corporations to indemnify them against any future disasters. This is the cutting edge of corporate irresponsibility, and business is booming. As Mitchell immerses himself in the mathematics of catastrophe\u2014ecological collapse, global war, natural disasters\u2014he becomes obsessed by a culture's fears. Yet he also loses touch with his last connection to reality: Elsa Bruner, a friend with her own apocalyptic secret, who has started a commune in Maine. Then, just as Mitchell's predictions reach a nightmarish crescendo, an actual worst-case scenario overtakes Manhattan. Mitchell realizes he is uniquely prepared to profit. But at what cost? At once an all-too-plausible literary thriller, an unexpected love story, and a philosophically searching inquiry into the nature of fear, Nathaniel Rich's Odds Against Tomorrow poses the ultimate questions of imagination and civilization. The future is not quite what it used to be. An NPR Best Book of 2013",
+              "featured_series": {},
+              "genres": [
+                "Science fiction",
+                "Dystopian"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "430191",
+              "image": {
+                "color": "#ddd6bf",
+                "color_name": "Beige",
+                "height": 147,
+                "id": 797278,
+                "url": "https://assets.hardcover.app/edition/5268366/15759484._SX98_.jpg",
+                "width": 98
+              },
+              "isbns": [
+                "0374224242",
+                "9780374224240",
+                "146683675X",
+                "9781466836754",
+                "1250043646",
+                "9781250043641"
+              ],
+              "lists_count": 14,
+              "moods": [],
+              "pages": 304,
+              "prompts_count": 0,
+              "rating": 2.684210526315789,
+              "ratings_count": 19,
+              "release_date": "2013-01-01",
+              "release_year": 2013,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "odds-against-tomorrow",
+              "tags": [],
+              "title": "Odds Against Tomorrow",
+              "users_count": 51,
+              "users_read_count": 21
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Odds Against <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Odds Against <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Odds Against <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Odds Against <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 21,
+              "alternative_titles": [
+                "Kingdom of Tomorrow",
+                "Kingdom of Tomorrow: Book of Arden, Book 1"
+              ],
+              "author_names": [
+                "Gena Showalter"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167165,
+                    "image": {
+                      "color": "#ac5e4c",
+                      "color_name": "Gray",
+                      "height": 2048,
+                      "id": 5094058,
+                      "url": "https://assets.hardcover.app/author/167165/acd042e3-1105-4a5a-a801-e87c8ceea49a.jpg",
+                      "width": 1365
+                    },
+                    "name": "Gena Showalter",
+                    "slug": "gena-showalter"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Brown",
+              "description": "Twenty-year-old Arden Roosa knows only Ourland. Two worlds split and stitched together, with broken pieces from each, statues of fallen gods, and heavenly artifacts that are worshipped\u2026or feared.\n\nBut nothing is more fearsome than the night.\n\nA strange madness haunts the darkest hours, turning innocents into gleeful killers. Arden does her best to stay safe, until she reads a book written about her life\u2015The Book of Arden\u2015and everything changes.\n\nForced to join Fort Bala Royal Academy, Arden is paired with the ruthless High Prince Cyrus Dolion. But while he trains her for combat against a mystical adversary, she can\u2019t deny the sparks burning between them.\n\nIf her panic attacks and war games aren\u2019t enough, Arden is also tapped to join the Tome Society, rumored guardians of an invisible library with books that foretell the future. But the more she learns about the society, the less she understands about Ourland, the gods\u2026and the person she\u2019s destined to be.",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 556272,
+                "position": 1.0,
+                "series": {
+                  "books_count": 2,
+                  "id": 181588,
+                  "name": "Book of Arden",
+                  "primary_books_count": 2,
+                  "slug": "book-of-arden"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Romantasy",
+                "Science fiction",
+                "Dystopian",
+                "Fiction"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "1953926",
+              "image": {
+                "color": "#965908",
+                "color_name": "Brown",
+                "height": 1500,
+                "id": 5427446,
+                "url": "https://assets.hardcover.app/editions/32111432/04d661a7-3dda-40b3-a29c-e3cac135bb50.jpg",
+                "width": 971
+              },
+              "isbns": [
+                "1662530528",
+                "9781662530524",
+                "166253051X",
+                "9781662530517"
+              ],
+              "lists_count": 14,
+              "moods": [],
+              "pages": 360,
+              "prompts_count": 0,
+              "rating": 2.75,
+              "ratings_count": 8,
+              "release_date": "2025-09-01",
+              "release_year": 2025,
+              "reviews_count": 2,
+              "series_ids": [
+                181588
+              ],
+              "series_names": [
+                "Book of Arden"
+              ],
+              "slug": "kingdom-of-tomorrow",
+              "subtitle": "Book of Arden, Book 1",
+              "tags": [
+                "romantasy",
+                "Dystopias"
+              ],
+              "title": "Kingdom of Tomorrow",
+              "users_count": 45,
+              "users_read_count": 15
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Kingdom of <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Kingdom of <mark>Tomorrow</mark>: Book of Arden, Book 1"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Kingdom of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Kingdom of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Kingdom of <mark>Tomorrow</mark>",
+                  "Kingdom of <mark>Tomorrow</mark>: Book of Arden, Book 1"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Remember Me Tomorrow"
+              ],
+              "author_names": [
+                "Farah Heron"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 234146,
+                    "image": {
+                      "color": "#1252ae",
+                      "color_name": "Blue",
+                      "height": 225,
+                      "id": 4905577,
+                      "url": "https://assets.hardcover.app/author/234146/574052df-24b4-447c-83df-02e2fe5b3cc7.jpg",
+                      "width": 225
+                    },
+                    "name": "Farah Heron",
+                    "slug": "farah-heron"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Orange",
+              "description": "A missing student. A singular investigation. A new romance. Every bit of it is a mystery in a delightful novel of cosmic twists by the author of How to Win a Breakup. East House is the oldest and least desirable dorm on campus, but it has a draw for lonely university freshman Aleeza Kassam: Jay Hoque, the hot and broody student who vanished from East House five months ago without a trace. It's irresistible to an aspiring investigative journalist like Aleeza. But when she starts receiving texts from Jay, the mystery takes an unexpected turn. To put it mildly. His messages are coming not only from Aleeza's own dorm room but from the past--only weeks before he disappeared. Sharing space, if not time, Aleeza and Jay are living the impossible, and they start working together to prevent his inevitable disappearance. Causing a temporal paradox that could blow up the universe is a risk they're going to have to take. Aleeza digs through Jay's suspicious friends, enemies, and exes, determined to find out what happened to him. Or what will happen to him. But it's becoming more than a mystery. Aleeza is catching feelings for her charming new roommate. Wherever, and whenever, he may be.",
+              "featured_series": {},
+              "genres": [
+                "Young Adult",
+                "Fantasy",
+                "Fiction",
+                "Science Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1535338",
+              "image": {
+                "color": "#e26f0b",
+                "color_name": "Orange",
+                "height": 500,
+                "id": 4919532,
+                "url": "https://assets.hardcover.app/edition/32001271/e3d064060e2efb1840e85e1bf191b21ad7e85d62.jpeg",
+                "width": 323
+              },
+              "isbns": [
+                "1662513011",
+                "9781662513015",
+                "1662520514",
+                "9781662520518"
+              ],
+              "lists_count": 15,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 3.8,
+              "ratings_count": 10,
+              "release_date": "2024-01-01",
+              "release_year": 2024,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "remember-me-tomorrow",
+              "tags": [],
+              "title": "Remember Me Tomorrow",
+              "users_count": 37,
+              "users_read_count": 13
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Remember Me <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Remember Me <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Remember Me <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Remember Me <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Ghosts of Tomorrow"
+              ],
+              "author_names": [
+                "Michael R. Fletcher"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 254537,
+                    "image": {
+                      "color": "#e4e4e4",
+                      "color_name": "White",
+                      "height": 300,
+                      "id": 6954347,
+                      "url": "https://assets.hardcover.app/author/254537/cfbcb6c2-2014-48ba-984b-9e525ee793b5.jpg",
+                      "width": 300
+                    },
+                    "name": "Michael R. Fletcher",
+                    "slug": "michael-r-fletcher"
+                  }
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "The children are the future. And someone is turning them into highly trained killing machines. Straight out of school, Griffin, a junior Investigations agent for the North American Trade Union, is put on the case: Find and close the illegal creches. No one expects him to succeed, Griffin least of all. Installed in a combat chassis Abdul, a depressed seventeen year old killed during the Secession Wars in Old Montreal, is assigned as Griffin's Heavy Weapons support. Nadia, a state-sanctioned investigative reporter working the stolen children story, pushes Griffin ever deeper into the nightmare of the black market brain trade. Deep in the La Carpio slums of Costa Rica, the scanned mind of an autistic girl runs the South American Mafia's business interests. But she wants more. She wants freedom. And she has come to see humanity as a threat. She has an answer: Archaeidae. At fourteen, he is the deadliest assassin alive. Two children against the world. The world is going to need some help.",
+              "featured_series": {},
+              "genres": [
+                "Science fiction",
+                "Fantasy",
+                "Dystopian",
+                "Young Adult"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "497114",
+              "image": {
+                "color": "#b89b70",
+                "color_name": "Gray",
+                "height": 500,
+                "id": 5036678,
+                "url": "https://assets.hardcover.app/edition/30445700/5c35e8669093f7bbdda28c93875d87b2f5338f55.jpeg",
+                "width": 334
+              },
+              "isbns": [
+                "0995312249",
+                "9780995312241"
+              ],
+              "lists_count": 8,
+              "moods": [],
+              "pages": 394,
+              "prompts_count": 0,
+              "rating": 4.285714285714286,
+              "ratings_count": 7,
+              "release_date": "2017-02-19",
+              "release_year": 2017,
+              "reviews_count": 3,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "ghosts-of-tomorrow",
+              "tags": [],
+              "title": "Ghosts of Tomorrow",
+              "users_count": 36,
+              "users_read_count": 11
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Ghosts of <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Ghosts of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Ghosts of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Ghosts of <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "The Hard Tomorrow"
+              ],
+              "author_names": [
+                "Eleanor Davis"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 234203,
+                    "image": {},
+                    "name": "Eleanor Davis",
+                    "slug": "eleanor-davis"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "\"Hannah is a thirty-something wife, home-health worker, and antiwar activist. Her husband, Johnny, is a stay-at-home pothead working--or \"working\"--on building them a house before the winter chill sets in. They're currently living and screwing in the back of a truck, hoping for a pregnancy, which seems like it will never come. Legs in the air, for a better chance at conception, Hannah scans fertility Reddits while Johnny dreams about propagating plants--kale, tomatoes--to ensure they have sufficient sustenance should the end times come, which, given their fragile democracy strained under the weight of a carceral state and the risk of horrible war, doesn't seem so far off. Helping Hannah in her fight for the future is her best friend Gabby, a queer naturalist she idolizes and who adores her. Helping Johnny build the house is Tyler, an off-the-grid conspiracy theorist driven sick by his own cloudy notions of reality.\"--",
+              "featured_series": {},
+              "genres": [
+                "LGBTQ",
+                "Dystopian",
+                "Science Fiction",
+                "Romance",
+                "Comics & Graphic Novels",
+                "Comics"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "453036",
+              "image": {
+                "color": "#f1f1f0",
+                "color_name": "Beige",
+                "height": 500,
+                "id": 7344979,
+                "url": "https://assets.hardcover.app/edition/25503365/2185a71666cc90fdbf0b7ce20df858b1210a7fa5.jpeg",
+                "width": 361
+              },
+              "isbns": [
+                "1770463739",
+                "9781770463738",
+                "1770465138",
+                "9781770465138"
+              ],
+              "lists_count": 23,
+              "moods": [],
+              "pages": 152,
+              "prompts_count": 0,
+              "rating": 3.777777777777778,
+              "ratings_count": 18,
+              "release_date": "2019-01-01",
+              "release_year": 2019,
+              "reviews_count": 6,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-hard-tomorrow",
+              "tags": [],
+              "title": "The Hard Tomorrow",
+              "users_count": 36,
+              "users_read_count": 25
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "The Hard <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "The Hard <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "The Hard <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "The Hard <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Tomorrow and Tomorrow"
+              ],
+              "author_names": [
+                "Charles Sheffield"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 117939,
+                    "image": {},
+                    "name": "Charles Sheffield",
+                    "slug": "charles-sheffield"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Gold",
+              "description": "A woman suffering from an incurable illness is frozen in the hope that one day a cure will be found. Several centuries later her boyfriend revives her, only to discover that she still cannot be cured. In the end, it will be many, many years before she can. By the author of The Ganymede Club.",
+              "featured_series": {},
+              "genres": [
+                "Science Fiction",
+                "Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "572311",
+              "image": {
+                "color": "#d0ad0f",
+                "color_name": "Gold",
+                "height": 194,
+                "id": 654040,
+                "url": "https://assets.hardcover.app/edition/30535153/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "057508569X",
+                "9780575085695",
+                "0553578898",
+                "9780553578898",
+                "1649730543",
+                "9781649730541",
+                "0553378082",
+                "9780553378085"
+              ],
+              "lists_count": 7,
+              "moods": [],
+              "pages": 375,
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 4,
+              "release_date": "1997-01-01",
+              "release_year": 1997,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "tomorrow-and-tomorrow-1997",
+              "tags": [],
+              "title": "Tomorrow and Tomorrow",
+              "users_count": 27,
+              "users_read_count": 6
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ],
+                  "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow",
+                  "and",
+                  "Tomorrow"
+                ],
+                "snippet": "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow",
+                    "and",
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Tomorrow</mark> <mark>and</mark> <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 98,
+              "alternative_titles": [
+                "Forever Until Tomorrow"
+              ],
+              "author_names": [
+                "M.R. Forbes"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 241294,
+                    "image": {
+                      "color": "#5f4b1a",
+                      "color_name": "Brown",
+                      "height": 254,
+                      "id": 5431486,
+                      "url": "https://assets.hardcover.app/author/241294/1d01a47b-4f75-48c2-9158-688d21bfaf75.webp",
+                      "width": 254
+                    },
+                    "name": "M.R. Forbes",
+                    "slug": "m-r-forbes"
+                  }
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "Major Katherine \u201cPeregrine\u201d Asher of the United Earth Alliance has never heard of the Tetron. As the pilot in charge of guiding Earth\u2019s first interstellar starship into space, she has enough to think about already.\n\nBut when a standard meet and greet with the global elite goes sideways, Katherine finds herself front and center in a war she has never heard of and doesn\u2019t understand. A war where the enemy can be anyone, and her only hope of survival rests on finding a soldier who doesn\u2019t exist.\n\nA soldier named Colonel Mitchell Williams.",
+              "featured_series": {
+                "details": "5",
+                "featured": true,
+                "id": 303873,
+                "position": 5.0,
+                "series": {
+                  "books_count": 8,
+                  "id": 8565,
+                  "name": "War Eternal",
+                  "primary_books_count": 7,
+                  "slug": "war-eternal"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 5.0,
+              "genres": [
+                "Adventure",
+                "Science fiction",
+                "Space",
+                "War",
+                "Aliens"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "1379703",
+              "image": {
+                "color": "#bed9cd",
+                "color_name": "Beige",
+                "height": 1500,
+                "id": 5432173,
+                "url": "https://assets.hardcover.app/editions/31404837/4584bb40-3ed4-42ff-b32b-5dae5ccc1b75.jpg",
+                "width": 938
+              },
+              "isbns": [
+                "1534648518",
+                "9781534648517"
+              ],
+              "lists_count": 4,
+              "moods": [],
+              "pages": 344,
+              "prompts_count": 0,
+              "rating": 4.1,
+              "ratings_count": 10,
+              "release_date": "2016-06-10",
+              "release_year": 2016,
+              "reviews_count": 0,
+              "series_ids": [
+                8565
+              ],
+              "series_names": [
+                "War Eternal"
+              ],
+              "slug": "forever-until-tomorrow",
+              "tags": [],
+              "title": "Forever Until Tomorrow",
+              "users_count": 26,
+              "users_read_count": 18
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Forever Until <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Forever Until <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Forever Until <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Forever Until <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Radiance of Tomorrow",
+                "Radiance of Tomorrow: A Novel",
+                "Radiance Of Tomorrow"
+              ],
+              "author_names": [
+                "Ishmael Beah"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 138880,
+                    "image": {
+                      "color": "#5b6002",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 33392,
+                      "url": "https://assets.hardcover.app/authors/138880/10489483-L.jpg",
+                      "width": 343
+                    },
+                    "name": "Ishmael Beah",
+                    "slug": "ishmael-beah"
+                  }
+                }
+              ],
+              "cover_color": "Gold",
+              "description": "A first novel by the internationally best-selling author of A Long Way Gone is an intimate parable about postwar life in Sierra Leone in which two long-time friends return to their ruined home village and struggle to rebuild in the face of violence, scarcity and a corrupt foreign mining company. 100,000 first printing.",
+              "featured_series": {},
+              "genres": [
+                "Fiction",
+                "War"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "436405",
+              "image": {
+                "color": "#d7c302",
+                "color_name": "Gold",
+                "height": 500,
+                "id": 5146666,
+                "url": "https://assets.hardcover.app/edition/25615751/4ed1fae6f08e57ce3e4af8cc79b4584efc6f8957.jpeg",
+                "width": 338
+              },
+              "isbns": [
+                "0670067784",
+                "9780670067787",
+                "0374709432",
+                "9780374709433",
+                "0374535035",
+                "9780374535032",
+                "0374246025",
+                "9780374246020",
+                "1410465314",
+                "9781410465313",
+                "0143190164",
+                "9780143190165"
+              ],
+              "lists_count": 13,
+              "moods": [],
+              "pages": 257,
+              "prompts_count": 0,
+              "rating": 4.666666666666667,
+              "ratings_count": 3,
+              "release_date": "2014-01-01",
+              "release_year": 2014,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "radiance-of-tomorrow-2014",
+              "tags": [],
+              "title": "Radiance of Tomorrow",
+              "users_count": 26,
+              "users_read_count": 4
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Radiance of <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Radiance of <mark>Tomorrow</mark>: A Novel"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Radiance Of <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Radiance of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Radiance of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1,
+                  2
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Radiance of <mark>Tomorrow</mark>",
+                  "Radiance of <mark>Tomorrow</mark>: A Novel",
+                  "Radiance Of <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 4,
+              "alternative_titles": [
+                "Eyes of Tomorrow"
+              ],
+              "author_names": [
+                "Glynn Stewart"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 238033,
+                    "image": {
+                      "color": "#fcfafa",
+                      "color_name": "White",
+                      "height": 300,
+                      "id": 6233307,
+                      "url": "https://assets.hardcover.app/author/238033/b0a2c1fb-c6d2-4716-b0e5-e62a2cea0bf3.jpg",
+                      "width": 300
+                    },
+                    "name": "Glynn Stewart",
+                    "slug": "glynn-stewart"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Blue",
+              "description": "An ancient power unleashed from its prison. Fleets summoned by oaths old and new alike. A rising tide of war that may consume the galaxy! Captain Morgan Casimir's mission to stop a war has ended in a nightmare. In the heart of an ignored nebula, trapped behind a ring of newborn stars, she has awoken a creature of another time: the horde of biological starships who call themselves the Infinite. Fifty thousand years ago, the Infinite drove the galaxy's Alavan Precursors to a grave mistake that destroyed all that was. Unleashed once more by the very people Morgan Casimir sought to stop, the Infinite now threaten an entirely new era. The only thing standing in their way is a fragile alliance of old enemies, determined to keep them contained in the Astoroko Nebula. But when that ancient prison fails, the galaxy must stand together-or watch the beginning of a golden age dissolve into apocalypse...",
+              "featured_series": {
+                "details": "9",
+                "featured": false,
+                "id": 595892,
+                "position": 9.0,
+                "series": {
+                  "books_count": 11,
+                  "id": 12663,
+                  "name": "Duchy of Terra Universe",
+                  "primary_books_count": 9,
+                  "slug": "duchy-of-terra-universe"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 9.0,
+              "genres": [
+                "Science Fiction",
+                "Aliens",
+                "Space"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "446348",
+              "image": {
+                "color": "#0c669e",
+                "color_name": "Blue",
+                "height": 500,
+                "id": 5586059,
+                "url": "https://assets.hardcover.app/external_data/1105251/b76d987f84025db6b4d3c48f3d6eb9bf246296c0.jpeg",
+                "width": 333
+              },
+              "isbns": [
+                "1989674127",
+                "9781989674123"
+              ],
+              "lists_count": 4,
+              "moods": [],
+              "pages": 424,
+              "prompts_count": 0,
+              "rating": 4.083333333333333,
+              "ratings_count": 12,
+              "release_date": "2021-04-26",
+              "release_year": 2021,
+              "reviews_count": 0,
+              "series_ids": [
+                12663,
+                12664
+              ],
+              "series_names": [
+                "Duchy of Terra Universe",
+                "Shadow of Terra"
+              ],
+              "slug": "eyes-of-tomorrow",
+              "tags": [],
+              "title": "Eyes of Tomorrow",
+              "users_count": 25,
+              "users_read_count": 21
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Eyes of <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Eyes of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Eyes of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Eyes of <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 2,
+              "alternative_titles": [
+                "Expect Me Tomorrow"
+              ],
+              "author_names": [
+                "Christopher Priest"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 119287,
+                    "image": {
+                      "color": "#d1cdd9",
+                      "color_name": "Pink",
+                      "height": 111,
+                      "id": 32864,
+                      "url": "https://assets.hardcover.app/authors/119287/6882577-L.jpg",
+                      "width": 87
+                    },
+                    "name": "Christopher Priest",
+                    "slug": "christopher-priest"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Purple",
+              "description": "A petty thief who called himself John Smith was arrested in 1877, for theft through fraudulent behaviour. He was convicted and sent to prison. In 1852, Adler and Adolf Beck's father died on a glacier, and their lives separated. One became a respected climate scientist; the other a globally renowned opera singer, or so he claimed. They remained in touch, to share details of the mysterious voices only they could hear. In 2050, Charles Ramsey also has a twin. Greg is a climate journalist. Charles used to be a police profiler, but his redundancy leads to him being sent home with an experimental chip in his head. His brother urges him to explore a little-known aspect of their family history. All these people are connected, impossibly, inexorably. All their lives will intersect. And the climate of their world will keep on changing.",
+              "featured_series": {},
+              "genres": [
+                "Fantasy",
+                "Fiction",
+                "Science fiction",
+                "Dystopian"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1130438",
+              "image": {
+                "color": "#599198",
+                "color_name": "Purple",
+                "height": 152,
+                "id": 1665186,
+                "url": "https://assets.hardcover.app/external_data/60298673/0271549e6e352bf5c0045ab478a787a62f824fbc.jpeg",
+                "width": 98
+              },
+              "isbns": [
+                "1473235146",
+                "9781473235144",
+                "1473235154",
+                "9781473235151",
+                "1473235138",
+                "9781473235137"
+              ],
+              "lists_count": 7,
+              "moods": [],
+              "pages": 324,
+              "prompts_count": 0,
+              "rating": 3.6875,
+              "ratings_count": 8,
+              "release_date": "2022-09-15",
+              "release_year": 2022,
+              "reviews_count": 2,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "expect-me-tomorrow",
+              "tags": [],
+              "title": "Expect Me Tomorrow",
+              "users_count": 24,
+              "users_read_count": 10
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Expect Me <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Expect Me <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Expect Me <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Expect Me <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 3,
+              "alternative_titles": [
+                "This Time Tomorrow"
+              ],
+              "author_names": [
+                "Tessa Bailey"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 235685,
+                    "image": {
+                      "color": "#2b411f",
+                      "color_name": "Brown",
+                      "height": 874,
+                      "id": 4573069,
+                      "url": "https://assets.hardcover.app/author/235685/6480467832015744.jpg",
+                      "width": 700
+                    },
+                    "name": "Tessa Bailey",
+                    "slug": "tessa-bailey"
+                  }
+                }
+              ],
+              "cover_color": "Pink",
+              "description": "She\u2019s supposed to kill Elias, but so far she\u2019s only succeeded in maxing out his credit card. Now her failure to stake the brooding vampire has sent her back to Moscow in disgrace to face her mother\u2019s wrath. Expecting punishment by death, she\u2019s given a rare reprieve. She now has three tasks to complete, the last of which is to finally kill Elias. She will not fail this time.\n\nIf only the memories of one magical evening\u2014back when Elias was human, would stop holding her back. He claims to have forgotten that night. Why can\u2019t she? Three years ago, Elias was a SWAT team member on a guy\u2019s weekend in Vegas. Playing poker and minding his own business, his life changed forever when a captivating blonde strolled past his table in a light-up bra. He followed Roksana as if compelled, his very bones demanding he do so, his soul resonating with the belief she would be important to him. Always. That turned out to be a vast understatement\u2014and nothing has changed.\n\nRoksana embarks on her mission, determined to win back her mother\u2019s approval, but when an astonishing truth emerges in the eleventh hour, will her stake pierce the very heart that beats in her honor? Or will love triumph over duty?",
+              "featured_series": {
+                "details": "2",
+                "featured": true,
+                "id": 762717,
+                "position": 2.0,
+                "series": {
+                  "books_count": 3,
+                  "id": 13196,
+                  "name": "Phenomenal Fate",
+                  "primary_books_count": 3,
+                  "slug": "phenomenal-fate"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 2.0,
+              "genres": [
+                "Fantasy",
+                "Man-woman relationships"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "700159",
+              "image": {
+                "color": "#cab7c2",
+                "color_name": "Pink",
+                "height": 1000,
+                "id": 6952238,
+                "url": "https://assets.hardcover.app/edition/30689247/edf88cc2-1932-423a-ad2e-8275845c0ed3.jpg",
+                "width": 644
+              },
+              "isbns": [
+                "9798653723520"
+              ],
+              "lists_count": 4,
+              "moods": [],
+              "pages": 244,
+              "prompts_count": 0,
+              "rating": 3.375,
+              "ratings_count": 4,
+              "release_date": "2020-06-13",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_ids": [
+                13196
+              ],
+              "series_names": [
+                "Phenomenal Fate"
+              ],
+              "slug": "this-time-tomorrow-2020",
+              "tags": [],
+              "title": "This Time Tomorrow",
+              "users_count": 23,
+              "users_read_count": 5
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "This Time <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "This Time <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "This Time <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "This Time <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Reach for Tomorrow",
+                "Reach for tomorrow",
+                "Reach For Tomorrow"
+              ],
+              "author_names": [
+                "Arthur C. Clarke"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 193608,
+                    "image": {
+                      "color": "#8b5670",
+                      "color_name": "Purple",
+                      "height": 1145,
+                      "id": 4813281,
+                      "url": "https://assets.hardcover.app/author/193608/55c3c540-6b57-4f5d-85f0-b88fa95ce081.jpg",
+                      "width": 1046
+                    },
+                    "name": "Arthur C. Clarke",
+                    "slug": "arthur-c-clarke"
+                  }
+                }
+              ],
+              "cover_color": "Gray",
+              "description": "From the grandmaster of science fiction, a dozen memorable tales filled with wonder and imagination.",
+              "featured_series": {},
+              "genres": [
+                "Classics",
+                "Science Fiction",
+                "Fiction",
+                "Short stories"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "317214",
+              "image": {
+                "color": "#6f705e",
+                "color_name": "Gray",
+                "height": 500,
+                "id": 5022967,
+                "url": "https://assets.hardcover.app/edition/32032536/d9f27540c1cbf3f3674ff01906bf9f0937863857.jpeg",
+                "width": 309
+              },
+              "isbns": [
+                "0345258193",
+                "9780345258199",
+                "0345250370",
+                "9780345250377",
+                "0345326512",
+                "9780345326515",
+                "0552095818",
+                "9780552095815",
+                "0345430719",
+                "9780345430717",
+                "0575009098",
+                "9780575009097",
+                "0345294742",
+                "9780345294746",
+                "057503646X",
+                "9780575036468",
+                "0575046090",
+                "9780575046092",
+                "0345353765",
+                "9780345353764",
+                "0575600462",
+                "9780575600461",
+                "0795325738",
+                "9780795325731",
+                "0345315529",
+                "9780345315526"
+              ],
+              "lists_count": 13,
+              "moods": [],
+              "pages": 166,
+              "prompts_count": 0,
+              "rating": 3.25,
+              "ratings_count": 8,
+              "release_date": "1956-01-01",
+              "release_year": 1956,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "reach-for-tomorrow-1956",
+              "tags": [],
+              "title": "Reach for Tomorrow",
+              "users_count": 23,
+              "users_read_count": 11
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Reach for <mark>Tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "tomorrow"
+                  ],
+                  "snippet": "Reach for <mark>tomorrow</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Reach For <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Reach for <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Reach for <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1,
+                  2
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ],
+                  [
+                    "tomorrow"
+                  ],
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Reach for <mark>Tomorrow</mark>",
+                  "Reach for <mark>tomorrow</mark>",
+                  "Reach For <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Love Me Tomorrow"
+              ],
+              "author_names": [
+                "Emiko Jean"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 70736,
+                    "image": {},
+                    "name": "Emiko Jean",
+                    "slug": "emiko-jean"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Gray",
+              "featured_series": {},
+              "genres": [
+                "Young Adult",
+                "Science Fiction"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "1313141",
+              "image": {
+                "color": "#7d5e4d",
+                "color_name": "Gray",
+                "height": 133,
+                "id": 1827439,
+                "url": "https://assets.hardcover.app/external_data/60444984/bda4ee1b8e66f23830a949ab27795e355c02d458.jpeg",
+                "width": 200
+              },
+              "isbns": [
+                "1665974370",
+                "9781250325532",
+                "1665974397",
+                "9781665974394"
+              ],
+              "lists_count": 3,
+              "moods": [],
+              "pages": 336,
+              "prompts_count": 0,
+              "rating": 5.0,
+              "ratings_count": 2,
+              "release_date": "2026-02-03",
+              "release_year": 2026,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "love-me-tomorrow-2026",
+              "tags": [],
+              "title": "Love Me Tomorrow",
+              "users_count": 17,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Love Me <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Love Me <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Love Me <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Love Me <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Men of Tomorrow"
+              ],
+              "author_names": [
+                "Gerald Jones"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 408953,
+                    "image": {},
+                    "name": "Gerald Jones",
+                    "slug": "gerald-jones"
+                  }
+                }
+              ],
+              "cover_color": "Brown",
+              "description": "Animated by the stories of some of the last century's most charismatic and conniving artists, writers, and businessmen, Men of Tomorrow brilliantly demonstrates how the creators of the superheroes gained their cultural power and established a crucial place in the modern imagination. \"This history of the birth of superhero comics highlights three pivotal figures. The story begins early in the last century, on the Lower East Side, where Harry Donenfeld rises from the streets to become the king of the 'smooshes'-soft-core magazines with titles like French Humor and Hot Tales. Later, two high school friends in Cleveland, Joe Shuster and Jerry Siegel, become avid fans of 'scientifiction,' the new kind of literature promoted by their favorite pulp magazines. The disparate worlds of the wise guy and the geeks collide in 1938, and the result is Action Comics #1, the debut of Superman. For Donenfeld, the comics were a way to sidestep the censors. For Shuster and Siegel, they were both a calling and an eventual source of misery: the pair waged a lifelong campaign for credit and appropriate compensation.\" -The New Yorker",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "687484",
+              "image": {
+                "color": "#9c1f03",
+                "color_name": "Brown",
+                "height": 193,
+                "id": 818910,
+                "url": "https://assets.hardcover.app/edition/30674784/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0465036570",
+                "9780465036578"
+              ],
+              "lists_count": 8,
+              "moods": [],
+              "pages": 416,
+              "prompts_count": 0,
+              "rating": 5.0,
+              "ratings_count": 3,
+              "release_date": "2005-10-11",
+              "release_year": 2005,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "men-of-tomorrow-2005",
+              "tags": [],
+              "title": "Men of Tomorrow",
+              "users_count": 17,
+              "users_read_count": 6
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Tomorrow"
+                  ],
+                  "snippet": "Men of <mark>Tomorrow</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Men of <mark>Tomorrow</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Tomorrow"
+                ],
+                "snippet": "Men of <mark>Tomorrow</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Tomorrow"
+                  ]
+                ],
+                "snippets": [
+                  "Men of <mark>Tomorrow</mark>"
+                ]
+              }
+            ],
+            "text_match": 2893615515669364778,
+            "text_match_info": {
+              "best_field_score": "5523317457152",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "2893615515669364778",
+              "tokens_matched": 5,
+              "typo_prefix_score": 0
+            }
+          }
+        ],
+        "out_of": 2503307,
+        "page": 1,
+        "request_params": {
+          "collection_name": "Book_production_1760914612",
+          "first_q": "Tomorrow and Tomorrow and Tomorrow",
+          "per_page": 25,
+          "q": "Tomorrow and Tomorrow and Tomorrow"
+        },
+        "search_cutoff": false,
+        "search_time_ms": 44
+      }
+    }
+  }
+}

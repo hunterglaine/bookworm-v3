@@ -1,0 +1,4967 @@
+{
+  "data": {
+    "search": {
+      "results": {
+        "facet_counts": [],
+        "found": 228,
+        "hits": [
+          {
+            "document": {
+              "activities_count": 2,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [
+                "Silvana Condemi"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 336920,
+                    "image": {},
+                    "name": "Silvana Condemi",
+                    "slug": "silvana-condemi"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "688722",
+              "image": {},
+              "isbns": [
+                "9735068680",
+                "9789735068684"
+              ],
+              "lists_count": 3,
+              "moods": [],
+              "pages": 138,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "sapiens-fa0784cd-363c-4d5d-a99c-6c47418958b2",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 3,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2427312",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 1,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-76113fb7-b5e8-4ff5-8e99-1ccf26401355",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [
+                "C\u00e1tia Cernov"
+              ],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 1175086,
+                    "image": {},
+                    "name": "C\u00e1tia Cernov",
+                    "slug": "catia-cernov"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1988715",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 2.0,
+              "ratings_count": 1,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-b9a3ad53-e7f6-4ef3-8335-9de49c7a88d8",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2427262",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-6004eec4-15e5-46c4-a9a8-2c042a8656f0",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [
+                "History",
+                "Politics & Social Sciences"
+              ],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2111506",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-6d2ab9e2-30e0-4332-8ea3-06d14864cd6d",
+              "tags": [
+                "World",
+                "Civilization",
+                "anthropology"
+              ],
+              "title": "Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [
+                "Francois Savatier, Silvana Condemi"
+              ],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 409203,
+                    "image": {},
+                    "name": "Francois Savatier, Silvana Condemi",
+                    "slug": "francois-savatier-silvana-condemi"
+                  }
+                }
+              ],
+              "cover_color": "Green",
+              "description": "Traducere de Nicoleta Neagoe \u201eEste destul de greu s\u0103 ne \u021binem la curent cu fluxul de noi informa\u021bii despre originile speciei noastre. Este deci o minune c\u0103 Silvana Condemi \u0219i Fran\u00e7ois Savatier au reu\u0219it s\u0103 condenseze totul at\u00e2t de elegant \u0219i de competent \u00een aceast\u0103 carte scurt\u0103, dar care se cite\u0219te cu at\u00e2ta pl\u0103cere.\u201c \u2014 IAN TATTERSALL, coautor al volumului The Accidental Homo Sapiens \u201eO carte captivant\u0103 pentru to\u021bi cei care vor s\u0103 afle mai multe despre istoria profund\u0103 a speciei noastre. Este la zi \u0219i detaliat\u0103 \u2013 \u0219i foarte bine scris\u0103 pentru nespeciali\u0219ti.\u201c \u2014 ERIC DELSON, profesor de antropologie la City University of New York \u0219i director al New York Consortiumin Evolutionary Primatology \u201eCapacitatea cognitiv\u0103 a lui Sapiens \u2013 o \u015ftim cu to\u0163ii \u2013 \u00eei serve\u015fte \u00eenainte de orice la supravie\u0163uire. Dar unde? \u00cen natur\u0103, sau \u00een societate? Singur \u00een natur\u0103, Sapiens este fragil \u015fi moare repede; organizat \u00een grupuri, \u00een cete de v\u00e2n\u0103tori, \u00een schimb, devine cel mai mare pr\u0103d\u0103tor care a existat vreodat\u0103. [...] Vom \u00eencerca s\u0103 elucid\u0103m aceast\u0103 enigmatic\u0103 saga evolutiv\u0103. Istoria unui animal cultural: istoria dumneavoastr\u0103.\u201c \u2014 SILVANA CONDEMI, FRAN\u00c7OIS SAVATIER",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "687879",
+              "image": {
+                "color": "#0a7a5d",
+                "color_name": "Green",
+                "height": 197,
+                "id": 819297,
+                "url": "https://assets.hardcover.app/edition/30675176/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "9735069059",
+                "9789735069056"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 138,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2020-07-14",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-2020",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [],
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [],
+              "contributions": [],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "579196",
+              "image": {},
+              "isbns": [
+                "849942743X",
+                "9788499427430"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 176,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_names": [],
+              "slug": "sapiens-e1f2220e-da64-440e-8c2f-e439d6b47582",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens"
+              ],
+              "author_names": [
+                "Book Summary"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 280964,
+                    "image": {},
+                    "name": "Book Summary",
+                    "slug": "book-summary"
+                  }
+                }
+              ],
+              "cover_color": "Gold",
+              "description": "Sapiens: A Brief History of Humankind by Yuval Noah Harari | Book Summary Dr. Yuval Harari received his PhD in History from the University of Oxford, specializing in world history. His book Sapiens has become a huge bestseller, translated into more than 20 languages.Harari brings us a detailed life of the humans before us, the Homo Sapiens, and provides us with a look of how the world came to be as it is now. He gives us his view, backed-up with actual facts found through research, of how our ancestors managed to survive while others did not and makes us think of how things would be if things had gone different. With thrilling stories and photos, he gives us a world that many of us never think about, and should. Here Is A Preview Of What You'll Learn... THE COGNITIVE REVOLUTION An Animal of No Significance The Tree Of Knowledge A Day In The Life Of Adam And Eve The Flood THE AGRICULTURAL REVOLUTION Building Pyramids Memory Overload There Is No Justice In History THE UNIFICATION OF HUMANKIND The Arrow Of History Imperial Visions The Law Of Religion The Secret Of Success THE SCIENTIFIC REVOLUTION The Discovery Of Ignorance The Marriage Of Science And Empire The Capitalist Creed The Wheels Of Industry A Permanent Revolution And They Lived Happily Ever After The End Of Homo Sapiens The Book at A Glance Conclusion Bonus Scroll Up and Click on \"buy now with 1-Click\" to Download Your Copy Right Now ******Tags: sapiens, yuval noah harari, evolution, history books, anthropology, human history, sapiens a brief history of humankind",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "526813",
+              "image": {
+                "color": "#d7da04",
+                "color_name": "Gold",
+                "height": 192,
+                "id": 634658,
+                "url": "https://assets.hardcover.app/edition/30481109/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "1537266063",
+                "9781537266060"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 82,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2016-08-23",
+              "release_year": 2016,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "sapiens-2016",
+              "tags": [],
+              "title": "Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365711914,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711914",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 25,
+              "alternative_titles": [
+                "Sapiens: a Graphic History, Volume 1 - The Birth of Humankind",
+                "La Naissance de l'Humanit\u00e9",
+                "Sapiens: Een beeldverhaal - Het ontstaan van de mensheid",
+                "Sapiens: En tegnet historie - Menneskehetens begynnelse",
+                "(\u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea - \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9\u05d4 \u05de\u05d0\u05d5\u05d9\u05e8\u05ea (\u05d7\u05dc\u05e7 \u05e8\u05d0\u05e9\u05d5\u05df-\u05d4\u05d5\u05dc\u05d3\u05ea \u05d4\u05d0\u05d3\u05dd",
+                "Sapiens Grafis: Kelahiran Umat Manusia",
+                "Sapiens: Menneskehedens f\u00f8dsel",
+                "Sapiens: A Graphic History, Volume 1 - The Birth of Humankind",
+                "Sapiens. Una historia gr\u00e1fica 2 - Los pilares de la civilizaci\u00f3n",
+                "Sapiens. Una historia gr\u00e1fica",
+                "Sapiens: Der Aufstieg",
+                "Sapiens. Una historia gr\u00e1fica. El nacimiento de la humanidad",
+                "Sapiens, Grafik Tarih 1: \u0130nsan T\u00fcr\u00fcn\u00fcn Do\u011fu\u015fu",
+                "Sapiens: A Origem da Humanidade",
+                "Sapiens A Graphic History, Volume 1: The Birth of Humankind",
+                "Sapiens",
+                "Sapiens: A Graphic History",
+                "SAPIENS: A GRAPHIC HISTORY: THE BIRTH OF HUMANKIND",
+                "Sapiens (una historia gr\u00e1fica). El nacimiento de la humanidad"
+              ],
+              "author_names": [
+                "David Vandermeulen",
+                "Yuval Noah Harari",
+                "Daniel Casanave"
+              ],
+              "book_category_id": 4,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Editor",
+                "Author",
+                "Illustrator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 256071,
+                    "image": {},
+                    "name": "David Vandermeulen",
+                    "slug": "david-vandermeulen"
+                  },
+                  "contribution": "Editor"
+                },
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 256072,
+                    "image": {},
+                    "name": "Daniel Casanave",
+                    "slug": "daniel-casanave"
+                  },
+                  "contribution": "Illustrator"
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "El libro de no ficci\u00f3n del a\u00f1o. Bestseller internacional con m\u00e1s de diez millones de ejemplares vendidos. N\u00famero 1 en la lista de The New York Times. Recomendado por Barack Obama, Bill Gates y Mark Zuckerberg. De la mano de uno de los historiadores m\u00e1s interesantes de la actualidad, he aqu\u00ed la fascinante interpretaci\u00f3n de Yuval Noah Harari sobre la historia de la humanidad. Bestseller nacional e internacional, este libro explora las formas en que la biolog\u00eda y la historia nos han definido y han mejorado nuestra comprensi\u00f3n de lo que significa ser \u00abhumano\u00bb. Hace 70.000 a\u00f1os al menos seis especies de humanos habitaban la Tierra. Hoy solo queda una, la nuestra: Homo Sapiens. \u00bfC\u00f3mo logr\u00f3 nuestra especie imponerse en la lucha por la existencia? \u00bfPor qu\u00e9 nuestros ancestros recolectores se unieron para crear ciudades y reinos? \u00bfC\u00f3mo llegamos a creer en dioses, en naciones o en los derechos humanos; a confiar en el dinero, en los libros o en las leyes? \u00bfC\u00f3mo acabamos sometidos a la burocracia, a los horarios y al consumismo? \u00bfY c\u00f3mo ser\u00e1 el mundo en los milenios venideros? En Sapiens, Yuval Noah Harari traza una breve historia de la humanidad, desde los primeros humanos que caminaron sobre la Tierra hasta los radicales y a veces devastadores avances de las tres grandes revoluciones que nuestra especie ha protagonizado: la cognitiva, la agr\u00edcola y la cient\u00edfica. A partir de hallazgos de disciplinas tan diversas como la biolog\u00eda, la antropolog\u00eda o la econom\u00eda, Harari explora c\u00f3mo las grandes corrientes de la historia han modelado nuestra sociedad, los animales y las plantas que nos rodean e incluso nuestras personalidades. \u00bfHemos ganado en felicidad a medida que ha avanzado la historia? \u00bfSeremos capaces de liberar alguna vez nuestra conducta de la herencia del pasado? \u00bfPodemos hacer algo para influir en los siglos futuros? Audaz, ambicioso y provocador, este libro cuestiona todo lo que cre\u00edamos saber sobre el ser humano: nuestros or\u00edgenes, nuestras ideas, nuestras acciones, nuestro poder... y nuestro futuro. Rese\u00f1as:\u00abEl libro definitivo para entender qui\u00e9nes somos. Provocador, l\u00facido, aporta un original enfoque sobre la esencia del ser humano.\u00bbJulia Navarro \u00abInteresante y provocador. Este libro nos da cierta perspectiva del poco tiempo que llevamos en la Tierra, de la corta vida de la ciencia y la agricultura, y de por qu\u00e9 no debemos dar nada por sentado.\u00bbBarack Obama \u00abRecomendar\u00eda este libro a cualquier persona interesada en una historia de la humanidad a la vez entretenida y desafiante [...] No se puede dejar de leer.\u00bbBill Gates \u00abAborda las cuestiones m\u00e1s importantes de la historia y del mundo moderno y, adem\u00e1s, est\u00e1 escrito con un estilo v\u00edvido e inolvidable.\u00bbJared Diamond, premio Pulitzer y autor de Armas, g\u00e9rmenes y acero \u00abUn libro que invita a la reflexi\u00f3n.\u00bbMark Zuckerberg \u00abUn repaso absorbente de la peripecia humana, escrito con rigor e irreverencia ilustrada.\u00bbAntonio Mu\u00f1oz Molina, El Pa\u00eds \u00abUn libro fascinante, como nuestra especie. Nos ayudar\u00e1 a saber de d\u00f3nde venimos para decidir hacia d\u00f3nde vamos. Recomiendo Sapiens casi antes que saludar. \u00a1Disfr\u00fatenlo!\u00bbLeonor Watling \u00abMonumental, brillante, provocadora.\u00bbPablo J\u00e1uregui, El Mundo \u00abCuenta la historia del ser humano desde su origen hasta que se convirti\u00f3 en el rey de la creaci\u00f3n.\u00bbI\u00f1aki Gabilondo \u00abMe fascina la forma de pensar de este tipo.\u00bbRisto Mejide \u00abEl aclamado Sapiens de Yuval Noah Harari hace para la evoluci\u00f3n humana lo que Brev\u00edsima historia del tiempo, de Hawking, hizo para la f\u00edsica [...], un excelente trabajo que perfila nuestra lenta emergencia y eventual dominaci\u00f3n del planeta.\u00bbForbes \u00abPor fin alguien ha escrito un libro como este.\u00bbSebastian Junger",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 696897,
+                "position": 1.0,
+                "series": {
+                  "books_count": 7,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Young Adult",
+                "Science",
+                "General",
+                "Comics",
+                "History",
+                "Adaptations",
+                "Psychology"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "436358",
+              "image": {
+                "color": "#faecca",
+                "color_name": "Beige",
+                "height": 500,
+                "id": 3896770,
+                "url": "https://assets.hardcover.app/edition/21018827/ba0ab05307f567af74b225df636852616278fbae.jpeg",
+                "width": 346
+              },
+              "isbns": [
+                "0063051338",
+                "9780063051331",
+                "2226448454",
+                "9782226448453",
+                "9400406398",
+                "9789400406391",
+                "8202672775",
+                "9788202672775",
+                "6024815654",
+                "9786024815653",
+                "0063087960",
+                "9780063087965",
+                "1787332810",
+                "9781787332812",
+                "8711988673",
+                "9788711988671",
+                "0063055082",
+                "9780063055087",
+                "8418056932",
+                "9788418056932",
+                "8418006935",
+                "9788418006937",
+                "3406758932",
+                "9783406758935",
+                "8418056568",
+                "9788418056567",
+                "6052205695",
+                "9786052205693",
+                "9895642172",
+                "9789895642175",
+                "1473582911",
+                "9781473582910",
+                "3406761240",
+                "9783406761249",
+                "3406770754",
+                "9783406770753",
+                "0063087944",
+                "9780063087941",
+                "0771038747",
+                "9780771038747",
+                "9585132079",
+                "9789585132078"
+              ],
+              "lists_count": 62,
+              "moods": [
+                "informative",
+                "lighthearted",
+                "reflective"
+              ],
+              "pages": 248,
+              "prompts_count": 0,
+              "rating": 4.246376811594203,
+              "ratings_count": 69,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 6,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-volume-1",
+              "subtitle": "a Graphic History",
+              "tags": [
+                "Shelf: 20 Statecraft History & Geopolitics",
+                "library",
+                "non-fiction"
+              ],
+              "title": "Sapiens: A Graphic History, Volume 1 - The Birth of Humankind",
+              "users_count": 243,
+              "users_read_count": 97
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: a Graphic History, Volume 1 - The Birth of Humankind"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "La Naissance de l'Humanit\u00e9"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Een beeldverhaal - Het ontstaan van de mensheid"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: En tegnet historie - Menneskehetens begynnelse"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "(\u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea - \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9\u05d4 \u05de\u05d0\u05d5\u05d9\u05e8\u05ea (\u05d7\u05dc\u05e7 \u05e8\u05d0\u05e9\u05d5\u05df-\u05d4\u05d5\u05dc\u05d3\u05ea \u05d4\u05d0\u05d3\u05dd"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Grafis: Kelahiran Umat Manusia"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Menneskehedens f\u00f8dsel"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 1 - The Birth of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Una historia gr\u00e1fica 2 - Los pilares de la civilizaci\u00f3n"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Una historia gr\u00e1fica"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Der Aufstieg"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Una historia gr\u00e1fica. El nacimiento de la humanidad"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>, Grafik Tarih 1: \u0130nsan T\u00fcr\u00fcn\u00fcn Do\u011fu\u015fu"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Origem da Humanidade"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 1: The Birth of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                },
+                {
+                  "matched_tokens": [
+                    "SAPIENS"
+                  ],
+                  "snippet": "<mark>SAPIENS</mark>: A GRAPHIC HISTORY: THE BIRTH OF HUMANKIND"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> (una historia gr\u00e1fica). El nacimiento de la humanidad"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 1 - The Birth of Humankind"
+              }
+            },
+            "highlights": [
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  15,
+                  0,
+                  2,
+                  3,
+                  5
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>",
+                  "<mark>Sapiens</mark>: a Graphic History, Volume 1 - The Birth of Humankind",
+                  "<mark>Sapiens</mark>: Een beeldverhaal - Het ontstaan van de mensheid",
+                  "<mark>Sapiens</mark>: En tegnet historie - Menneskehetens begynnelse",
+                  "<mark>Sapiens</mark> Grafis: Kelahiran Umat Manusia"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 1 - The Birth of Humankind"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              }
+            ],
+            "text_match": 578730123365711883,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 1,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711883",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1554,
+              "alternative_titles": [
+                "Sapiens. \u041a\u0440\u0430\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430",
+                "\u0622\u062f\u0645\u06cc: \u0628\u0646\u06cc \u0646\u0648\u0639 \u0627\u0646\u0633\u0627\u0646 \u06a9\u06cc \u0645\u062e\u062a\u0635\u0631 \u062a\u0627\u0631\u06cc\u062e",
+                "Sapiens. De animales a dioses: Breve historia de la humanidad",
+                "Sapiens. Da animali a d\u00e8i. Breve storia dell'umanit\u00e0. Nuova ediz.",
+                "Da animali a d\u00e8i: Breve storia dell'umanit\u00e0",
+                "\u041b\u044e\u0434\u0438\u043d\u0430 \u0440\u043e\u0437\u0443\u043c\u043d\u0430. \u0406\u0441\u0442\u043e\u0440\u0456\u044f \u043b\u044e\u0434\u0441\u0442\u0432\u0430 \u0432\u0456\u0434 \u043c\u0438\u043d\u0443\u043b\u043e\u0433\u043e \u0434\u043e \u043c\u0430\u0439\u0431\u0443\u0442\u043d\u044c\u043e\u0433\u043e",
+                "Sapiens Manav Jati Ka Sankshipt Itihas",
+                "Hayvanlardan Tanr\u0131lara",
+                "Sapiens: Hayvanlardan Tanr\u0131lara - \u0130nsan T\u00fcr\u00fcn\u00fcn K\u0131sa Bir Tarihi",
+                "Sapiens: Riwayat Singkat Umat Manusia",
+                "\u05e7\u05d9\u05e6\u05d5\u05e8 \u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea",
+                "Sapiens",
+                "Sapiens: En kort historik \u00f6ver m\u00e4nskligheten",
+                "Sapiens: \u043a\u0440\u0430\u0442\u043a\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u043d\u0430 \u0447\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u043e\u0442\u043e",
+                "Sapiens: uma breve hist\u00f3ria da humanidade",
+                "Sapiens. Volume 1. La nascita dell'umanit\u00e0. Graphic Novel",
+                "Sapiens. Da animali a d\u00e8i : Breve storia dell'umanit\u00e0",
+                "Sapiens: scurt\u0103 istorie a omenirii",
+                "Sapiens: Stru\u010dn\u00e9 d\u011bjiny lidstva",
+                "Sapiens: Een kleine geschiedenis van de mensheid",
+                "Sapiens: une br\u00e8ve histoire de l'humanit\u00e9",
+                "Sapiens: Hist\u00f3ria Breve da Humanidade",
+                "Sapiens: Uma breve hist\u00f3ria da humanidade",
+                "Sapiens: A Brief History of Humankind",
+                "Sapiens: Uma Breve Hist\u00f3ria da Humanidade",
+                "Eine kurze Geschichte der Menschheit",
+                "\u4eba\u7c7b\u7b80\u53f2\uff1a\u4ece\u52a8\u7269\u5230\u4e0a\u5e1d",
+                "SAPIENS - Eine kurze Geschichte der Menschheit: Der legend\u00e4re Weltbestseller aktualisiert und mit neuem Nachwort",
+                "Eine kurze Geschichte der Menschheit: Der Weltbestseller farbig illustriert",
+                "Sapiens. De animales a dioses: Una breve historia de la humanidad",
+                "Sleeping Tiger",
+                "Sleeping tiger",
+                "\u05e7\u05d9\u05e6\u05d5\u05e8 \u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea: \u05e1\u05e4\u05e8\u05d9 \u05d9\u05d5\u05d1\u05dc \u05e0\u05d7 \u05d4\u05e8\u05e8\u05d9 #1",
+                "\u4eca\u65e5\u7b80\u53f2\uff1a\u4eba\u7c7b\u547d\u8fd0\u5927\u8bae\u9898",
+                "Sapiens A Brief History of Humankind",
+                "Sapiensi",
+                "Sapiens [Tenth Anniversary Edition]: A Brief History of Humankind",
+                "Sapiens By Yuval Noah Harari",
+                "De animales a dioses",
+                "Sapiens. De animales a dioses",
+                "Sapiens: Stru\u010dn\u00e1 hist\u00f3ria \u013eudstva",
+                "Sapiens - A Brief History of Humankind",
+                "Sapiens. Od zwierz\u0105t do bog\u00f3w",
+                "Sapiens: \u039c\u03b9\u03b1 \u03c3\u03cd\u03bd\u03c4\u03bf\u03bc\u03b7 \u03b9\u03c3\u03c4\u03bf\u03c1\u03af\u03b1 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03bf\u03c5",
+                "Sapiens: een Kleine Geschiedenis van de Mensheid",
+                "Sapiens: Sejarah Ringkas Umat Manusia",
+                "Sapiens: En kort historie om menneskeheten",
+                "Sapijens: Kratka istorija \u010dove\u010danstva",
+                "Sapiens (Edi\u00e7\u00e3o em quadrinhos): O nascimento da humanidade",
+                "Sapiens: Ihmisen lyhyt historia",
+                "S\u00e0piens. Una breu hist\u00f2ria de la humanitat",
+                "Sapiens: L\u01b0\u1ee3c s\u1eed lo\u00e0i ng\u01b0\u1eddi",
+                "De animales a dioses: Breve historia de la humanidad",
+                "Sapiens. Scurt\u0103 istorie a omenirii",
+                "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e09\u0e1a\u0e31\u0e1a\u0e01\u0e23\u0e32\u0e1f\u0e34\u0e01: \u0e01\u0e33\u0e40\u0e19\u0e34\u0e14\u0e21\u0e19\u0e38\u0e29\u0e22\u0e0a\u0e32\u0e15\u0e34",
+                "Sapiens: \u041a\u0440\u0430\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430",
+                "Sapiens - Ihmisen lyhyt historia",
+                "Od zwierz\u0105t do bog\u00f3w. Kr\u00f3tka historia ludzko\u015bci",
+                "Sapiens: Eine kurze Geschichte der Menschheit",
+                "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e22\u0e48\u0e2d\u0e21\u0e19\u0e38\u0e29\u0e22\u0e0a\u0e32\u0e15\u0e34",
+                "Sapiens : Une br\u00e8ve histoire de l'humanit\u00e9",
+                "\u0627\u0644\u0639\u0627\u0642\u0644: \u062a\u0627\u0631\u064a\u062e \u0645\u062e\u062a\u0635\u0631 \u0644\u0644\u0646\u0648\u0639 \u0627\u0644\u0628\u0634\u0631\u064a",
+                "Sapiens : Une br\u00e8ve histoire de l'Humanit\u00e9",
+                "Sapiens: L\u01b0\u1ee3c S\u1eed V\u1ec1 Lo\u00e0i Ng\u01b0\u1eddi",
+                "\u09b8\u09c7\u09aa\u09bf\u09af\u09bc\u09c7\u09a8\u09cd\u09b8 : \u09ae\u09be\u09a8\u09c1\u09b7\u09c7\u09b0 \u0987\u09a4\u09bf\u09b9\u09be\u09b8",
+                "Sapiens Een kleine geschiedenis van de mensheid",
+                "Sapiens, Vol. 3",
+                "Sapiens: En kort historie om menneskeheden",
+                "Sapiens: \u00dachvatn\u00fd i \u00fad\u011bsn\u00fd p\u0159\u00edb\u011bh lidstva",
+                "Sapiens: een kleine geschiedenis van de mensheid",
+                "Sapiens: A Graphic History, Volume 2: The Pillars of Civilization",
+                "From Animals into Gods: A Brief History of Humankind",
+                "Sapiens: Une br\u00e8ve histoire de l'humanit\u00e9",
+                "EL TIGRE DORMIDO",
+                "La tigre che dorme",
+                "Sapiens. Da animali a d\u00e8i. Breve storia dell'umanit\u00e0",
+                "Sapiens - En kort historie om menneskeheden",
+                "Sapies: Stru\u010dn\u00e9 d\u011bjiny lidstva",
+                "Sapiens: De animales a dioses. Una breve historia de la humanidad",
+                "\u4eba\u985e\u5927\u6b77\u53f2\uff1a\u5f9e\u91ce\u7378\u5230\u626e\u6f14\u4e0a\u5e1d Sapiens",
+                "Sapiens : Kratka povijest \u010dovje\u010danstva",
+                "Sapiens - Az emberis\u00e9g r\u00f6vid t\u00f6rt\u00e9nete"
+              ],
+              "author_names": [
+                "Yuval Noah Harari"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "misogyny",
+                "Racism",
+                "Violence"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "From a renowned historian comes a groundbreaking narrative of humanity\u2019s creation and evolution\u2014a #1 international bestseller\u2014that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be \u201chuman.\u201d \nOne hundred thousand years ago, at least six different species of humans inhabited Earth. Yet today there is only one\u2014homo sapiens. What happened to the others? And what may happen to us? Most books about the history of humanity pursue either a historical or a biological approach, but Dr. Yuval Noah Harari breaks the mold with this highly original book that begins about 70,000 years ago with the appearance of modern cognition. \nFrom examining the role evolving humans have played in the global ecosystem to charting the rise of empires, Sapiens integrates history and science to reconsider accepted narratives, connect past developments with contemporary concerns, and examine specific events within the context of larger ideas. \nDr. Harari also compels us to look ahead, because over the last few decades humans have begun to bend laws of natural selection that have governed life for the past four billion years. We are acquiring the ability to design not only the world around us, but also ourselves. Where is this leading us, and what do we want to become? \nFeaturing 27 photographs, 6 maps, and 25 illustrations/diagrams, this provocative and insightful work is sure to spark debate and is essential reading for aficionados of Jared Diamond, James Gleick, Matt Ridley, Robert Wright, and Sharon Moalem.",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 696821,
+                "position": 1.0,
+                "series": {
+                  "books_count": 3,
+                  "id": 231471,
+                  "name": "Homo",
+                  "primary_books_count": 2,
+                  "slug": "homo"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "History",
+                "Science",
+                "Nonfiction",
+                "Evolution",
+                "World",
+                "Civilization",
+                "Philosophy",
+                "Biological sciences",
+                "Comics & Graphic Novels",
+                "social science"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "375634",
+              "image": {
+                "color": "#f6e7d3",
+                "color_name": "Beige",
+                "height": 895,
+                "id": 5505932,
+                "url": "https://assets.hardcover.app/edition/1014761/175a425a-fb6c-4cb6-afdc-6e1818246f9d.jpg",
+                "width": 600
+              },
+              "isbns": [
+                "1716994985",
+                "9781716994982",
+                "8466372792",
+                "9788466372794",
+                "8830110647",
+                "9788830110649",
+                "8845275906",
+                "9788845275906",
+                "6171215317",
+                "9786171215313",
+                "9388241177",
+                "9789388241175",
+                "6055029359",
+                "9786055029357",
+                "6024244169",
+                "9786024244163",
+                "9655520404",
+                "9789655520408",
+                "1529913934",
+                "9781529913934",
+                "9127140393",
+                "9789127140394",
+                "6191529503",
+                "9786191529506",
+                "1494526905",
+                "9781494526900",
+                "8535933921",
+                "9788535933925",
+                "8830104493",
+                "9788830104495",
+                "8845296490",
+                "9788845296499",
+                "8858766814",
+                "9788858766811",
+                "9734668471",
+                "9789734668472",
+                "9788073355569",
+                "9400407939",
+                "9789400407930",
+                "2226445501",
+                "9782226445506",
+                "9897070044",
+                "9789897070044",
+                "8525432407",
+                "9788525432407",
+                "1494556901",
+                "9781494556907",
+                "8525432180",
+                "9788525432186",
+                "3844512446",
+                "9783844512441",
+                "7508660757",
+                "9787508647357",
+                "3641319234",
+                "9783641319236",
+                "342104855X",
+                "9783421048554",
+                "607380959X",
+                "9786073809597",
+                "0440202477",
+                "9780440202479",
+                "0450597830",
+                "9780450597831",
+                "8466347518",
+                "9788466347518",
+                "1859987745",
+                "9781859987742",
+                "7508692098",
+                "9787508692098",
+                "9934845172",
+                "9789934845178",
+                "0063453983",
+                "9780063453982",
+                "6584953653",
+                "9786584953659",
+                "0062796232",
+                "9780062796233",
+                "364110498X",
+                "9783641104986",
+                "607318476X",
+                "9786073184762",
+                "841939971X",
+                "9788419399717",
+                "8089873065",
+                "9788089873067",
+                "9386401371",
+                "9789386401373",
+                "0099590085",
+                "9780099590088",
+                "077103850X",
+                "9780771038501",
+                "8377059967",
+                "9788377059968",
+                "0062316117",
+                "9780062316110",
+                "9602216654",
+                "9789602216651",
+                "9400403100",
+                "9789400403109",
+                "6026577173",
+                "9786026577177",
+                "8280878025",
+                "9788280878021",
+                "9127147282",
+                "9789127147287",
+                "9522794708",
+                "9789522794703",
+                "842977517X",
+                "9788429775174",
+                "6049436002",
+                "9786049436000",
+                "3844513124",
+                "9783844513127",
+                "9588806836",
+                "9789588806839",
+                "8499924743",
+                "9788499924748",
+                "8499926223",
+                "9788499926223",
+                "6124272091",
+                "9786124272097",
+                "9734648888",
+                "9789734648887",
+                "1846558247",
+                "9781846558245",
+                "6163017404",
+                "9786163017406",
+                "590683723X",
+                "9785906837233",
+                "9522792314",
+                "9789522792310",
+                "144819069X",
+                "9781448190690",
+                "8377056275",
+                "9788377056271",
+                "3328111247",
+                "9783328111245",
+                "1473523788",
+                "9781473523784",
+                "8308067298",
+                "9788308067291",
+                "5905891648",
+                "9785905891649",
+                "6163016564",
+                "9786163016560",
+                "1467601578",
+                "9781467601573",
+                "989564129X",
+                "9789895641291",
+                "9400404908",
+                "1846558239",
+                "9781846558238",
+                "8377056569",
+                "9788377056561",
+                "9789388241",
+                "9789789388240",
+                "2226479821",
+                "9782226479822",
+                "2226257012",
+                "9782226257017",
+                "8429773185",
+                "9788429773187",
+                "1784709042",
+                "9781784709044",
+                "9400403038",
+                "9789400403031",
+                "0771038518",
+                "9780771038518",
+                "9897878874",
+                "9789897878879",
+                "006342200X",
+                "9780063422001",
+                "0062316095",
+                "9780062316097",
+                "0771038984",
+                "9780771038983",
+                "8711451793",
+                "9788711451793",
+                "8073353881",
+                "9788073353889",
+                "9400400586",
+                "9789400400580",
+                "0312961251",
+                "9780312961251",
+                "9400403283",
+                "9789400403284",
+                "0062316109",
+                "9780062316103",
+                "0771038526",
+                "9780771038525",
+                "0063212242",
+                "9780063212244",
+                "1784873640",
+                "9781784873646",
+                "1478237856",
+                "9781478237853",
+                "5557102302",
+                "9785557102308",
+                "0002467658",
+                "9780002467650",
+                "2226332197",
+                "9782226332196",
+                "5553888549",
+                "9785553888541",
+                "0553702009",
+                "9780553702002",
+                "0340521163",
+                "9780340521168",
+                "0745135412",
+                "9780745135410",
+                "0792718925",
+                "9780792718925",
+                "9500413981",
+                "9789500413985",
+                "8804347260",
+                "9788804347262",
+                "055347037X",
+                "9780553470376",
+                "0553527266",
+                "9780553527261",
+                "1529115639",
+                "9781529115635",
+                "8845292916",
+                "9788845292910",
+                "8711452390",
+                "9788711452394",
+                "5906837620",
+                "9785906837622",
+                "8073358883",
+                "9788073358884",
+                "9873752137",
+                "9789873752131",
+                "0708900224",
+                "9780708900222",
+                "3570552691",
+                "9783570552698",
+                "3328101195",
+                "9783328101192",
+                "8499924212",
+                "9788499924212",
+                "9734668463",
+                "9789734668465",
+                "9389143314",
+                "9789389143317",
+                "953721365X",
+                "9789537213657",
+                "9633242371",
+                "9789633242377"
+              ],
+              "lists_count": 1584,
+              "moods": [
+                "informative",
+                "reflective",
+                "challenging",
+                "inspiring",
+                "funny",
+                "hopeful",
+                "Thought-Provoking",
+                "Adventurous",
+                "dark",
+                "tense"
+              ],
+              "pages": 443,
+              "prompts_count": 10,
+              "rating": 4.159673659673659,
+              "ratings_count": 2145,
+              "release_date": "2011-01-01",
+              "release_year": 2011,
+              "reviews_count": 201,
+              "series_ids": [
+                231471
+              ],
+              "series_names": [
+                "Homo"
+              ],
+              "slug": "sapiens",
+              "subtitle": "A Brief History of Humankind",
+              "tags": [
+                "History",
+                "philosophy",
+                "male author",
+                "German",
+                "Shelf: 20 Statecraft History & Geopolitics",
+                "[\"Shelf: 20 Statecraft History & Geopolitics\"]",
+                "Literature",
+                "john seybold",
+                "jeannie seybold",
+                "to-read"
+              ],
+              "title": "Sapiens: A Brief History of Humankind",
+              "users_count": 5579,
+              "users_read_count": 2899
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. \u041a\u0440\u0430\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0622\u062f\u0645\u06cc: \u0628\u0646\u06cc \u0646\u0648\u0639 \u0627\u0646\u0633\u0627\u0646 \u06a9\u06cc \u0645\u062e\u062a\u0635\u0631 \u062a\u0627\u0631\u06cc\u062e"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. De animales a dioses: Breve historia de la humanidad"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Da animali a d\u00e8i. Breve storia dell'umanit\u00e0. Nuova ediz."
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Da animali a d\u00e8i: Breve storia dell'umanit\u00e0"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u041b\u044e\u0434\u0438\u043d\u0430 \u0440\u043e\u0437\u0443\u043c\u043d\u0430. \u0406\u0441\u0442\u043e\u0440\u0456\u044f \u043b\u044e\u0434\u0441\u0442\u0432\u0430 \u0432\u0456\u0434 \u043c\u0438\u043d\u0443\u043b\u043e\u0433\u043e \u0434\u043e \u043c\u0430\u0439\u0431\u0443\u0442\u043d\u044c\u043e\u0433\u043e"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Manav Jati Ka Sankshipt Itihas"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Hayvanlardan Tanr\u0131lara"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Hayvanlardan Tanr\u0131lara - \u0130nsan T\u00fcr\u00fcn\u00fcn K\u0131sa Bir Tarihi"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Riwayat Singkat Umat Manusia"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u05e7\u05d9\u05e6\u05d5\u05e8 \u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: En kort historik \u00f6ver m\u00e4nskligheten"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: \u043a\u0440\u0430\u0442\u043a\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u043d\u0430 \u0447\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u043e\u0442\u043e"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: uma breve hist\u00f3ria da humanidade"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Volume 1. La nascita dell'umanit\u00e0. Graphic Novel"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Da animali a d\u00e8i : Breve storia dell'umanit\u00e0"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: scurt\u0103 istorie a omenirii"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Stru\u010dn\u00e9 d\u011bjiny lidstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Een kleine geschiedenis van de mensheid"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: une br\u00e8ve histoire de l'humanit\u00e9"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Hist\u00f3ria Breve da Humanidade"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Uma breve hist\u00f3ria da humanidade"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Brief History of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Uma Breve Hist\u00f3ria da Humanidade"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Eine kurze Geschichte der Menschheit"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u4eba\u7c7b\u7b80\u53f2\uff1a\u4ece\u52a8\u7269\u5230\u4e0a\u5e1d"
+                },
+                {
+                  "matched_tokens": [
+                    "SAPIENS"
+                  ],
+                  "snippet": "<mark>SAPIENS</mark> - Eine kurze Geschichte der Menschheit: Der legend\u00e4re Weltbestseller aktualisiert und mit neuem Nachwort"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Eine kurze Geschichte der Menschheit: Der Weltbestseller farbig illustriert"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. De animales a dioses: Una breve historia de la humanidad"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Sleeping Tiger"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Sleeping tiger"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u05e7\u05d9\u05e6\u05d5\u05e8 \u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05d0\u05e0\u05d5\u05e9\u05d5\u05ea: \u05e1\u05e4\u05e8\u05d9 \u05d9\u05d5\u05d1\u05dc \u05e0\u05d7 \u05d4\u05e8\u05e8\u05d9 #1"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u4eca\u65e5\u7b80\u53f2\uff1a\u4eba\u7c7b\u547d\u8fd0\u5927\u8bae\u9898"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Brief History of Humankind"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Sapiensi"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> [Tenth Anniversary Edition]: A Brief History of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> By Yuval Noah Harari"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "De animales a dioses"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. De animales a dioses"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Stru\u010dn\u00e1 hist\u00f3ria \u013eudstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - A Brief History of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Od zwierz\u0105t do bog\u00f3w"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: \u039c\u03b9\u03b1 \u03c3\u03cd\u03bd\u03c4\u03bf\u03bc\u03b7 \u03b9\u03c3\u03c4\u03bf\u03c1\u03af\u03b1 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03bf\u03c5"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: een Kleine Geschiedenis van de Mensheid"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Sejarah Ringkas Umat Manusia"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: En kort historie om menneskeheten"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Sapijens: Kratka istorija \u010dove\u010danstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> (Edi\u00e7\u00e3o em quadrinhos): O nascimento da humanidade"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Ihmisen lyhyt historia"
+                },
+                {
+                  "matched_tokens": [
+                    "S\u00e0piens"
+                  ],
+                  "snippet": "<mark>S\u00e0piens</mark>. Una breu hist\u00f2ria de la humanitat"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: L\u01b0\u1ee3c s\u1eed lo\u00e0i ng\u01b0\u1eddi"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "De animales a dioses: Breve historia de la humanidad"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Scurt\u0103 istorie a omenirii"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e09\u0e1a\u0e31\u0e1a\u0e01\u0e23\u0e32\u0e1f\u0e34\u0e01: \u0e01\u0e33\u0e40\u0e19\u0e34\u0e14\u0e21\u0e19\u0e38\u0e29\u0e22\u0e0a\u0e32\u0e15\u0e34"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: \u041a\u0440\u0430\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - Ihmisen lyhyt historia"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Od zwierz\u0105t do bog\u00f3w. Kr\u00f3tka historia ludzko\u015bci"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Eine kurze Geschichte der Menschheit"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e22\u0e48\u0e2d\u0e21\u0e19\u0e38\u0e29\u0e22\u0e0a\u0e32\u0e15\u0e34"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> : Une br\u00e8ve histoire de l'humanit\u00e9"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0627\u0644\u0639\u0627\u0642\u0644: \u062a\u0627\u0631\u064a\u062e \u0645\u062e\u062a\u0635\u0631 \u0644\u0644\u0646\u0648\u0639 \u0627\u0644\u0628\u0634\u0631\u064a"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> : Une br\u00e8ve histoire de l'Humanit\u00e9"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: L\u01b0\u1ee3c S\u1eed V\u1ec1 Lo\u00e0i Ng\u01b0\u1eddi"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u09b8\u09c7\u09aa\u09bf\u09af\u09bc\u09c7\u09a8\u09cd\u09b8 : \u09ae\u09be\u09a8\u09c1\u09b7\u09c7\u09b0 \u0987\u09a4\u09bf\u09b9\u09be\u09b8"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Een kleine geschiedenis van de mensheid"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>, Vol. 3"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: En kort historie om menneskeheden"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: \u00dachvatn\u00fd i \u00fad\u011bsn\u00fd p\u0159\u00edb\u011bh lidstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: een kleine geschiedenis van de mensheid"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2: The Pillars of Civilization"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "From Animals into Gods: A Brief History of Humankind"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Une br\u00e8ve histoire de l'humanit\u00e9"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "EL TIGRE DORMIDO"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "La tigre che dorme"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Da animali a d\u00e8i. Breve storia dell'umanit\u00e0"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - En kort historie om menneskeheden"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Sapies: Stru\u010dn\u00e9 d\u011bjiny lidstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: De animales a dioses. Una breve historia de la humanidad"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "\u4eba\u985e\u5927\u6b77\u53f2\uff1a\u5f9e\u91ce\u7378\u5230\u626e\u6f14\u4e0a\u5e1d <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> : Kratka povijest \u010dovje\u010danstva"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - Az emberis\u00e9g r\u00f6vid t\u00f6rt\u00e9nete"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Brief History of Humankind"
+              }
+            },
+            "highlights": [
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  11,
+                  0,
+                  2,
+                  3,
+                  6
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>",
+                  "<mark>Sapiens</mark>. \u041a\u0440\u0430\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430",
+                  "<mark>Sapiens</mark>. De animales a dioses: Breve historia de la humanidad",
+                  "<mark>Sapiens</mark>. Da animali a d\u00e8i. Breve storia dell'umanit\u00e0. Nuova ediz.",
+                  "<mark>Sapiens</mark> Manav Jati Ka Sankshipt Itihas"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Brief History of Humankind"
+              }
+            ],
+            "text_match": 578730123365711882,
+            "text_match_info": {
+              "best_field_score": "1108091339008",
+              "best_field_weight": 1,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365711882",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 19,
+              "alternative_titles": [
+                "Sapiens: A Graphic History, Volume 2: The Pillars of Civilization",
+                "Sapiens: Een beeldverhaal 2 - De pijlers van de beschaving",
+                "Sapiens, Grafik Tarih 2: Uygarligin S\u00fctunlari",
+                "Sapiens A Graphic History, Volume 2: The story of civilisation retold, witty, bold and brilliantly visual.",
+                "Sapiens: A Graphic History, Vol. 2",
+                "Sapiens Grafis vol. 2: Pilar-pilar Peradaban",
+                "Sapiens: Edi\u00e7\u00e3o em quadrinhos, Volume 2: Os pilares da civiliza\u00e7\u00e3o",
+                "Sapiens. I pilastri della civilt\u00e0",
+                "Sapiens: Sivilisaation peruskivet",
+                "Sapiens. Una historia gr\u00e1fica 2 - Los pilares de la civilizaci\u00f3n",
+                "Sapiens - Die Falle",
+                "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e09\u0e1a\u0e31\u0e1a\u0e01\u0e23\u0e32\u0e1f\u0e34\u0e01: \u0e40\u0e2a\u0e32\u0e2b\u0e25\u0e31\u0e01\u0e41\u0e2b\u0e48\u0e07\u0e2d\u0e32\u0e23\u0e22\u0e18\u0e23\u0e23\u0e21",
+                "Sapiens: Os Pilares da Civiliza\u00e7\u00e3o",
+                "Sapiens A Graphic History, Volume 2: The Pillars of Civilization",
+                "Sapiens. Volume 2. I pilastri della civilt\u00e0. Graphic Novel",
+                "Sapiens: A Graphic History, Volume 2 - The Pillars of Civilization",
+                "Sapiens: A Graphic History, Volume 2",
+                "Sapiens: Civilisationens s\u00f8jler",
+                "Sapiens - tome 2 (BD): Les piliers de la civilisation",
+                "Sapiens: Una historia gr\u00e1fica: El nacimiento de la humanidad"
+              ],
+              "author_names": [
+                "Yuval Noah Harari",
+                "David Casanave",
+                "David Vandermeulen"
+              ],
+              "book_category_id": 4,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Illustrations",
+                "Editor"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 939473,
+                    "image": {},
+                    "name": "David Casanave",
+                    "slug": "david-casanave"
+                  },
+                  "contribution": "Illustrations"
+                },
+                {
+                  "author": {
+                    "id": 256071,
+                    "image": {},
+                    "name": "David Vandermeulen",
+                    "slug": "david-vandermeulen"
+                  },
+                  "contribution": "Editor"
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "Discover the second volume of an epic, beautifully illustrated graphic history of humankind, based on Yuval Noah Harari's multi-million copy bestselling phenomenon. The perfect gift this Christmas. When nomadic Homo sapiens settled to live in one place, they started working harder and harder. But why didn't they get a better life in return? In The Pillars of Civilization, Yuval Noah Harari and his companions including Prof. Saraswati and Dr. Fiction travel the length and breadth of human history to investigate how the Agricultural Revolution changed society forever. Discover how wheat took over the world, how war, famine, disease and inequality became a part of the human condition, and why we might only have ourselves to blame. The origins of modern farming are told through Elizabethan tragedy, the changing fortunes of domesticated plants and animals are tracked in the columns of the Daily Business News, and the history of inequality is revealed in a superhero detective story. A radical, witty and colourful retelling of the story of humankind, adapted from Yuval Noah Harari's Sapiens: A Brief History of Humankind, Volume 2 can be read as a standalone or as a follow-up to Volume 1, The Birth of Humankind. Praise for Yuval Noah Harari's Sapiens: 'I would recommend Sapiens to anyone who's interested in the history and future of our species.' Bill Gates 'Interesting and provocative... It gives you a sense of how briefly we've been on this Earth' Barack Obama 'Jaw-dropping from the first word to the last... It may be the best book I've ever read' Chris Evans 'Contains a remarkable piece of information on almost every page and reminds us that we should be grateful to be human.' Matt Haig 'Sweeps the cobwebs out of your brain... Radiates power and clarity, making the world strange and new' Sunday Times 'Provocative and fascinating and opinionated...it makes the familiar seem unfamiliar. It altered how I view our species and our world.' Guardian",
+              "featured_series": {
+                "details": "2",
+                "featured": true,
+                "id": 696898,
+                "position": 2.0,
+                "series": {
+                  "books_count": 7,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 2.0,
+              "genres": [
+                "Comics",
+                "History",
+                "Science",
+                "General",
+                "Psychology",
+                "Young Adult"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "503185",
+              "image": {
+                "color": "#f2ecd5",
+                "color_name": "Beige",
+                "height": 180,
+                "id": 1945308,
+                "url": "https://assets.hardcover.app/external_data/59527018/a636d59b863b934665735526719c8a761c782ee3.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0063212226",
+                "9780063212220",
+                "9400408307",
+                "9789400408302",
+                "6052205903",
+                "9786052205907",
+                "1473598133",
+                "9781473598133",
+                "1787333760",
+                "9781787333765",
+                "602481755X",
+                "9786024817558",
+                "6559212998",
+                "9786559212996",
+                "8858795040",
+                "9788858795040",
+                "9523765507",
+                "9789523765504",
+                "841861997X",
+                "9788418619977",
+                "3406777511",
+                "9783406777516",
+                "6163017374",
+                "9786163017376",
+                "9895647646",
+                "9789895647644",
+                "1473598141",
+                "9781473598140",
+                "8830106798",
+                "9788830106796",
+                "0063212234",
+                "9780063212237",
+                "077100026X",
+                "9780771000263",
+                "8727004481",
+                "9788727004488",
+                "8418006811",
+                "9788418006814"
+              ],
+              "lists_count": 24,
+              "moods": [],
+              "pages": 256,
+              "prompts_count": 0,
+              "rating": 4.195652173913044,
+              "ratings_count": 23,
+              "release_date": "2019-12-07",
+              "release_year": 2019,
+              "reviews_count": 0,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-volume-2-the-pillars-of-civilization-2019",
+              "subtitle": "The Pillars of Civilization",
+              "tags": [
+                "non-fiction"
+              ],
+              "title": "Sapiens: A Graphic History, Volume 2: The Pillars of Civilization",
+              "users_count": 77,
+              "users_read_count": 38
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2: The Pillars of Civilization"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Een beeldverhaal 2 - De pijlers van de beschaving"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>, Grafik Tarih 2: Uygarligin S\u00fctunlari"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 2: The story of civilisation retold, witty, bold and brilliantly visual."
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Vol. 2"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Grafis vol. 2: Pilar-pilar Peradaban"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Edi\u00e7\u00e3o em quadrinhos, Volume 2: Os pilares da civiliza\u00e7\u00e3o"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. I pilastri della civilt\u00e0"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Sivilisaation peruskivet"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Una historia gr\u00e1fica 2 - Los pilares de la civilizaci\u00f3n"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - Die Falle"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "\u0e40\u0e0b\u0e40\u0e1b\u0e35\u0e22\u0e19\u0e2a\u0e4c \u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e09\u0e1a\u0e31\u0e1a\u0e01\u0e23\u0e32\u0e1f\u0e34\u0e01: \u0e40\u0e2a\u0e32\u0e2b\u0e25\u0e31\u0e01\u0e41\u0e2b\u0e48\u0e07\u0e2d\u0e32\u0e23\u0e22\u0e18\u0e23\u0e23\u0e21"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Os Pilares da Civiliza\u00e7\u00e3o"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 2: The Pillars of Civilization"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>. Volume 2. I pilastri della civilt\u00e0. Graphic Novel"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2 - The Pillars of Civilization"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Civilisationens s\u00f8jler"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - tome 2 (BD): Les piliers de la civilisation"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Una historia gr\u00e1fica: El nacimiento de la humanidad"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2: The Pillars of Civilization"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 2: The Pillars of Civilization"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History, Volume 2: The Pillars of Civilization",
+                  "<mark>Sapiens</mark>: Een beeldverhaal 2 - De pijlers van de beschaving",
+                  "<mark>Sapiens</mark>, Grafik Tarih 2: Uygarligin S\u00fctunlari",
+                  "<mark>Sapiens</mark> A Graphic History, Volume 2: The story of civilisation retold, witty, bold and brilliantly visual.",
+                  "<mark>Sapiens</mark>: A Graphic History, Vol. 2"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 9,
+              "alternative_titles": [
+                "Sapiens: A Graphic History, Volume 3 - The Masters of History",
+                "Sapiens A Graphic History, Volume 3",
+                "Sapiens - tome 3: Les Ma\u00eetres de l'Histoire",
+                "Sapiens: A Graphic History, Volume 3: The Masters of History \u2013 A Hilarious Illustrated Look at Empire, Money, and Religion for Curious Minds",
+                "Sapiens: A Graphic History, Volume 3\u2014The Masters of History",
+                "Sapiens: Een beeldverhaal 3 - Kampioenen van de geschiedenis"
+              ],
+              "author_names": [
+                "Yuval Noah Harari",
+                "David Vandermeulen",
+                "Daniel Casanave"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Adapter",
+                "Illustrator"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 256071,
+                    "image": {},
+                    "name": "David Vandermeulen",
+                    "slug": "david-vandermeulen"
+                  },
+                  "contribution": "Adapter"
+                },
+                {
+                  "author": {
+                    "id": 256072,
+                    "image": {},
+                    "name": "Daniel Casanave",
+                    "slug": "daniel-casanave"
+                  },
+                  "contribution": "Illustrator"
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "From a renowned historian comes a groundbreaking narrative of humanity\u2019s creation and evolution\u2014a #1 international bestseller\u2014that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be \u201chuman.\u201d\r\n\r\nOne hundred thousand years ago, at least six different species of humans inhabited Earth. Yet today there is only one\u2014homo sapiens. What happened to the others? And what may happen to us?\r\n\r\nMost books about the history of humanity pursue either a historical or a biological approach, but Dr. Yuval Noah Harari breaks the mold with this highly original book that begins about 70,000 years ago with the appearance of modern cognition. From examining the role evolving humans have played in the global ecosystem to charting the rise of empires, Sapiens integrates history and science to reconsider accepted narratives, connect past developments with contemporary concerns, and examine specific events within the context of larger ideas.\r\n\r\nDr. Harari also compels us to look ahead, because over the last few decades humans have begun to bend laws of natural selection that have governed life for the past four billion years. We are acquiring the ability to design not only the world around us, but also ourselves. Where is this leading us, and what do we want to become?\r\n\r\nFeaturing 27 photographs, 6 maps, and 25 illustrations/diagrams, this provocative and insightful work is sure to spark debate and is essential reading for aficionados of Jared Diamond, James Gleick, Matt Ridley, Robert Wright, and Sharon Moalem.",
+              "featured_series": {
+                "details": "3",
+                "featured": true,
+                "id": 396400,
+                "position": 3.0,
+                "series": {
+                  "books_count": 7,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 3.0,
+              "genres": [
+                "Comics",
+                "Agriculture",
+                "History",
+                "Science",
+                "General",
+                "Psychology"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "1601714",
+              "image": {
+                "color": "#f0e6c4",
+                "color_name": "Beige",
+                "height": 500,
+                "id": 5493917,
+                "url": "https://assets.hardcover.app/edition/32193703/65a24ac91bc587f568810d6b8cf687063cd75986.jpeg",
+                "width": 374
+              },
+              "isbns": [
+                "0063387433",
+                "9780063387430",
+                "191171726X",
+                "9781911717263",
+                "0063387425",
+                "9780063387423",
+                "0063387417",
+                "9780063387416",
+                "9400411219",
+                "9789400411210"
+              ],
+              "lists_count": 3,
+              "moods": [],
+              "pages": 288,
+              "prompts_count": 0,
+              "rating": 3.333333333333333,
+              "ratings_count": 3,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-volume-3-the-masters-of-history",
+              "subtitle": "A Graphic History, Volume 3 - The Masters of History",
+              "tags": [],
+              "title": "Sapiens: A Graphic History, Volume 3 - The Masters of History",
+              "users_count": 23,
+              "users_read_count": 6
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 3 - The Masters of History"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 3"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - tome 3: Les Ma\u00eetres de l'Histoire"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 3: The Masters of History \u2013 A Hilarious Illustrated Look at Empire, Money, and Religion for Curious Minds"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 3\u2014The Masters of History"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: Een beeldverhaal 3 - Kampioenen van de geschiedenis"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 3 - The Masters of History"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 3 - The Masters of History"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History, Volume 3 - The Masters of History",
+                  "<mark>Sapiens</mark> A Graphic History, Volume 3",
+                  "<mark>Sapiens</mark> - tome 3: Les Ma\u00eetres de l'Histoire",
+                  "<mark>Sapiens</mark>: A Graphic History, Volume 3: The Masters of History \u2013 A Hilarious Illustrated Look at Empire, Money, and Religion for Curious Minds",
+                  "<mark>Sapiens</mark>: A Graphic History, Volume 3\u2014The Masters of History"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Fuzzy Sapiens"
+              ],
+              "author_names": [
+                "H. Beam Piper"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 177610,
+                    "image": {
+                      "color": "#535353",
+                      "color_name": "Gray",
+                      "height": 500,
+                      "id": 34328,
+                      "url": "https://assets.hardcover.app/authors/177610/7880970-L.jpg",
+                      "width": 413
+                    },
+                    "name": "H. Beam Piper",
+                    "slug": "h-beam-piper"
+                  }
+                }
+              ],
+              "cover_color": "Brown",
+              "description": "H. Beam Piper's sequel to the science fiction classic Little Fuzzy. The small fuzzy species discovered on the planet Zarathustra has been declared sapient, but now that the Fuzzies are protected by law, the humans who have colonized Zarathustra have to figure out how to live with them...",
+              "featured_series": {
+                "details": "2",
+                "featured": false,
+                "id": 480386,
+                "position": 2.0,
+                "series": {
+                  "books_count": 9,
+                  "id": 5798,
+                  "name": "Fuzzy Sapiens",
+                  "primary_books_count": 9,
+                  "slug": "fuzzy-sapiens"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 2.0,
+              "genres": [
+                "Classics",
+                "Fantasy",
+                "Young Adult",
+                "Adventure",
+                "Fiction",
+                "Science fiction",
+                "Aliens"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "584742",
+              "image": {
+                "color": "#393e23",
+                "color_name": "Brown",
+                "height": 500,
+                "id": 772073,
+                "url": "https://assets.hardcover.app/edition/30550412/6930158-L.jpg",
+                "width": 305
+              },
+              "isbns": [
+                "0441261965",
+                "9780441261963",
+                "0441261957",
+                "9780441261956",
+                "1101532726",
+                "9781101532720"
+              ],
+              "lists_count": 6,
+              "moods": [],
+              "pages": 153,
+              "prompts_count": 0,
+              "rating": 3.5,
+              "ratings_count": 6,
+              "release_date": "1964-01-01",
+              "release_year": 1964,
+              "reviews_count": 0,
+              "series_ids": [
+                5798,
+                11518
+              ],
+              "series_names": [
+                "Fuzzy Sapiens",
+                "Terro-Human Future History"
+              ],
+              "slug": "fuzzy-sapiens",
+              "tags": [],
+              "title": "Fuzzy Sapiens",
+              "users_count": 18,
+              "users_read_count": 8
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Fuzzy <mark>Sapiens</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Fuzzy <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Terro-Human Future History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Fuzzy <mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Fuzzy <mark>Sapiens</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Fuzzy <mark>Sapiens</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Fuzzy <mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 1,
+              "alternative_titles": [
+                "Sapiens: A Graphic History Volume 1 and Volume 2 by Yuval Noah Harari"
+              ],
+              "author_names": [
+                "Yuval Noah Harari"
+              ],
+              "book_category_id": 1,
+              "compilation": true,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "a Graphic History (2 book series) 1. A Graphic History Volume 1 - The Birth of Humankind 2. A Graphic History Volume 2 - The Pillars of Civilization",
+              "featured_series": {
+                "details": "1-2",
+                "featured": true,
+                "id": 696899,
+                "position": 1.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1471693",
+              "image": {
+                "color": "#efead7",
+                "color_name": "Beige",
+                "height": 1760,
+                "id": 6479996,
+                "url": "https://assets.hardcover.app/edition/31517370/166abc6a-95d0-42e8-abe1-9407f06c5ae2.jpg",
+                "width": 2560
+              },
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 900,
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 1,
+              "release_date": "2022-01-01",
+              "release_year": 2022,
+              "reviews_count": 0,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-volume-1-and-volume-2",
+              "subtitle": "A Graphic History Volume 1 and Volume 2 by Yuval Noah Harari",
+              "tags": [],
+              "title": "Sapiens: A Graphic History, Volume 1 and Volume 2",
+              "users_count": 3,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History Volume 1 and Volume 2 by Yuval Noah Harari"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 1 and Volume 2"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History, Volume 1 and Volume 2"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History Volume 1 and Volume 2 by Yuval Noah Harari"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens: A Graphic History: The Birth of Humankind"
+              ],
+              "author_names": [
+                "David Vandermeulen"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 256071,
+                    "image": {},
+                    "name": "David Vandermeulen",
+                    "slug": "david-vandermeulen"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "Volume one of the epic, beautifully illustrated graphic history of humankind, based on Yuval Noah Harari's internationally bestselling phenomenon In a world deluged by irrelevant information, clarity is power. How can we see the big picture without getting caught up in an infinity of little details? One way is to step back, to look at the really big picture: the entire history of the human species. Sapiens: A Graphic History, The Birth of Humankind is the story of how an insignificant ape became the ruler of planet Earth, capable of splitting the atom, flying to the Moon, and manipulating the genetic code of life. With Yuval Noah Harari as your guide, and accompanied by characters like Prehistoric Bill, Dr. Fiction, and Detective Lopez, you are invited to take a ride on the wild side of history. The graphic format offers readers a new intellectual and artistic exploration of the past. Human evolution is reimagined as a tacky reality TV show. The first encounter between Sapiens and Neanderthals is explored through the master-pieces of modern art. The extinction of the mammoths and saber-toothed tigers is retold as a \"whodunit\" movie. Sapiens: A Graphic History is a radical, and radically fun, retelling of the story of humankind, bursting with wit, humor, and colorful characters. If you want to know why we are all trapped inside the dreams of dead people\u2014read this book.",
+              "featured_series": {
+                "details": "Volume 1",
+                "featured": true,
+                "id": 633815,
+                "position": 1.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Comics & Graphic Novels",
+                "Comics"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "2130654",
+              "image": {
+                "color": "#ede9dc",
+                "color_name": "Beige",
+                "height": 173,
+                "id": 5915703,
+                "url": "https://assets.hardcover.app/external_data/1493357/e4681f01c1b1b393cdc6aec6fc1697ba770f15c7.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "0771038755",
+                "9780771038754"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 250,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2020-10-07",
+              "release_year": 2020,
+              "reviews_count": 0,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-the-birth-of-humankind",
+              "subtitle": "A Graphic History, Volume 1",
+              "tags": [],
+              "title": "Sapiens: A Graphic History: The Birth of Humankind",
+              "users_count": 2,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History: The Birth of Humankind"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History: The Birth of Humankind"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: A Graphic History: The Birth of Humankind"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History: The Birth of Humankind"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438"
+              ],
+              "author_names": [
+                "Yuval Noah Harari",
+                "\u042e\u0432\u0430\u043b \u041d\u043e\u0430 \u0425\u0430\u0440\u0430\u0440\u0438",
+                "\u0414\u0430\u0432\u0438\u0434 \u0412\u0430\u043d\u0434\u0435\u0440\u043c\u044e\u043b\u0435\u043d",
+                "\u0414\u0430\u043d\u0438\u0435\u043b \u041a\u0430\u0441\u0430\u043d\u0430\u0432\u0435"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author",
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 734443,
+                    "image": {},
+                    "name": "\u042e\u0432\u0430\u043b \u041d\u043e\u0430 \u0425\u0430\u0440\u0430\u0440\u0438",
+                    "slug": "b1b05a5a-3c67-4349-b3a9-02791b3b05db"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 1513963,
+                    "image": {},
+                    "name": "\u0414\u0430\u0432\u0438\u0434 \u0412\u0430\u043d\u0434\u0435\u0440\u043c\u044e\u043b\u0435\u043d",
+                    "slug": "1163e965-8a9a-4013-a626-49d04a10ed90"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 1513964,
+                    "image": {},
+                    "name": "\u0414\u0430\u043d\u0438\u0435\u043b \u041a\u0430\u0441\u0430\u043d\u0430\u0432\u0435",
+                    "slug": "482562af-f424-422e-a6e2-44de168fa37b"
+                  }
+                }
+              ],
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 847377,
+                "position": 1.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2794346",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 248,
+              "prompts_count": 0,
+              "rating": 4.0,
+              "ratings_count": 1,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 1,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-75f85458-f714-4723-9b54-0599f65c77fc",
+              "tags": [],
+              "title": "Sapiens - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark> - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark> - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark> - \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430"
+              ],
+              "author_names": [
+                "David Vandermeulen",
+                "Yuval Noah Harari",
+                "\u0418\u043d\u0430 \u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0430"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 256071,
+                    "image": {},
+                    "name": "David Vandermeulen",
+                    "slug": "david-vandermeulen"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 167616,
+                    "image": {
+                      "color": "#574429",
+                      "color_name": "Brown",
+                      "height": 500,
+                      "id": 34105,
+                      "url": "https://assets.hardcover.app/authors/167616/7914208-L.jpg",
+                      "width": 334
+                    },
+                    "name": "Yuval Noah Harari",
+                    "slug": "yuval-noah-harari"
+                  }
+                },
+                {
+                  "author": {
+                    "id": 734444,
+                    "image": {},
+                    "name": "\u0418\u043d\u0430 \u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0430",
+                    "slug": "cc9f7b57-dcf0-44eb-9c03-e5daa0e55c31"
+                  }
+                }
+              ],
+              "featured_series": {
+                "details": "2",
+                "featured": true,
+                "id": 847376,
+                "position": 2.0,
+                "series": {
+                  "books_count": 5,
+                  "id": 5946,
+                  "name": "Sapiens: A Graphic History",
+                  "primary_books_count": 3,
+                  "slug": "sapiens-a-graphic-history"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 2.0,
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2794345",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 256,
+              "prompts_count": 0,
+              "rating": 5.0,
+              "ratings_count": 1,
+              "release_date": "2021-01-01",
+              "release_year": 2021,
+              "reviews_count": 0,
+              "series_ids": [
+                5946
+              ],
+              "series_names": [
+                "Sapiens: A Graphic History"
+              ],
+              "slug": "sapiens-2",
+              "subtitle": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430",
+              "tags": [],
+              "title": "Sapiens: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark>: A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark>: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark>: \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0432 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0442\u043e\u043c 2 - \u041e\u0441\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430 \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f\u0442\u0430"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Sapiens A Graphic History, Volume 3 /anglais"
+              ],
+              "author_names": [
+                "HARARI YUVAL NOAH"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 1471573,
+                    "image": {},
+                    "name": "HARARI YUVAL NOAH",
+                    "slug": "harari-yuval-noah"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {
+                "details": "3",
+                "featured": false,
+                "id": 797615,
+                "position": 3.0,
+                "series": {
+                  "books_count": 1,
+                  "id": 278592,
+                  "name": "Sapiens A Graphic History",
+                  "primary_books_count": 0,
+                  "slug": "sapiens-a-graphic-history-harari-yuval-noah"
+                },
+                "unreleased": true
+              },
+              "featured_series_position": 3.0,
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "2685871",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "reviews_count": 0,
+              "series_ids": [
+                278592
+              ],
+              "series_names": [
+                "Sapiens A Graphic History"
+              ],
+              "slug": "sapiens-a-graphic-history-volume-3-anglais",
+              "tags": [],
+              "title": "Sapiens A Graphic History, Volume 3 /anglais",
+              "users_count": 1,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 3 /anglais"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> A Graphic History"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 3 /anglais"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "<mark>Sapiens</mark> A Graphic History, Volume 3 /anglais"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark> A Graphic History"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark> A Graphic History, Volume 3 /anglais"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Holo Sapiens"
+              ],
+              "author_names": [
+                "Dean  Crawford"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 317630,
+                    "image": {},
+                    "name": "Dean  Crawford",
+                    "slug": "dean-crawford-213e3864-577d-4d0e-9350-5e9789a5d00f"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {
+                "details": "1",
+                "featured": false,
+                "id": 46366,
+                "position": 1.0,
+                "series": {
+                  "books_count": 1,
+                  "id": 22826,
+                  "name": "Holo Sapiens",
+                  "primary_books_count": 1,
+                  "slug": "holo-sapiens"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "540272",
+              "image": {},
+              "isbns": [],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 400,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2013-11-22",
+              "release_year": 2013,
+              "reviews_count": 0,
+              "series_ids": [
+                22826
+              ],
+              "series_names": [
+                "Holo Sapiens"
+              ],
+              "slug": "holo-sapiens",
+              "tags": [],
+              "title": "Holo Sapiens",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Holo <mark>Sapiens</mark>"
+                }
+              ],
+              "series_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Holo <mark>Sapiens</mark>"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Holo <mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Holo <mark>Sapiens</mark>"
+              },
+              {
+                "field": "series_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Holo <mark>Sapiens</mark>"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Holo <mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Summary Of \"Sapiens: A Brief History Of Humankind - By Yuval Noah Harari\""
+              ],
+              "author_names": [
+                "Sapiens Editorial"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 285051,
+                    "image": {},
+                    "name": "Sapiens Editorial",
+                    "slug": "sapiens-editorial"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "ABOUT THE ORIGINAL BOOK: \"Sapiens\" presents a pleasant and simple narrative about the extraordinary story of the evolution of mankind. In this work, it shows a detailed vision that everything we learn in school about history doesn't teach us anything about how our species spread throughout the world. How big cities and empires occurred, what made us believe in Gods, why did money arise? From that curious and interesting past, we are also presented with a projection into the future, towards the millenniums to come. It is a well narrated chronical of life. From the first humans that inhabited the earth, all the way to the considerable progress like the great cognitive, agricultural and scientific revolutions. This work has drawn interest from universities and the public. Making the young writer an international celebrity.",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "698082",
+              "image": {
+                "color": "#eeeeeb",
+                "color_name": "Beige",
+                "height": 171,
+                "id": 829128,
+                "url": "https://assets.hardcover.app/edition/30687080/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "3962554823",
+                "9783962554828"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 35,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2017-09-28",
+              "release_year": 2017,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "summary-of-sapiens",
+              "subtitle": "A Brief History Of Humankind - By Yuval Noah Harari\"",
+              "tags": [],
+              "title": "Summary Of \"Sapiens: A Brief History Of Humankind - By Yuval Noah Harari\"",
+              "users_count": 1,
+              "users_read_count": 1
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Summary Of \"<mark>Sapiens</mark>: A Brief History Of Humankind - By Yuval Noah Harari\""
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Editorial"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Summary Of \"<mark>Sapiens</mark>: A Brief History Of Humankind - By Yuval Noah Harari\""
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Summary Of \"<mark>Sapiens</mark>: A Brief History Of Humankind - By Yuval Noah Harari\""
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark> Editorial"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Summary Of \"<mark>Sapiens</mark>: A Brief History Of Humankind - By Yuval Noah Harari\""
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Resumen De \"Sapiens"
+              ],
+              "author_names": [
+                "Sapiens Editorial"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 285051,
+                    "image": {},
+                    "name": "Sapiens Editorial",
+                    "slug": "sapiens-editorial"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "SINOPSIS DEL LIBRO ORIGINAL \"Sapiens\" presenta con un estilo ameno y sencillo, el relato de la extraordinaria historia de la evoluci\u00f3n del hombre. Se desarrolla en esta obra la visi\u00f3n pormenorizada de todo lo que la historia que estudiamos en la escuela no nos muestra: c\u00f3mo nuestra especie se impuso en el mundo, por qu\u00e9 surgieron las grandes ciudades e imperios, qu\u00e9 nos hizo creer en dioses, para qu\u00e9 surgi\u00f3 el dinero. A partir de ese curioso e interesante pasado se nos presenta tambi\u00e9n una proyecci\u00f3n hacia el futuro, hacia los milenios que vendr\u00e1n. Es una bien narrada cr\u00f3nica de la vida desde los primeros humanos que poblaron la Tierra hasta los avances que significaron las grandes revoluciones cognitiva, agr\u00edcola y cient\u00edfica. Esta obra ha atra\u00eddo el inter\u00e9s de universidades y del gran p\u00fablico, convirtiendo al joven escritor en una celebridad internacional.",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "673023",
+              "image": {
+                "color": "#e8e7e5",
+                "color_name": "Beige",
+                "height": 171,
+                "id": 722371,
+                "url": "https://assets.hardcover.app/edition/30659009/content.jpeg",
+                "width": 128
+              },
+              "isbns": [
+                "3962557172",
+                "9783962557171"
+              ],
+              "lists_count": 0,
+              "moods": [],
+              "pages": 34,
+              "prompts_count": 0,
+              "rating": 0.0,
+              "ratings_count": 0,
+              "release_date": "2017-10-08",
+              "release_year": 2017,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "resumen-de-sapiens",
+              "subtitle": "De Animales A Dioses - De Yuval Noah Harari\"",
+              "tags": [],
+              "title": "Resumen De \"Sapiens",
+              "users_count": 0,
+              "users_read_count": 0
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Resumen De \"<mark>Sapiens</mark>"
+                }
+              ],
+              "author_names": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "<mark>Sapiens</mark> Editorial"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Resumen De \"<mark>Sapiens</mark>"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Resumen De \"<mark>Sapiens</mark>"
+              },
+              {
+                "field": "author_names",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "<mark>Sapiens</mark> Editorial"
+                ]
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Resumen De \"<mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187627,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 3,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187627",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 88,
+              "alternative_titles": [
+                "Simon vs. the Homo Sapiens Agenda 10th Anniversary Deluxe Limited Edition",
+                "Probuzen\u00ed Simona Spiera",
+                "Love, Simon",
+                "Love Simon: Simon Vs The Homo Sapiens Agenda",
+                "Simon Vs. the Homo Sapiens Agenda",
+                "Non so chi sei ma io sono qui",
+                "Con amor, Simon",
+                "Simon vs. the Homo Sapiens Agenda",
+                "\u0421\u0430\u0439\u043c\u043e\u043d \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 Homo Sapiens",
+                "Com Amor, Simon",
+                "Simon \u0219i Planul Homo Sapiens",
+                "Love Simon - tie-in",
+                "Moi, Simon, 16 ans, Homo Sapiens",
+                "Yo, Simon, Homo Sapiens",
+                "Simon vs. de verwachtingen van de rest van de wereld",
+                "Simon \u00e9s a Homo Sapiens Lobbi",
+                "Simon Homo Sapiens'e Kar\u015f\u0131",
+                "Nur drei Worte",
+                "Tuo, Simon",
+                "Simon vs the Homo Sapiens Agenda",
+                "Min\u00e4, Simon, Homo Sapiens",
+                "Con Amor, Simon",
+                "Simon vs The Homosapiens Agenda",
+                "Su meile \u2013 Saimonas",
+                "Simon vs. The Homo Sapiens Agenda",
+                "Tw\u00f3j Simon",
+                "O Cora\u00e7\u00e3o de Simon Contra o Mundo",
+                "Simon vs. a Agenda Homo Sapiens",
+                "Simon vs verdens forventninger"
+              ],
+              "author_names": [
+                "Becky Albertalli"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [
+                "Homophobia",
+                "Outing",
+                "Biphobia",
+                "Fatphobia2",
+                "Racism",
+                "Violence"
+              ],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 156243,
+                    "image": {
+                      "color": "#af877b",
+                      "color_name": "Gray",
+                      "height": 300,
+                      "id": 3091704,
+                      "url": "https://assets.hardcover.app/author/156243/8887674134617407.jpg",
+                      "width": 300
+                    },
+                    "name": "Becky Albertalli",
+                    "slug": "becky-albertalli"
+                  }
+                }
+              ],
+              "cover_color": "Purple",
+              "description": "Sixteen-year-old and not-so-openly gay Simon Spier prefers to save his drama for the school musical. But when an email falls into the wrong hands, his secret is at risk of being thrust into the spotlight. Now Simon is actually being blackmailed: if he doesn\u2019t play wingman for class clown Martin, his sexual identity will become everyone\u2019s business. Worse, the privacy of Blue, the pen name of the boy he\u2019s been emailing, will be compromised.\r\n\r\nWith some messy dynamics emerging in his once tight-knit group of friends, and his email correspondence with Blue growing more flirtatious every day, Simon\u2019s junior year has suddenly gotten all kinds of complicated. Now, change-averse Simon has to find a way to step out of his comfort zone before he\u2019s pushed out\u2014without alienating his friends, compromising himself, or fumbling a shot at happiness with the most confusing, adorable guy he\u2019s never met.",
+              "featured_series": {
+                "details": "1",
+                "featured": true,
+                "id": 329392,
+                "position": 1.0,
+                "series": {
+                  "books_count": 7,
+                  "id": 5722,
+                  "name": "Simonverse",
+                  "primary_books_count": 3,
+                  "slug": "simonverse"
+                },
+                "unreleased": false
+              },
+              "featured_series_position": 1.0,
+              "genres": [
+                "Young Adult",
+                "LGBTQ",
+                "Friendship",
+                "Juvenile Fiction",
+                "Romance; Young Adult",
+                "Contemporary",
+                "Extortion",
+                "Romance",
+                "Literature & Fiction",
+                "Fiction"
+              ],
+              "has_audiobook": true,
+              "has_ebook": true,
+              "id": "378152",
+              "image": {
+                "color": "#a10506",
+                "color_name": "Purple",
+                "height": 500,
+                "id": 435770,
+                "url": "https://assets.hardcover.app/edition/2207996/12303551-L.jpg",
+                "width": 327
+              },
+              "isbns": [
+                "0063443473",
+                "9780063443471",
+                "8075491866",
+                "9788075491862",
+                "2016273976",
+                "9782016273975",
+                "1680659243",
+                "9781680659245",
+                "8804663030",
+                "9788804663034",
+                "8417180966",
+                "9788417180966",
+                "0062839705",
+                "9780062839701",
+                "5990886160",
+                "9785990886162",
+                "8551003054",
+                "9788551003053",
+                "6068754189",
+                "9786068754185",
+                "2016269626",
+                "9782016269626",
+                "2017010162",
+                "9782017010166",
+                "201203876X",
+                "9782012038769",
+                "1504615131",
+                "9781504615136",
+                "0062411500",
+                "9780062411501",
+                "8499449964",
+                "9788499449968",
+                "1504615123",
+                "9781504615129",
+                "3646928476",
+                "9783646928471",
+                "9020679945",
+                "9789020679946",
+                "0062348698",
+                "9780062348692",
+                "9633107784",
+                "9789633107782",
+                "6052993375",
+                "9786052993378",
+                "3551317526",
+                "9783551317520",
+                "3551556091",
+                "9783551556097",
+                "0062792164",
+                "9780062792167",
+                "006234868X",
+                "9780062348685",
+                "8804702931",
+                "9788804702931",
+                "014135609X",
+                "9780141356099",
+                "9511304127",
+                "9789511304128",
+                "8496886778",
+                "9788496886773",
+                "0606387404",
+                "9780606387408",
+                "6026044302",
+                "9786026044303",
+                "0062348671",
+                "9780062348678",
+                "9129712475",
+                "9789129712476",
+                "8496886581",
+                "9788496886582",
+                "0241354978",
+                "9780241354971",
+                "0141356103",
+                "9780141356105",
+                "0241330130",
+                "9780241330135",
+                "0063048183",
+                "9780063048188",
+                "6090155713",
+                "9786090155714",
+                "1467600709",
+                "9781467600705",
+                "0241493188",
+                "9780241493182",
+                "3125783518",
+                "9783125783515",
+                "9720048654",
+                "9789720048653",
+                "8580578922",
+                "9788580578928",
+                "8763859653",
+                "9788763859653"
+              ],
+              "lists_count": 672,
+              "moods": [
+                "funny",
+                "lighthearted",
+                "hopeful",
+                "emotional",
+                "tense",
+                "inspiring",
+                "sad",
+                "mysterious",
+                "Feel-good; Funny; Moving",
+                "Feel-Good"
+              ],
+              "pages": 336,
+              "prompts_count": 2,
+              "rating": 4.034741144414169,
+              "ratings_count": 734,
+              "release_date": "2015-01-01",
+              "release_year": 2015,
+              "reviews_count": 135,
+              "series_ids": [
+                5722
+              ],
+              "series_names": [
+                "Simonverse"
+              ],
+              "slug": "simon-vs-the-homo-sapiens-agenda",
+              "subtitle": "Simon Vs. the Homo Sapiens Agenda",
+              "tags": [
+                "Loveable Characters",
+                "Diverse Characters",
+                "A mix driven",
+                "Weak Character Development",
+                "Character driven",
+                "Strong Character Development",
+                "Not Diverse Characters"
+              ],
+              "title": "Simon vs. the Homo Sapiens Agenda",
+              "users_count": 1307,
+              "users_read_count": 886
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon vs. the Homo <mark>Sapiens</mark> Agenda 10th Anniversary Deluxe Limited Edition"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Probuzen\u00ed Simona Spiera"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Love, Simon"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Love Simon: Simon Vs The Homo <mark>Sapiens</mark> Agenda"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon Vs. the Homo <mark>Sapiens</mark> Agenda"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Non so chi sei ma io sono qui"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Con amor, Simon"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon vs. the Homo <mark>Sapiens</mark> Agenda"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "\u0421\u0430\u0439\u043c\u043e\u043d \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Com Amor, Simon"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon \u0219i Planul Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Love Simon - tie-in"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Moi, Simon, 16 ans, Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Yo, Simon, Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Simon vs. de verwachtingen van de rest van de wereld"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon \u00e9s a Homo <mark>Sapiens</mark> Lobbi"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Simon Homo Sapiens'e Kar\u015f\u0131"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Nur drei Worte"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Tuo, Simon"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon vs the Homo <mark>Sapiens</mark> Agenda"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Min\u00e4, Simon, Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Con Amor, Simon"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Simon vs The Homosapiens Agenda"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Su meile \u2013 Saimonas"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon vs. The Homo <mark>Sapiens</mark> Agenda"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Tw\u00f3j Simon"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "O Cora\u00e7\u00e3o de Simon Contra o Mundo"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Simon vs. a Agenda Homo <mark>Sapiens</mark>"
+                },
+                {
+                  "matched_tokens": [],
+                  "snippet": "Simon vs verdens forventninger"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Simon vs. the Homo <mark>Sapiens</mark> Agenda"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Simon vs. the Homo <mark>Sapiens</mark> Agenda"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  3,
+                  4,
+                  7,
+                  8
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Simon vs. the Homo <mark>Sapiens</mark> Agenda 10th Anniversary Deluxe Limited Edition",
+                  "Love Simon: Simon Vs The Homo <mark>Sapiens</mark> Agenda",
+                  "Simon Vs. the Homo <mark>Sapiens</mark> Agenda",
+                  "Simon vs. the Homo <mark>Sapiens</mark> Agenda",
+                  "\u0421\u0430\u0439\u043c\u043e\u043d \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 Homo <mark>Sapiens</mark>"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 6,
+              "alternative_titles": [
+                "Life as told by a Sapiens to a Neanderthal",
+                "Life As Told by a Sapiens to a Neanderthal",
+                "La vida contada por un sapiens a un neandertal",
+                "A Vida Contada por um Sapiens a um Neandertal"
+              ],
+              "author_names": [
+                "Juan Jos\u00e9 Mill\u00e1s",
+                "Juan Luis Arsuaga"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author",
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 244636,
+                    "image": {},
+                    "name": "Juan Jos\u00e9 Mill\u00e1s",
+                    "slug": "juan-jose-millas"
+                  },
+                  "contribution": null
+                },
+                {
+                  "author": {
+                    "id": 396857,
+                    "image": {},
+                    "name": "Juan Luis Arsuaga",
+                    "slug": "juan-luis-arsuaga"
+                  },
+                  "contribution": null
+                }
+              ],
+              "cover_color": "Beige",
+              "description": "Prehistory is all around us. We just need to know where to look. Juan Jos\u00e9 Mill\u00e1s has always felt like he doesn't quite fit into human society. Sometimes he wonders if he is even a Homo sapiensat all, or something simpler. Perhaps he is a Neanderthal who somehow survived? So he turns to Juan Luis Arsuaga, one of the world's leading palaeontologists and a super-smart sapiens, to explain why we are the way we are and where we come from. Over the course of many months, the two visit different places, many of them common scenes of our daily lives, and others unique archaeological sites. Arsuaga tries to teach the Neanderthal how to think like a sapiens and, above all, that prehistory is not a thing of the past: that traces of humanity through the millennia can be found anywhere, from a cave or a landscape to a children's playground or a toy shop. Mill\u00e1s and Arsuaga invite you on a journey of wonder which unites scientific discovery with the greatest human invention of all: the art of storytelling.",
+              "featured_series": {},
+              "genres": [
+                "social science"
+              ],
+              "has_audiobook": false,
+              "has_ebook": true,
+              "id": "881186",
+              "image": {
+                "color": "#d5cdb8",
+                "color_name": "Beige",
+                "height": 500,
+                "id": 6636459,
+                "url": "https://assets.hardcover.app/edition/30900028/31108094c88fa1c48a30ac4dfc803f9e146774db.jpeg",
+                "width": 321
+              },
+              "isbns": [
+                "1922585041",
+                "9781922585042",
+                "1922586536",
+                "9781922586537",
+                "8420439665",
+                "9788420439662",
+                "8420439657",
+                "9788420439655",
+                "9722368761",
+                "9789722368766"
+              ],
+              "lists_count": 7,
+              "moods": [],
+              "pages": 224,
+              "prompts_count": 0,
+              "rating": 3.666666666666667,
+              "ratings_count": 12,
+              "release_date": "2020-01-01",
+              "release_year": 2020,
+              "reviews_count": 1,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "life-as-told-by-a-sapiens-to-a-neanderthal",
+              "tags": [],
+              "title": "Life as told by a Sapiens to a Neanderthal",
+              "users_count": 32,
+              "users_read_count": 13
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Life as told by a <mark>Sapiens</mark> to a Neanderthal"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Life As Told by a <mark>Sapiens</mark> to a Neanderthal"
+                },
+                {
+                  "matched_tokens": [
+                    "sapiens"
+                  ],
+                  "snippet": "La vida contada por un <mark>sapiens</mark> a un neandertal"
+                },
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "A Vida Contada por um <mark>Sapiens</mark> a um Neandertal"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Life as told by a <mark>Sapiens</mark> to a Neanderthal"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Life as told by a <mark>Sapiens</mark> to a Neanderthal"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ],
+                  [
+                    "sapiens"
+                  ],
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Life as told by a <mark>Sapiens</mark> to a Neanderthal",
+                  "Life As Told by a <mark>Sapiens</mark> to a Neanderthal",
+                  "La vida contada por un <mark>sapiens</mark> a un neandertal",
+                  "A Vida Contada por um <mark>Sapiens</mark> a um Neandertal"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "Planta Sapiens: The New Science of Plant Intelligence"
+              ],
+              "author_names": [
+                "Paco Calvo"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 479425,
+                    "image": {},
+                    "name": "Paco Calvo",
+                    "slug": "paco-calvo"
+                  },
+                  "contribution": null
+                }
+              ],
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "1018828",
+              "image": {},
+              "isbns": [
+                "0393881091",
+                "9780393881097"
+              ],
+              "lists_count": 9,
+              "moods": [],
+              "pages": 198,
+              "prompts_count": 0,
+              "rating": 2.666666666666667,
+              "ratings_count": 3,
+              "release_date": "2023-03-14",
+              "release_year": 2023,
+              "reviews_count": 2,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "planta-sapiens-the-new-science-of-plant-intelligence",
+              "subtitle": "The New Science of Plant Intelligence",
+              "tags": [],
+              "title": "Planta Sapiens: The New Science of Plant Intelligence",
+              "users_count": 20,
+              "users_read_count": 5
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "Planta <mark>Sapiens</mark>: The New Science of Plant Intelligence"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Planta <mark>Sapiens</mark>: The New Science of Plant Intelligence"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "Planta <mark>Sapiens</mark>: The New Science of Plant Intelligence"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "Planta <mark>Sapiens</mark>: The New Science of Plant Intelligence"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          },
+          {
+            "document": {
+              "activities_count": 0,
+              "alternative_titles": [
+                "The Little Homo Sapiens Scientist"
+              ],
+              "author_names": [
+                "S.L. Huang"
+              ],
+              "book_category_id": 1,
+              "compilation": false,
+              "content_warnings": [],
+              "contribution_types": [
+                "Author"
+              ],
+              "contributions": [
+                {
+                  "author": {
+                    "id": 244951,
+                    "image": {
+                      "color": "#d96d4e",
+                      "color_name": "Orange",
+                      "height": 1941,
+                      "id": 7022357,
+                      "url": "https://assets.hardcover.app/author/244951/929e47e8-7469-4f7d-bb5b-cfaa9b999de6.jpeg",
+                      "width": 2912
+                    },
+                    "name": "S.L. Huang",
+                    "slug": "sl-huang"
+                  }
+                }
+              ],
+              "cover_color": "Gray",
+              "featured_series": {},
+              "genres": [],
+              "has_audiobook": false,
+              "has_ebook": false,
+              "id": "453833",
+              "image": {
+                "color": "#93928a",
+                "color_name": "Gray",
+                "height": 500,
+                "id": 739856,
+                "url": "https://assets.hardcover.app/edition/30408477/10171842-L.jpg",
+                "width": 324
+              },
+              "isbns": [
+                "1942302401",
+                "9781942302407"
+              ],
+              "lists_count": 11,
+              "moods": [
+                "Adventurous",
+                "emotional",
+                "mysterious"
+              ],
+              "pages": 46,
+              "prompts_count": 0,
+              "rating": 3.75,
+              "ratings_count": 4,
+              "release_date": "2016-12-12",
+              "release_year": 2016,
+              "reviews_count": 0,
+              "series_ids": [],
+              "series_names": [],
+              "slug": "the-little-homo-sapiens-scientist",
+              "tags": [
+                "Loveable Characters",
+                "Not Diverse Characters",
+                "A mix driven",
+                "Weak Character Development"
+              ],
+              "title": "The Little Homo Sapiens Scientist",
+              "users_count": 19,
+              "users_read_count": 5
+            },
+            "highlight": {
+              "alternative_titles": [
+                {
+                  "matched_tokens": [
+                    "Sapiens"
+                  ],
+                  "snippet": "The Little Homo <mark>Sapiens</mark> Scientist"
+                }
+              ],
+              "title": {
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "The Little Homo <mark>Sapiens</mark> Scientist"
+              }
+            },
+            "highlights": [
+              {
+                "field": "title",
+                "matched_tokens": [
+                  "Sapiens"
+                ],
+                "snippet": "The Little Homo <mark>Sapiens</mark> Scientist"
+              },
+              {
+                "field": "alternative_titles",
+                "indices": [
+                  0
+                ],
+                "matched_tokens": [
+                  [
+                    "Sapiens"
+                  ]
+                ],
+                "snippets": [
+                  "The Little Homo <mark>Sapiens</mark> Scientist"
+                ]
+              }
+            ],
+            "text_match": 578730123365187626,
+            "text_match_info": {
+              "best_field_score": "1108091338752",
+              "best_field_weight": 5,
+              "fields_matched": 2,
+              "num_tokens_dropped": 0,
+              "score": "578730123365187626",
+              "tokens_matched": 1,
+              "typo_prefix_score": 0
+            }
+          }
+        ],
+        "out_of": 2503307,
+        "page": 1,
+        "request_params": {
+          "collection_name": "Book_production_1760914612",
+          "first_q": "Sapiens",
+          "per_page": 25,
+          "q": "Sapiens"
+        },
+        "search_cutoff": false,
+        "search_time_ms": 12
+      }
+    }
+  }
+}
