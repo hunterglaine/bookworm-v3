@@ -1,0 +1,485 @@
+{
+  "data": {
+    "books": [
+      {
+        "cached_tags": {
+          "Content Warning": [
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 5,
+              "spoilerRatio": 0.0,
+              "tag": "kidnapping",
+              "tagSlug": "kidnapping"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 4,
+              "spoilerRatio": 0.0,
+              "tag": "Mental illness",
+              "tagSlug": "mental-illness"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 3,
+              "spoilerRatio": 0.0,
+              "tag": "confinement",
+              "tagSlug": "confinement"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "Violence",
+              "tagSlug": "violence"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "Fatphobia2",
+              "tagSlug": "fatphobia"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "Homophobia",
+              "tagSlug": "homophobia"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "Death",
+              "tagSlug": "death"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 1,
+              "spoilerRatio": 0.0,
+              "tag": "Injury/Injury detail",
+              "tagSlug": "injury-injury-detail"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 1,
+              "spoilerRatio": 0.0,
+              "tag": "gaslighting",
+              "tagSlug": "gaslighting"
+            },
+            {
+              "category": "Content Warning",
+              "categorySlug": "content-warning",
+              "count": 1,
+              "spoilerRatio": 0.0,
+              "tag": "Gun violence",
+              "tagSlug": "gun-violence"
+            }
+          ],
+          "Genre": [
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 22,
+              "spoilerRatio": 0.0,
+              "tag": "Fantasy",
+              "tagSlug": "fantasy"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 11,
+              "spoilerRatio": 0.09090909090909091,
+              "tag": "Fiction",
+              "tagSlug": "fiction"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 9,
+              "spoilerRatio": 0.0,
+              "tag": "Mystery",
+              "tagSlug": "mystery"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 8,
+              "spoilerRatio": 0.0,
+              "tag": "Magical Realism",
+              "tagSlug": "magical-realism"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 5,
+              "spoilerRatio": 0.0,
+              "tag": "Literary Fiction",
+              "tagSlug": "literary-fiction"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 3,
+              "spoilerRatio": 0.0,
+              "tag": "General",
+              "tagSlug": "general"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 3,
+              "spoilerRatio": 0.0,
+              "tag": "Genre Fiction",
+              "tagSlug": "genre-fiction"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 3,
+              "spoilerRatio": 0.0,
+              "tag": "Literary",
+              "tagSlug": "literary"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 3,
+              "spoilerRatio": 0.0,
+              "tag": "Literature & Fiction",
+              "tagSlug": "literature-fiction"
+            },
+            {
+              "category": "Genre",
+              "categorySlug": "genre",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "speculative fiction",
+              "tagSlug": "speculative-fiction"
+            }
+          ],
+          "Mood": [
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 223,
+              "spoilerRatio": 0.0,
+              "tag": "mysterious",
+              "tagSlug": "mysterious"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 142,
+              "spoilerRatio": 0.0,
+              "tag": "reflective",
+              "tagSlug": "reflective"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 108,
+              "spoilerRatio": 0.0,
+              "tag": "Adventurous",
+              "tagSlug": "adventurous"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 71,
+              "spoilerRatio": 0.0,
+              "tag": "emotional",
+              "tagSlug": "emotional"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 58,
+              "spoilerRatio": 0.0,
+              "tag": "dark",
+              "tagSlug": "dark"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 53,
+              "spoilerRatio": 0.0,
+              "tag": "hopeful",
+              "tagSlug": "hopeful"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 44,
+              "spoilerRatio": 0.0,
+              "tag": "sad",
+              "tagSlug": "sad"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 41,
+              "spoilerRatio": 0.0,
+              "tag": "challenging",
+              "tagSlug": "challenging"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 31,
+              "spoilerRatio": 0.0,
+              "tag": "inspiring",
+              "tagSlug": "inspiring"
+            },
+            {
+              "category": "Mood",
+              "categorySlug": "mood",
+              "count": 28,
+              "spoilerRatio": 0.0,
+              "tag": "tense",
+              "tagSlug": "tense"
+            }
+          ],
+          "Tag": [
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 148,
+              "spoilerRatio": 0.0,
+              "tag": "Loveable Characters",
+              "tagSlug": "loveable-characters"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 145,
+              "spoilerRatio": 0.0,
+              "tag": "Not Diverse Characters",
+              "tagSlug": "not-diverse-characters"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 136,
+              "spoilerRatio": 0.0,
+              "tag": "Strong Character Development",
+              "tagSlug": "strong-character-development"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 104,
+              "spoilerRatio": 0.0,
+              "tag": "Character driven",
+              "tagSlug": "character-driven-93bc26e1-5a51-45d4-854b-c94b6a16141a"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 83,
+              "spoilerRatio": 0.0,
+              "tag": "A mix driven",
+              "tagSlug": "a-mix-driven"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 66,
+              "spoilerRatio": 0.0,
+              "tag": "Weak Character Development",
+              "tagSlug": "weak-character-development"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 54,
+              "spoilerRatio": 0.0,
+              "tag": "Unloveable Characters",
+              "tagSlug": "unloveable-characters"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 39,
+              "spoilerRatio": 0.0,
+              "tag": "Diverse Characters",
+              "tagSlug": "diverse-characters"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 16,
+              "spoilerRatio": 0.0,
+              "tag": "Plot driven",
+              "tagSlug": "plot-driven"
+            },
+            {
+              "category": "Tag",
+              "categorySlug": "tag",
+              "count": 2,
+              "spoilerRatio": 0.0,
+              "tag": "female author",
+              "tagSlug": "female-author"
+            }
+          ]
+        },
+        "contributions": [
+          {
+            "author": {
+              "name": "Susanna Clarke"
+            }
+          }
+        ],
+        "description": "Piranesi\u2019s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.\n\nThere is one other person in the house\u2014a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.",
+        "editions": [
+          {
+            "isbn_10": "3453321987",
+            "isbn_13": "9783453321984"
+          },
+          {
+            "isbn_10": "3641264863",
+            "isbn_13": "9783641264864"
+          },
+          {
+            "isbn_10": "5389179730",
+            "isbn_13": "9785389179738"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": "9781635600000"
+          },
+          {
+            "isbn_10": "1432886576",
+            "isbn_13": "9781432886578"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": null
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": null
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": null
+          },
+          {
+            "isbn_10": "6254493985",
+            "isbn_13": "9786254493980"
+          },
+          {
+            "isbn_10": "9041714731",
+            "isbn_13": "9789041714732"
+          },
+          {
+            "isbn_10": "9493081680",
+            "isbn_13": "9789493081680"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": "9798868701146"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": null
+          },
+          {
+            "isbn_10": "8025734501",
+            "isbn_13": "9788025734506"
+          },
+          {
+            "isbn_10": "1635576717",
+            "isbn_13": "9781635576719"
+          },
+          {
+            "isbn_10": "1526622424",
+            "isbn_13": "9781526622426"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": "9791259670021"
+          },
+          {
+            "isbn_10": "8418363290",
+            "isbn_13": "9788418363290"
+          },
+          {
+            "isbn_10": null,
+            "isbn_13": null
+          },
+          {
+            "isbn_10": "8893258676",
+            "isbn_13": "9788893258678"
+          }
+        ],
+        "id": 175280,
+        "image": {
+          "url": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg"
+        },
+        "pages": 245,
+        "rating": 4.22853385930309,
+        "ratings_count": 3042,
+        "ratings_distribution": [
+          {
+            "count": 3,
+            "rating": 0.5
+          },
+          {
+            "count": 23,
+            "rating": 1.0
+          },
+          {
+            "count": 4,
+            "rating": 1.5
+          },
+          {
+            "count": 76,
+            "rating": 2.0
+          },
+          {
+            "count": 21,
+            "rating": 2.5
+          },
+          {
+            "count": 324,
+            "rating": 3.0
+          },
+          {
+            "count": 114,
+            "rating": 3.5
+          },
+          {
+            "count": 991,
+            "rating": 4.0
+          },
+          {
+            "count": 1,
+            "rating": 4.2
+          },
+          {
+            "count": 272,
+            "rating": 4.5
+          },
+          {
+            "count": 1213,
+            "rating": 5.0
+          }
+        ],
+        "release_date": "2019-04-08",
+        "subtitle": null,
+        "title": "Piranesi",
+        "users_read_count": 3808
+      }
+    ]
+  }
+}

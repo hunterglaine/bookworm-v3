@@ -5,7 +5,8 @@ from fastapi import APIRouter, HTTPException, Query, status
 
 from app.api.deps import CurrentUser, DbSession
 from app.providers.hardcover import HardcoverError
-from app.schemas.book import BookSearchResponse, BookSearchResult
+from app.schemas.book import BookDetailResponse, BookSearchResponse, BookSearchResult
+from app.services.book_detail import get_book_detail
 from app.services.book_search import (
     DEFAULT_RESULT_LIMIT,
     MAX_QUERY_LENGTH,
@@ -37,3 +38,20 @@ def search(
         query=normalize_query(q),
         results=[BookSearchResult(**asdict(hit)) for hit in hits],
     )
+
+
+@router.get("/{hardcover_id}", response_model=BookDetailResponse)
+def detail(current_user: CurrentUser, db: DbSession, hardcover_id: str) -> BookDetailResponse:
+    """Full detail for one book, including description and ratings breakdown.
+
+    Neither is available from search -- both come from the books table.
+    """
+    try:
+        book = get_book_detail(db, hardcover_id)
+    except HardcoverError as exc:
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=str(exc)) from exc
+
+    if book is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Book not found")
+
+    return BookDetailResponse(**asdict(book))
