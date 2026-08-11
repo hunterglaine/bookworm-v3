@@ -31,6 +31,9 @@ class Settings(BaseSettings):
     # Book data provider. Rate limited to 60 req/min, so responses get cached.
     hardcover_api_url: str = "https://api.hardcover.app/v1/graphql"
     hardcover_token: str = Field(default="")
+    # Ratings and catalogue metadata drift slowly; nothing here needs to be
+    # fresher than a day, and the rate limit is the binding constraint.
+    search_cache_ttl_hours: int = 24
 
     # Auth. The access token is short-lived because nothing can revoke it; the
     # refresh token is long-lived because the database can.
