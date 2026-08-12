@@ -6,6 +6,8 @@ import BookSearch from '@/components/BookSearch'
 import { api } from '@/lib/api'
 import { fetchCurrentUser, logout } from '@/lib/auth'
 import BookDetailPage from '@/routes/BookDetailPage'
+import ShelfPage from '@/routes/ShelfPage'
+import ShelvesPage from '@/routes/ShelvesPage'
 
 interface Health {
   status: string
@@ -66,9 +68,20 @@ export default function App() {
         </p>
       )}
 
+      <nav className="flex gap-4 text-sm">
+        <Link to="/" className="underline-offset-4 hover:underline">
+          Search
+        </Link>
+        <Link to="/shelves" className="underline-offset-4 hover:underline">
+          Shelves
+        </Link>
+      </nav>
+
       <Routes>
         <Route path="/" element={<BookSearch />} />
         <Route path="/books/:hardcoverId" element={<BookDetailPage />} />
+        <Route path="/shelves" element={<ShelvesPage />} />
+        <Route path="/shelves/:shelfId" element={<ShelfPage />} />
         <Route
           path="*"
           element={

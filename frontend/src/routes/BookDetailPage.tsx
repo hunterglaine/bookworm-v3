@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { Link, useParams } from 'react-router'
 
+import BookActions from '@/components/BookActions'
 import RatingDistribution from '@/components/RatingDistribution'
 import { ApiError } from '@/lib/api'
 import { fetchBook } from '@/lib/books'
@@ -98,6 +99,8 @@ export default function BookDetailPage() {
           )}
         </div>
       </div>
+
+      <BookActions hardcoverId={book.hardcover_id} />
 
       {book.ratings_count > 0 && (
         <RatingDistribution buckets={book.ratings_distribution} total={book.ratings_count} />
