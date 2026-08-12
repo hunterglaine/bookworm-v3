@@ -6,6 +6,7 @@ import BookSearch from '@/components/BookSearch'
 import { api } from '@/lib/api'
 import { fetchCurrentUser, logout } from '@/lib/auth'
 import BookDetailPage from '@/routes/BookDetailPage'
+import BookshelfPage from '@/routes/BookshelfPage'
 import ShelfPage from '@/routes/ShelfPage'
 import ShelvesPage from '@/routes/ShelvesPage'
 
@@ -44,7 +45,9 @@ export default function App() {
   }
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 px-6 py-12">
+    // Wide enough for a shelf of spines. Text-heavy blocks constrain their own
+    // line length rather than the whole app being narrowed to suit them.
+    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-6 px-6 py-12">
       <div className="flex items-start justify-between gap-4">
         <div>
           <Link to="/" className="text-4xl font-semibold tracking-tight">
@@ -72,14 +75,18 @@ export default function App() {
         <Link to="/" className="underline-offset-4 hover:underline">
           Search
         </Link>
+        <Link to="/bookshelf" className="underline-offset-4 hover:underline">
+          Bookshelf
+        </Link>
         <Link to="/shelves" className="underline-offset-4 hover:underline">
-          Shelves
+          Manage shelves
         </Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<BookSearch />} />
         <Route path="/books/:hardcoverId" element={<BookDetailPage />} />
+        <Route path="/bookshelf" element={<BookshelfPage />} />
         <Route path="/shelves" element={<ShelvesPage />} />
         <Route path="/shelves/:shelfId" element={<ShelfPage />} />
         <Route

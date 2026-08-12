@@ -425,11 +425,12 @@
         ],
         "id": 175280,
         "image": {
+          "color": "#908764",
           "url": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg"
         },
         "pages": 245,
-        "rating": 4.22853385930309,
-        "ratings_count": 3042,
+        "rating": 4.228562048588312,
+        "ratings_count": 3046,
         "ratings_distribution": [
           {
             "count": 3,
@@ -456,11 +457,11 @@
             "rating": 3.0
           },
           {
-            "count": 114,
+            "count": 115,
             "rating": 3.5
           },
           {
-            "count": 991,
+            "count": 992,
             "rating": 4.0
           },
           {
@@ -468,18 +469,18 @@
             "rating": 4.2
           },
           {
-            "count": 272,
+            "count": 273,
             "rating": 4.5
           },
           {
-            "count": 1213,
+            "count": 1214,
             "rating": 5.0
           }
         ],
         "release_date": "2019-04-08",
         "subtitle": null,
         "title": "Piranesi",
-        "users_read_count": 3808
+        "users_read_count": 3815
       }
     ]
   }

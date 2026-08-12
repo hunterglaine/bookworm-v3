@@ -42,7 +42,7 @@ BOOK_QUERY = """query Book($id: Int!) {
     release_date
     users_read_count
     cached_tags
-    image { url }
+    image { url color }
     contributions { author { id name } }
     editions(limit: 20) { isbn_10 isbn_13 }
   }
@@ -61,6 +61,7 @@ class BookSearchHit:
     title: str
     authors: list[str]
     cover_url: str | None
+    cover_color: str | None
     page_count: int | None
     rating: float | None
     ratings_count: int
@@ -84,14 +85,17 @@ def _parse_hit(document: dict[str, Any]) -> BookSearchHit | None:
     raw_rating = document.get("rating")
     rating = float(raw_rating) if raw_rating and ratings_count > 0 else None
 
-    image = document.get("image")
-    cover_url = image.get("url") if isinstance(image, dict) else None
+    raw_image = document.get("image")
+    image = raw_image if isinstance(raw_image, dict) else {}
+    cover_url = image.get("url")
+    cover_color = image.get("color")
 
     return BookSearchHit(
         hardcover_id=str(book_id),
         title=str(title),
         authors=[str(a) for a in document.get("author_names") or []],
         cover_url=str(cover_url) if cover_url else None,
+        cover_color=str(cover_color) if cover_color else None,
         page_count=int(document["pages"]) if document.get("pages") else None,
         rating=rating,
         ratings_count=ratings_count,
@@ -149,6 +153,7 @@ class BookDetail:
     release_date: str | None
     users_read_count: int
     cover_url: str | None
+    cover_color: str | None
     authors: list[AuthorRef]
     genres: list[str]
     moods: list[str]
@@ -204,8 +209,10 @@ def parse_book_response(payload: dict[str, Any]) -> BookDetail | None:
     raw_rating = row.get("rating")
     rating = float(raw_rating) if raw_rating and ratings_count > 0 else None
 
-    image = row.get("image")
-    cover_url = image.get("url") if isinstance(image, dict) else None
+    raw_image = row.get("image")
+    image = raw_image if isinstance(raw_image, dict) else {}
+    cover_url = image.get("url")
+    cover_color = image.get("color")
 
     authors: list[AuthorRef] = []
     seen_authors: set[str] = set()
@@ -241,6 +248,7 @@ def parse_book_response(payload: dict[str, Any]) -> BookDetail | None:
         release_date=str(row["release_date"]) if row.get("release_date") else None,
         users_read_count=int(row.get("users_read_count") or 0),
         cover_url=str(cover_url) if cover_url else None,
+        cover_color=str(cover_color) if cover_color else None,
         authors=authors,
         genres=_tag_names(row.get("cached_tags"), "Genre"),
         moods=_tag_names(row.get("cached_tags"), "Mood"),

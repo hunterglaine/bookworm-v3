@@ -25,7 +25,16 @@ export interface BookSummary {
   subtitle: string | null
   authors: string[]
   cover_url: string | null
+  /** Dominant colour of the cover; drives the generated spine. */
+  cover_color: string | null
   page_count: number | null
+}
+
+export interface BookshelfShelf {
+  id: number
+  name: string
+  slug: string
+  books: BookSummary[]
 }
 
 export interface ShelfDetail {
@@ -71,6 +80,19 @@ export function deleteShelf(shelfId: number): Promise<void> {
 
 export function fetchShelf(shelfId: number, signal?: AbortSignal): Promise<ShelfDetail> {
   return api<ShelfDetail>(`/api/v1/shelves/${shelfId}`, { signal })
+}
+
+export function fetchBookshelf(signal?: AbortSignal): Promise<BookshelfShelf[]> {
+  return api<BookshelfShelf[]>('/api/v1/shelves/bookshelf', { signal })
+}
+
+/** Replaces a shelf's contents and their order. A cross-shelf drag is two of
+ *  these, so each call fully describes one shelf. */
+export function setShelfContents(shelfId: number, bookIds: number[]): Promise<ShelfDetail> {
+  return api<ShelfDetail>(`/api/v1/shelves/${shelfId}/books`, {
+    method: 'PUT',
+    body: JSON.stringify({ book_ids: bookIds }),
+  })
 }
 
 export function addBookToShelf(shelfId: number, hardcoverId: string): Promise<BookSummary> {

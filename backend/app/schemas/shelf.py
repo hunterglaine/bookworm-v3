@@ -41,10 +41,30 @@ class BookSummary(BaseModel):
     subtitle: str | None
     authors: list[str]
     cover_url: str | None
+    # Drives the generated spine. Without it every spine is the same grey.
+    cover_color: str | None
     page_count: int | None
 
 
 class ShelfDetailResponse(BaseModel):
+    id: int
+    name: str
+    slug: str
+    books: list[BookSummary]
+
+
+class ShelfContents(BaseModel):
+    """The books a shelf should hold, in order.
+
+    Sets membership as well as order, so a drag between shelves is two of these
+    -- the source without the book, the target with it -- rather than a delete,
+    an add, and a reorder that can half-fail.
+    """
+
+    book_ids: list[int]
+
+
+class BookshelfShelf(BaseModel):
     id: int
     name: str
     slug: str

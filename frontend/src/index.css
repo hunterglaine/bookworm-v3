@@ -16,6 +16,62 @@
   }
 }
 
+/* The shelf plank. Structure lives here -- thickness, the front edge, the
+ * shadow the books cast onto it -- while colour stays a custom property, so a
+ * later pass can swap in wood without touching the layout. */
+:root {
+  --shelf-face: #d8d5cd;
+  --shelf-edge: #b9b5aa;
+  --shelf-shadow: rgb(0 0 0 / 0.18);
+  /* The panel behind the books. Darker than the page, which is what makes the
+   * case read as a recess rather than a drawn rectangle. */
+  --shelf-back: #e9e6de;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) {
+    --shelf-face: #3a3833;
+    --shelf-edge: #2a2825;
+    --shelf-shadow: rgb(0 0 0 / 0.45);
+    --shelf-back: #201f1d;
+  }
+}
+
+:root[data-theme='dark'] {
+  --shelf-face: #3a3833;
+  --shelf-edge: #2a2825;
+  --shelf-shadow: rgb(0 0 0 / 0.45);
+  --shelf-back: #201f1d;
+}
+
+/* The case: sides, top and base wrapping every shelf into one unit. Frame
+ * thickness and depth live here; only the colours are variables, so a later
+ * pass can swap in wood without touching the geometry. */
+.bookcase {
+  --case-thickness: 14px;
+  border: var(--case-thickness) solid var(--shelf-face);
+  border-radius: 4px;
+  background: var(--shelf-back);
+  /* Inner shadow along the sides and top reads as depth into the case; the
+   * outer one lifts the whole unit off the page. */
+  box-shadow:
+    inset 0 6px 10px -8px var(--shelf-shadow),
+    inset 8px 0 10px -10px var(--shelf-shadow),
+    inset -8px 0 10px -10px var(--shelf-shadow),
+    0 10px 24px -18px var(--shelf-shadow);
+}
+
+.shelf-plank {
+  height: 10px;
+  border-radius: 2px;
+  background: linear-gradient(var(--shelf-face) 0 60%, var(--shelf-edge) 60% 100%);
+  /* Above: the shadow books sit in. Below: the plank's own drop shadow, which
+   * is what reads as depth rather than a drawn line. */
+  box-shadow:
+    inset 0 3px 4px -3px var(--shelf-shadow),
+    0 4px 6px -4px var(--shelf-shadow);
+}
+
 /* Chart roles, kept as custom properties so light/dark swap in one place and
  * chart markup is written against roles rather than raw hex.
  * Values validated against both surfaces with the dataviz palette validator. */

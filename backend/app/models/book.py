@@ -36,6 +36,9 @@ class Book(TimestampMixin, Base):
     description: Mapped[str | None] = mapped_column(Text)
     page_count: Mapped[int | None] = mapped_column(Integer)
     cover_url: Mapped[str | None] = mapped_column(Text)
+    # Dominant colour of the cover, as "#rrggbb". Generated spines take their
+    # colour from it -- without it a shelf is thirty identical grey rectangles.
+    cover_color: Mapped[str | None] = mapped_column(String(9))
     published_date: Mapped[date | None] = mapped_column(Date)
 
     # Drives cache invalidation -- provider metadata goes stale, and the 60

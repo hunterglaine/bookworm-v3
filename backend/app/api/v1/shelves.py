@@ -8,8 +8,10 @@ from app.api.deps import CurrentUser, DbSession
 from app.models import Book, Shelf, ShelfItem
 from app.providers.hardcover import HardcoverError
 from app.schemas.shelf import (
+    BookshelfShelf,
     BookSummary,
     ShelfBookAdd,
+    ShelfContents,
     ShelfCreate,
     ShelfDetailResponse,
     ShelfResponse,
@@ -29,6 +31,7 @@ def _summary(book: Book) -> BookSummary:
         subtitle=book.subtitle,
         authors=author_names(book),
         cover_url=book.cover_url,
+        cover_color=book.cover_color,
         page_count=book.page_count,
     )
 
@@ -83,6 +86,36 @@ def list_shelves(
             contains_book=bool(has_book),
         )
         for shelf, count, has_book in rows
+    ]
+
+
+@router.get("/bookshelf", response_model=list[BookshelfShelf])
+def bookshelf(current_user: CurrentUser, db: DbSession) -> list[BookshelfShelf]:
+    """Every shelf with its books, in shelf order.
+
+    One request rather than one per shelf: the visual bookshelf renders all of
+    them at once, so N+1 round trips would be the whole page load.
+    """
+    shelves = db.scalars(
+        select(Shelf).where(Shelf.user_id == current_user.id).order_by(Shelf.name)
+    ).all()
+    if not shelves:
+        return []
+
+    rows = db.execute(
+        select(ShelfItem.shelf_id, Book)
+        .join(Book, Book.id == ShelfItem.book_id)
+        .where(ShelfItem.shelf_id.in_([shelf.id for shelf in shelves]))
+        .order_by(ShelfItem.shelf_id, ShelfItem.position, ShelfItem.added_at)
+        .options(selectinload(Book.authors))
+    ).all()
+
+    by_shelf: dict[int, list[BookSummary]] = {shelf.id: [] for shelf in shelves}
+    for shelf_id, book in rows:
+        by_shelf[shelf_id].append(_summary(book))
+
+    return [
+        BookshelfShelf(id=s.id, name=s.name, slug=s.slug, books=by_shelf[s.id]) for s in shelves
     ]
 
 
@@ -165,6 +198,60 @@ def add_book(
 
     db.commit()
     return _summary(book)
+
+
+@router.put("/{shelf_id}/books", response_model=ShelfDetailResponse)
+def set_shelf_contents(
+    shelf_id: int, payload: ShelfContents, current_user: CurrentUser, db: DbSession
+) -> ShelfDetailResponse:
+    """Replace what a shelf holds, and the order it holds it in.
+
+    Sets membership as well as order so that a drag between shelves is two
+    calls that each fully describe one shelf, rather than a remove and an add
+    that can leave the book on both shelves or neither if one fails.
+
+    Only books already persisted can be referenced -- this reorders what the
+    user has, it is not a way to create books.
+    """
+    shelf = _owned_shelf(db, current_user.id, shelf_id)
+
+    wanted = list(dict.fromkeys(payload.book_ids))
+    known = set(db.scalars(select(Book.id).where(Book.id.in_(wanted))).all()) if wanted else set()
+    missing = [book_id for book_id in wanted if book_id not in known]
+    if missing:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail=f"Unknown book ids: {missing}"
+        )
+
+    existing = {
+        item.book_id: item
+        for item in db.scalars(select(ShelfItem).where(ShelfItem.shelf_id == shelf.id))
+    }
+
+    for book_id, stale in existing.items():
+        if book_id not in known:
+            db.delete(stale)
+
+    for position, book_id in enumerate(wanted):
+        current = existing.get(book_id)
+        if current is None:
+            db.add(ShelfItem(shelf_id=shelf.id, book_id=book_id, position=position))
+        else:
+            current.position = position
+
+    db.commit()
+
+    books = db.scalars(
+        select(Book)
+        .join(ShelfItem, ShelfItem.book_id == Book.id)
+        .where(ShelfItem.shelf_id == shelf.id)
+        .order_by(ShelfItem.position, ShelfItem.added_at)
+        .options(selectinload(Book.authors))
+    ).all()
+
+    return ShelfDetailResponse(
+        id=shelf.id, name=shelf.name, slug=shelf.slug, books=[_summary(b) for b in books]
+    )
 
 
 @router.delete("/{shelf_id}/books/{book_id}", status_code=status.HTTP_204_NO_CONTENT)

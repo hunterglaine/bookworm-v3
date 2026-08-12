@@ -118,6 +118,7 @@ def _apply_detail(db: Session, book: Book, detail: BookDetail) -> Book:
     book.description = detail.description
     book.page_count = detail.page_count
     book.cover_url = detail.cover_url
+    book.cover_color = detail.cover_color
     book.published_date = _parse_release_date(detail.release_date)
     book.isbn13 = next((i for i in detail.isbns if len(i) == 13), None)
     book.isbn10 = next((i for i in detail.isbns if len(i) == 10), None)

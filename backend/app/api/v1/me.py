@@ -33,6 +33,7 @@ def _entry(entry: UserBook, book: Book) -> ReadingEntryResponse:
             subtitle=book.subtitle,
             authors=author_names(book),
             cover_url=book.cover_url,
+            cover_color=book.cover_color,
             page_count=book.page_count,
         ),
     )

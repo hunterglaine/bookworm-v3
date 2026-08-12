@@ -109,7 +109,9 @@ export default function BookDetailPage() {
       {book.description && (
         <section className="flex flex-col gap-2">
           <h2 className="text-sm font-medium text-neutral-500">Description</h2>
-          <p className="whitespace-pre-line leading-relaxed">{book.description}</p>
+          {/* Capped independently of the page: the shell is wide for shelves,
+              but a paragraph that wide is hard to track line to line. */}
+          <p className="max-w-prose whitespace-pre-line leading-relaxed">{book.description}</p>
         </section>
       )}
 

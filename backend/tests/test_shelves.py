@@ -266,6 +266,107 @@ def test_removing_a_book_leaves_the_shelf(signed_in: TestClient, db: Session) ->
     assert signed_in.get(f"/api/v1/shelves/{shelf_id}").json()["books"] == []
 
 
+# --- bookshelf and ordering ------------------------------------------------
+
+
+def test_bookshelf_returns_every_shelf_with_its_books(signed_in: TestClient, db: Session) -> None:
+    """One request for the whole page -- N shelves must not mean N+1 round trips."""
+    ensure_book(db, PIRANESI_ID, client=CountingClient(load("piranesi")))
+    sci_fi = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    signed_in.post("/api/v1/shelves", json={"name": "Empty"})
+    signed_in.post(f"/api/v1/shelves/{sci_fi}/books", json={"hardcover_id": PIRANESI_ID})
+
+    shelves = signed_in.get("/api/v1/shelves/bookshelf").json()
+
+    assert [s["name"] for s in shelves] == ["Empty", "Sci-fi"]
+    assert [len(s["books"]) for s in shelves] == [0, 1]
+    assert shelves[1]["books"][0]["title"] == "Piranesi"
+
+
+def test_bookshelf_carries_cover_colour(signed_in: TestClient, db: Session) -> None:
+    """Spines are generated, so colour is what stops a shelf being grey."""
+    ensure_book(db, PIRANESI_ID, client=CountingClient(load("piranesi")))
+    shelf_id = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    signed_in.post(f"/api/v1/shelves/{shelf_id}/books", json={"hardcover_id": PIRANESI_ID})
+
+    book = signed_in.get("/api/v1/shelves/bookshelf").json()[0]["books"][0]
+    assert book["cover_color"] is not None
+    assert book["cover_color"].startswith("#")
+
+
+def _two_books(db: Session) -> tuple[int, int]:
+    first = ensure_book(db, PIRANESI_ID, client=CountingClient(load("piranesi")))
+    other = load("piranesi")
+    other["data"]["books"][0]["id"] = 999002
+    other["data"]["books"][0]["title"] = "Jonathan Strange"
+    second = ensure_book(db, "999002", client=CountingClient(other))
+    assert first is not None and second is not None
+    return first.id, second.id
+
+
+def test_setting_contents_reorders(signed_in: TestClient, db: Session) -> None:
+    first, second = _two_books(db)
+    shelf_id = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    signed_in.put(f"/api/v1/shelves/{shelf_id}/books", json={"book_ids": [first, second]})
+
+    reversed_shelf = signed_in.put(
+        f"/api/v1/shelves/{shelf_id}/books", json={"book_ids": [second, first]}
+    ).json()
+
+    assert [b["id"] for b in reversed_shelf["books"]] == [second, first]
+
+
+def test_setting_contents_removes_what_is_left_out(signed_in: TestClient, db: Session) -> None:
+    first, second = _two_books(db)
+    shelf_id = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    signed_in.put(f"/api/v1/shelves/{shelf_id}/books", json={"book_ids": [first, second]})
+
+    trimmed = signed_in.put(f"/api/v1/shelves/{shelf_id}/books", json={"book_ids": [first]}).json()
+
+    assert [b["id"] for b in trimmed["books"]] == [first]
+
+
+def test_dragging_between_shelves_is_two_calls(signed_in: TestClient, db: Session) -> None:
+    """Each call fully describes one shelf, so a half-failure cannot leave the
+    book on both shelves or on neither.
+    """
+    first, second = _two_books(db)
+    source = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    target = signed_in.post("/api/v1/shelves", json={"name": "Owned"}).json()["id"]
+    signed_in.put(f"/api/v1/shelves/{source}/books", json={"book_ids": [first, second]})
+
+    signed_in.put(f"/api/v1/shelves/{source}/books", json={"book_ids": [second]})
+    signed_in.put(f"/api/v1/shelves/{target}/books", json={"book_ids": [first]})
+
+    shelves = {
+        s["name"]: [b["id"] for b in s["books"]]
+        for s in signed_in.get("/api/v1/shelves/bookshelf").json()
+    }
+    assert shelves == {"Sci-fi": [second], "Owned": [first]}
+
+
+def test_setting_contents_rejects_unknown_books(signed_in: TestClient) -> None:
+    shelf_id = signed_in.post("/api/v1/shelves", json={"name": "Sci-fi"}).json()["id"]
+    response = signed_in.put(f"/api/v1/shelves/{shelf_id}/books", json={"book_ids": [424242]})
+    assert response.status_code == 404
+
+
+def test_setting_contents_on_another_users_shelf_is_not_found(
+    signed_in: TestClient, db: Session
+) -> None:
+    from app.models import Shelf, User
+
+    stranger = User(email="stranger3@example.com", password_hash="x")
+    db.add(stranger)
+    db.flush()
+    theirs = Shelf(user_id=stranger.id, name="Theirs", slug="theirs")
+    db.add(theirs)
+    db.flush()
+
+    response = signed_in.put(f"/api/v1/shelves/{theirs.id}/books", json={"book_ids": []})
+    assert response.status_code == 404
+
+
 # --- reading status --------------------------------------------------------
 
 

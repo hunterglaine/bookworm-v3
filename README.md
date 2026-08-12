@@ -95,5 +95,6 @@ afterwards. The test database is created automatically.
 | 4 | Book search end-to-end | ✅ |
 | 5 | Book detail + ratings | ✅ |
 | 6 | Shelves CRUD + reading status | ✅ |
-| 7 | Visual bookshelf UI | |
-| 8 | Deploy | |
+| 7 | Visual bookshelf UI | ✅ |
+| 8 | Site-wide design pass | |
+| 9 | Deploy | |
