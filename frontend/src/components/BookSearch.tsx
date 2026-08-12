@@ -1,24 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router'
 
 import { type BookSearchResult, searchBooks } from '@/lib/books'
-
-const MIN_QUERY_LENGTH = 2
-// Hardcover allows 60 requests/minute. Firing on every keystroke would spend
-// that on prefixes nobody meant to search for.
-const DEBOUNCE_MS = 400
-
-function useDebounced(value: string, delay: number): string {
-  const [debounced, setDebounced] = useState(value)
-
-  useEffect(() => {
-    const timer = setTimeout(() => setDebounced(value), delay)
-    return () => clearTimeout(timer)
-  }, [value, delay])
-
-  return debounced
-}
+import { MIN_QUERY_LENGTH, SEARCH_DEBOUNCE_MS, useDebounced } from '@/lib/useDebounced'
 
 function Stars({ rating, count }: { rating: number | null; count: number }) {
   if (rating === null) {
@@ -71,7 +56,7 @@ function BookCard({ book }: { book: BookSearchResult }) {
 
 export default function BookSearch() {
   const [input, setInput] = useState('')
-  const query = useDebounced(input.trim(), DEBOUNCE_MS)
+  const query = useDebounced(input.trim(), SEARCH_DEBOUNCE_MS)
   const enabled = query.length >= MIN_QUERY_LENGTH
 
   const { data, isFetching, isError, error } = useQuery({
