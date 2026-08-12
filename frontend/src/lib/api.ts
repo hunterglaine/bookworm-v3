@@ -25,16 +25,55 @@ function extractDetail(body: unknown): string | null {
   return null
 }
 
+const REFRESH_PATH = '/api/v1/auth/refresh'
+
+/** A 401 from these means "wrong credentials" or "session gone", not "token
+ *  expired" -- refreshing in response would be pointless or recursive. */
+const NO_REFRESH = [REFRESH_PATH, '/api/v1/auth/login', '/api/v1/auth/register']
+
+let refreshInFlight: Promise<boolean> | null = null
+
+/**
+ * Exchange the refresh cookie for a fresh access token.
+ *
+ * Single-flight, and that is not an optimisation. Refresh tokens rotate, and
+ * the server treats a replayed rotated token as theft and revokes every session
+ * for the user. Two parallel refreshes would race, the loser would present a
+ * token that had just been rotated away, and the account would be signed out
+ * everywhere. One shared promise means concurrent 401s wait on the same call.
+ */
+function refreshSession(): Promise<boolean> {
+  refreshInFlight ??= fetch(REFRESH_PATH, { method: 'POST', credentials: 'include' })
+    .then((response) => response.ok)
+    .catch(() => false)
+    .finally(() => {
+      refreshInFlight = null
+    })
+
+  return refreshInFlight
+}
+
 /**
  * Thin fetch wrapper. `credentials: 'include'` matters -- auth is an httpOnly
  * cookie, so it has to ride along on every request.
+ *
+ * A 401 triggers one refresh-and-retry: the access token lives 15 minutes but
+ * the refresh token lives 30 days, so an expired access token should be
+ * invisible rather than throwing the user back to the login form.
  */
-export async function api<T>(path: string, init?: RequestInit): Promise<T> {
+export async function api<T>(path: string, init?: RequestInit, allowRetry = true): Promise<T> {
   const response = await fetch(path, {
     credentials: 'include',
     headers: { 'Content-Type': 'application/json', ...init?.headers },
     ...init,
   })
+
+  if (response.status === 401 && allowRetry && !NO_REFRESH.some((p) => path.startsWith(p))) {
+    if (await refreshSession()) {
+      // Retried once only: a second 401 means the session is genuinely gone.
+      return api<T>(path, init, false)
+    }
+  }
 
   if (!response.ok) {
     // Surfacing the server's reason is what lets a form say "Email already
