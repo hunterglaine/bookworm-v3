@@ -54,4 +54,8 @@ def detail(current_user: CurrentUser, db: DbSession, hardcover_id: str) -> BookD
     if book is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Book not found")
 
-    return BookDetailResponse(**asdict(book))
+    # Author ids exist for persistence, not for display -- the response keeps
+    # plain names so the client has nothing to know about provider identity.
+    payload = asdict(book)
+    payload["authors"] = book.author_names
+    return BookDetailResponse(**payload)

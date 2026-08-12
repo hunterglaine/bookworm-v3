@@ -43,7 +43,7 @@ BOOK_QUERY = """query Book($id: Int!) {
     users_read_count
     cached_tags
     image { url }
-    contributions { author { name } }
+    contributions { author { id name } }
     editions(limit: 20) { isbn_10 isbn_13 }
   }
 }"""
@@ -125,6 +125,16 @@ class RatingBucket:
 
 
 @dataclass(frozen=True, slots=True)
+class AuthorRef:
+    """An author with provider identity, so persistence can match on the id
+    rather than the name.
+    """
+
+    hardcover_id: str
+    name: str
+
+
+@dataclass(frozen=True, slots=True)
 class BookDetail:
     """Everything the detail view needs, from the books table rather than search."""
 
@@ -139,10 +149,14 @@ class BookDetail:
     release_date: str | None
     users_read_count: int
     cover_url: str | None
-    authors: list[str]
+    authors: list[AuthorRef]
     genres: list[str]
     moods: list[str]
     isbns: list[str]
+
+    @property
+    def author_names(self) -> list[str]:
+        return [author.name for author in self.authors]
 
 
 def _tag_names(cached_tags: Any, category: str) -> list[str]:
@@ -193,11 +207,21 @@ def parse_book_response(payload: dict[str, Any]) -> BookDetail | None:
     image = row.get("image")
     cover_url = image.get("url") if isinstance(image, dict) else None
 
-    authors = [
-        str(c["author"]["name"])
-        for c in row.get("contributions") or []
-        if isinstance(c, dict) and isinstance(c.get("author"), dict) and c["author"].get("name")
-    ]
+    authors: list[AuthorRef] = []
+    seen_authors: set[str] = set()
+    for contribution in row.get("contributions") or []:
+        if not isinstance(contribution, dict):
+            continue
+        author = contribution.get("author")
+        if not isinstance(author, dict) or not author.get("id") or not author.get("name"):
+            continue
+        author_id = str(author["id"])
+        # One person can contribute twice (author and illustrator, say); the
+        # book should still list them once.
+        if author_id in seen_authors:
+            continue
+        seen_authors.add(author_id)
+        authors.append(AuthorRef(hardcover_id=author_id, name=str(author["name"])))
 
     isbns: list[str] = []
     for edition in row.get("editions") or []:

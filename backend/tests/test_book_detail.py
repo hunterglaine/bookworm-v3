@@ -58,10 +58,16 @@ def test_distribution_totals_roughly_the_ratings_count() -> None:
     assert sum(bucket.count for bucket in book.ratings_distribution) == book.ratings_count
 
 
-def test_authors_come_from_contributions() -> None:
+def test_authors_carry_provider_identity() -> None:
+    """Names alone would merge distinct people who share one -- the id is what
+    keeps them apart when the author is persisted.
+    """
     book = parse_book_response(load("piranesi"))
     assert book is not None
-    assert "Susanna Clarke" in book.authors
+
+    assert "Susanna Clarke" in book.author_names
+    clarke = next(a for a in book.authors if a.name == "Susanna Clarke")
+    assert clarke.hardcover_id == "86621"
 
 
 def test_unknown_id_is_not_an_error() -> None:

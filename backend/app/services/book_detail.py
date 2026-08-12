@@ -10,7 +10,7 @@ from typing import Any
 
 from sqlalchemy.orm import Session
 
-from app.providers.hardcover import BookDetail, HardcoverClient, RatingBucket
+from app.providers.hardcover import AuthorRef, BookDetail, HardcoverClient, RatingBucket
 from app.services import provider_cache
 
 
@@ -29,6 +29,7 @@ def _decode(payload: Any) -> BookDetail | None:
         values["ratings_distribution"] = [
             RatingBucket(**bucket) for bucket in values.get("ratings_distribution") or []
         ]
+        values["authors"] = [AuthorRef(**author) for author in values.get("authors") or []]
         return BookDetail(**values)
     except TypeError:
         return None

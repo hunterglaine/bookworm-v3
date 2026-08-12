@@ -17,6 +17,9 @@ class Author(TimestampMixin, Base):
     __tablename__ = "authors"
 
     id: Mapped[int] = mapped_column(BigInteger, Identity(), primary_key=True)
+    # Identity comes from the provider, not the name: "John Williams" is both a
+    # novelist and a composer, and matching on name would merge them forever.
+    hardcover_id: Mapped[str | None] = mapped_column(String(64), unique=True, index=True)
     name: Mapped[str] = mapped_column(String(255), index=True)
 
     books: Mapped[list[BookAuthor]] = relationship(
