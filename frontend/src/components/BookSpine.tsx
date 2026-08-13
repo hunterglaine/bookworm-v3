@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link } from 'react-router'
 
-import { inkOn, spineColor } from '@/lib/color'
+import { legibleSpine } from '@/lib/color'
 import type { BookSummary } from '@/lib/shelves'
 
 /**
@@ -47,8 +47,8 @@ export default function BookSpine({
   dragging?: boolean
 }) {
   const [rect, setRect] = useState<DOMRect | null>(null)
-  const background = spineColor(book.cover_color)
-  const ink = inkOn(background)
+  // Nudges the provider's colour when it cannot carry small text at AA.
+  const { background, ink } = legibleSpine(book.cover_color)
   const width = spineWidth(book.page_count)
   const author = book.authors[0] ?? ''
 
@@ -104,9 +104,12 @@ export default function BookSpine({
         }}
       >
         <span className="absolute inset-0 flex items-center justify-center overflow-hidden">
-          {/* Rotated so the title reads bottom-to-top, as on a real spine. */}
+          {/* Rotated so the title reads bottom-to-top, as on a real spine.
+              In vertical writing mode the inline axis is vertical, so it is
+              max-height that bounds the line -- and ellipsis, so a long title
+              tapers off instead of being sliced mid-letter. */}
           <span
-            className="max-h-[150px] overflow-hidden text-[11px] leading-tight font-medium whitespace-nowrap"
+            className="max-h-[148px] overflow-hidden text-[11px] leading-tight font-medium text-ellipsis whitespace-nowrap"
             style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
           >
             {book.title}
