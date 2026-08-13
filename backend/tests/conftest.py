@@ -10,24 +10,42 @@ separately in CI by running `alembic upgrade head` against a clean database, so
 a broken migration still gets caught without paying for it in every test run.
 """
 
+import json
+import os
 from collections.abc import Generator
+from pathlib import Path
 
+import httpx
 import pytest
 from argon2 import PasswordHasher
 from fastapi.testclient import TestClient
 from sqlalchemy import Engine, create_engine, make_url, text
 from sqlalchemy.orm import Session
 
-from app.config import get_settings
-from app.core import security
-from app.db.base import Base
-from app.db.session import get_db
-from app.main import app
+# Set before app.config is imported, because get_settings is lru_cached and the
+# first read wins. Overrides an empty value too, not just a missing one.
+#
+# HardcoverClient refuses to construct without a token, which is right in
+# production. Tests never reach the network, but they still build clients, so
+# they need *a* value -- deliberately not a real one.
+if not os.environ.get("HARDCOVER_TOKEN"):
+    os.environ["HARDCOVER_TOKEN"] = "test-token-never-sent-anywhere"
+
+from app.config import get_settings  # noqa: E402
+from app.core import security  # noqa: E402
+from app.db.base import Base  # noqa: E402
+from app.db.session import get_db  # noqa: E402
+from app.main import app  # noqa: E402
 
 # Registers every model on Base.metadata. Bound to a private alias rather than
 # written as `import app.models`, which would rebind `app` to the package and
 # shadow the FastAPI instance imported above.
 from app import models as _models  # noqa: F401  isort:skip
+from app.providers.hardcover import HardcoverClient  # noqa: E402
+
+_BOOK_FIXTURE = json.loads(
+    (Path(__file__).parent / "fixtures" / "hardcover_book_piranesi.json").read_text()
+)
 
 
 @pytest.fixture(scope="session")
@@ -71,6 +89,47 @@ def db(engine: Engine) -> Generator[Session]:
         session.close()
         transaction.rollback()
         connection.close()
+
+
+def _offline_handler(request: httpx.Request) -> httpx.Response:
+    """Answers the provider's two queries from a recorded fixture."""
+    query = str(request.read().decode())
+
+    if "books(where" in query:
+        return httpx.Response(200, json=_BOOK_FIXTURE)
+    # Search: empty is right. Any test that cares about results injects its own
+    # transport and gets a real recorded response.
+    return httpx.Response(200, json={"data": {"search": {"results": {"hits": []}}}})
+
+
+@pytest.fixture(autouse=True)
+def _offline_provider(monkeypatch: pytest.MonkeyPatch) -> None:
+    """No test reaches the network, whether or not it passes a client.
+
+    The API layer builds its own HardcoverClient -- `ensure_book` is called
+    without one from the shelves and reading endpoints -- so tests that drive
+    those endpoints were quietly calling the real Hardcover API with whatever
+    token happened to be in .env. That passed on a machine with credentials and
+    failed in CI, spent the 60 req/min budget, and made the suite depend on a
+    third party being up.
+
+    Clients that are given a transport keep it; only the default is replaced.
+    """
+    original_init = HardcoverClient.__init__
+
+    def offline_init(
+        self: HardcoverClient,
+        *,
+        transport: httpx.BaseTransport | None = None,
+        timeout: float = 15.0,
+    ) -> None:
+        original_init(
+            self,
+            transport=transport if transport is not None else httpx.MockTransport(_offline_handler),
+            timeout=timeout,
+        )
+
+    monkeypatch.setattr(HardcoverClient, "__init__", offline_init)
 
 
 @pytest.fixture(scope="session", autouse=True)
