@@ -96,5 +96,6 @@ afterwards. The test database is created automatically.
 | 5 | Book detail + ratings | ✅ |
 | 6 | Shelves CRUD + reading status | ✅ |
 | 7 | Visual bookshelf UI | ✅ |
-| 8 | Site-wide design pass | |
-| 9 | Deploy | |
+| 8 | Frontend testing | ✅ |
+| 9 | Site-wide design pass | |
+| 10 | Deploy | |
